@@ -1,0 +1,55 @@
+
+301101_zh_CN.png
+size: 937,311
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ShineLight
+  rotate: true
+  xy: 372, 8
+  size: 128, 166
+  orig: 128, 166
+  offset: 0, 0
+  index: -1
+dui
+  rotate: true
+  xy: 606, 15
+  size: 143, 165
+  orig: 143, 165
+  offset: 0, 0
+  index: -1
+ju
+  rotate: true
+  xy: 606, 160
+  size: 149, 178
+  orig: 149, 178
+  offset: 0, 0
+  index: -1
+kai
+  rotate: false
+  xy: 773, 2
+  size: 141, 155
+  orig: 141, 155
+  offset: 0, 0
+  index: -1
+shi
+  rotate: false
+  xy: 786, 159
+  size: 149, 150
+  orig: 149, 150
+  offset: 0, 0
+  index: -1
+touzi
+  rotate: false
+  xy: 372, 138
+  size: 232, 171
+  orig: 232, 171
+  offset: 0, 0
+  index: -1
+zhengtitouying
+  rotate: false
+  xy: 2, 4
+  size: 368, 305
+  orig: 368, 305
+  offset: 0, 0
+  index: -1

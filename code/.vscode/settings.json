@@ -1,0 +1,24 @@
+{
+    "editor.snippetSuggestions": "bottom",
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.workspace.library": [
+        "${3rd}/Cocos4.0/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.globals": [
+        "g_LoginData",
+        "Constant",
+        "UIUtils",
+        "DeviceUtils",
+        "Net",
+        "Launcher",
+        "UIPanel",
+        "UIManager",
+        "g_UserData",
+        "Utils",
+        "DataManager",
+        "GSystem",
+        "PlistConfig",
+        "g_EmailData"
+    ]
+}

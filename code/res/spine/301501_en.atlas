@@ -1,0 +1,34 @@
+
+301501_en.png
+size: 594,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30842
+  rotate: false
+  xy: 466, 2
+  size: 60, 45
+  orig: 60, 45
+  offset: 0, 0
+  index: -1
+30843
+  rotate: true
+  xy: 326, 31
+  size: 96, 138
+  orig: 96, 138
+  offset: 0, 0
+  index: -1
+ShunziYingwen
+  rotate: false
+  xy: 2, 5
+  size: 322, 122
+  orig: 322, 122
+  offset: 0, 0
+  index: -1
+bamboo_sticks
+  rotate: true
+  xy: 466, 49
+  size: 78, 126
+  orig: 78, 126
+  offset: 0, 0
+  index: -1

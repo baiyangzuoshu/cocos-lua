@@ -1,0 +1,13 @@
+
+303401.png
+size: 215,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+光圈
+  rotate: false
+  xy: 2, 2
+  size: 211, 174
+  orig: 211, 174
+  offset: 0, 0
+  index: -1

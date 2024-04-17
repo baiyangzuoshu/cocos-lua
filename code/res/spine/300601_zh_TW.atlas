@@ -1,0 +1,62 @@
+
+300601_zh_TW.png
+size: 944,366
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 597, 2
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 2, 141
+  size: 627, 223
+  orig: 627, 223
+  offset: 0, 0
+  index: -1
+EyesLight
+  rotate: true
+  xy: 2, 18
+  size: 8, 136
+  orig: 8, 136
+  offset: 0, 0
+  index: -1
+Font
+  rotate: false
+  xy: 631, 119
+  size: 248, 132
+  orig: 248, 132
+  offset: 0, 0
+  index: -1
+Shinelight1
+  rotate: false
+  xy: 2, 28
+  size: 426, 111
+  orig: 426, 111
+  offset: 0, 0
+  index: -1
+Shinelight2
+  rotate: false
+  xy: 714, 6
+  size: 228, 111
+  orig: 228, 111
+  offset: 0, 0
+  index: -1
+Shinelight3
+  rotate: false
+  xy: 631, 253
+  size: 309, 111
+  orig: 309, 111
+  offset: 0, 0
+  index: -1
+Shinelight4
+  rotate: false
+  xy: 430, 28
+  size: 165, 111
+  orig: 165, 111
+  offset: 0, 0
+  index: -1

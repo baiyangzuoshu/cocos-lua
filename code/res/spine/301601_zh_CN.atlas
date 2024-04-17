@@ -1,0 +1,55 @@
+
+301601_zh_CN.png
+size: 1788,807
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+投影
+  rotate: false
+  xy: 2, 5
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+指甲1
+  rotate: true
+  xy: 982, 50
+  size: 64, 134
+  orig: 64, 134
+  offset: 0, 0
+  index: -1
+指甲2
+  rotate: true
+  xy: 804, 44
+  size: 70, 176
+  orig: 70, 176
+  offset: 0, 0
+  index: -1
+指甲3
+  rotate: true
+  xy: 1118, 52
+  size: 62, 138
+  orig: 62, 138
+  offset: 0, 0
+  index: -1
+筹码
+  rotate: true
+  xy: 1257, 302
+  size: 503, 529
+  orig: 503, 529
+  offset: 0, 0
+  index: -1
+豹子
+  rotate: true
+  xy: 804, 116
+  size: 689, 451
+  orig: 689, 451
+  offset: 0, 0
+  index: -1
+豹子 CN
+  rotate: false
+  xy: 1258, 2
+  size: 524, 298
+  orig: 524, 298
+  offset: 0, 0
+  index: -1

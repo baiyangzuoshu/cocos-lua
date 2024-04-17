@@ -1,0 +1,1278 @@
+syntax = "proto2";
+package server;
+
+// opCode 命名说明
+// 1. 总长度4位
+// 2. 第1位值为偶数，表示服务器响应
+// 3. 第2位值表示功能模块，0表示游戏逻辑，1表示商店，2表示个人中心，3表示背包， 4表示匹配，5表示竞猜，6表示邮件，7表示GM，8表示任务, 9好友, , 10聊天, 11 邀请
+// 4. 第3、第4位表示功能模块下的序号
+
+// opCode: 2
+// 心跳
+message heartbeat {
+  required int64 now = 1;  // 当前时间
+}
+// opCode: 2000
+// 默认回复
+message defaultResponse {
+  required uint32 code = 1;  // 错误码
+  optional string msg = 2;  // 错误信息
+  optional uint32 opCode = 3;  // 请求的opCode
+}
+
+// opCode: 2001
+// 登入返回
+message onEntry {
+  required UserInfo userInfo = 1;        // 个人信息
+  optional int64 unixTime = 2;          // 服务器当前时间戳
+  optional int64 heartbeat = 3;                      // 心跳
+  repeated  GuideInfo guideInfos = 4;
+}
+//  opCode: 2002
+//  进入房间成功(直接入座)
+message onJoinGame {
+  required int32 seatId = 1;        // 自己的椅子id
+  required GameInfo gameInfo = 2;        // 游戏信息
+  required DiceInfo diceInfo = 3;         // 自己的骰子信息
+}
+//  opCode: 2003
+//  骰子重置
+message setDice {
+  required DiceInfo diceInfo = 1;
+}
+
+message GoldUpdate {
+  required int32 seatId = 1;
+  required int64 goldBefore = 2;        // 变动前金币
+  required int64 goldAfter = 3;        // 变动后金币
+  required int32 goldChange = 4;      // 变动值
+}
+//  opCode: 2004
+//  重摇广播
+message reroll {
+  required string uid = 1; // 发起重摇的人
+  required int32 seatId = 2;
+  repeated GoldUpdate list = 3;
+}
+//  opCode: 2005
+//  游戏开始广播
+message gameStart {
+  required int64 betBase = 1;        // 底注
+  required int32 betBaseLv = 2;  // 底注等级
+  repeated PlayerBase players = 3;     // 本局玩家
+}
+//  opCode: 2006
+//  回合轮转广播
+message turn {
+  required int32 seatId = 1;        //轮到哪个玩家操作
+  required int64 countdownTimeStamp = 2;        //倒计时时间
+}
+//  opCode: 2007
+//  玩家叫点信息广播
+message callPoint {
+  required CallInfo callInfo = 1;
+}
+//  opCode: 2008
+//  有人提出开骰广播
+message openDiceBox {
+  required int32 openSeatId = 1;        // 开牌玩家玩家椅子号
+  required int32 multiple = 2;        // 跳开倍率
+}
+//  opCode: 2009
+//  竞猜时间广播
+message betTime {
+  required int64 countdownTimeStamp = 1;        // 倒计时时间，0标示没有倒计时
+  required int32 multiple = 2;        // 押注倍率
+}
+
+//  opCode: 2011
+//  玩家离开游戏广播
+message leaveGame  {
+  required string uid = 1;
+  required int32 seatId = 2;        // 离开桌子玩家座位号
+  required LeaveType type = 3;
+  required bool isAudience = 4;
+}
+//  opCode: 2012
+//  游戏结束广播
+message gameOver {
+  required CallInfo callInfo = 1;        // 叫点信息
+  required int32 openSeatId = 2;        // 开牌玩家玩家椅子号
+  required int32 multiple = 3;        // 最终总倍数
+  repeated ResultUserInfo resultUserList = 4; // 对局结算信息
+  required bool hasBetResult = 5; // 竞猜是否成立
+  repeated ResultBetInfo prizeInfoList = 6; // 竞猜结算信息
+  optional int64 nextGameCountdownStamp = 7;        //下局游戏开始倒计时
+  required int32 totalCount = 8;                      // 被叫点的总数
+  required bool isTypeOneDiceUsed = 9;               // '1'点是否已叫
+}
+
+
+//  opCode: 2013
+//  下局游戏倒计时变更广播
+message nextGameCountdownStampRefresh {
+  required int64 nextGameCountdownStamp = 1;        //下局游戏开始倒计时
+}
+//  opCode: 2014
+//  游戏中玩家金币变化
+message gamePlayerGoldUpdate {
+  required int32 seatId = 1;
+  required int64 gold = 2;        // 金币
+}
+
+//  opCode: 2015
+//  获得物品（用于邮件的一键领取, 与商城购买物品）
+message newItem {
+  repeated Item items = 1;
+}
+
+//  opCode: 2017
+//  更新个人资产
+message updateUserAssets {
+  // 基础个人财产
+  required int64 gold = 1;        // 金币
+  required int64 diamond = 2;        // 钻石
+}
+
+// opCode: 2020
+// 进入主页面的回复
+message onEnterHome {
+  required bool inRoom = 1;  // 是否在房间中
+}
+
+//  opCode: 2023
+//  底注提升投票结果
+message betBaseUpdate {
+  required int64 nextBetBase = 1;
+  required int32 nextBetBaseLevel = 2;
+  required bool shouldLevelUp = 3;
+}
+//  opCode: 2026
+//  底注提升投票发起
+message betBaseUpdateTime {
+  required int64 countdownTimeStamp = 1; // 投票倒计时
+  required int32 seatId = 2; // 底注提升发起人座位号
+  required string uid = 3; // 底注提升发起人
+  required int64  betBase = 4; // 要提升到的底注金额
+}
+
+//  opCode: 2028
+//  更新玩家信息
+message updatePlayerInfo {
+  required UserInfo userInfo = 2;
+}
+
+//  opCode: 2029
+//  更新竞猜奖池总奖金
+message updatePrizePool {
+  required int64 totalPrize = 1; // 总奖金
+  required FriendInfo currentBetUser = 2;  // 当前押注人
+}
+
+//  opCode: 2030
+//  更新昵称错误特殊处理
+message updateNickNameError {
+  required int64 code = 1;
+}
+
+// opcode: 2031
+// 底注提升玩家投票广播
+message betBaseUpdateVote {
+  required string uid = 1;
+  required int32 seatId = 2;
+  required bool accept = 3;
+}
+
+//  opCode: 2033
+//  更新背包数据
+message updateUserItems {
+  repeated Item itemInfo = 1;
+}
+
+// opCode: 2034
+// 登陆下发背包数据
+message bagList {
+  repeated Item itemInfo = 1;
+}
+
+// opCode: 2037
+// 观众列表变更 广播
+message audienceListUpdate {
+  required PlayerBase audience = 1;
+  required bool isAdd = 2; // 新增还是移除 
+}
+
+//  opCode: 2038
+//  玩家列表变更 广播
+message playerListUpdate {
+  required PlayerBase playerInfo = 1;
+  required bool isAdd = 2; // 新增还是移除 
+}
+
+//  opCode: 2039
+//  玩家座位变更 广播
+message seatChanged {
+  required int32 beforeSeatId = 1;  // 变更前的座位号
+  required int32 afterSeatId = 2;  // 变更后的座位号
+}
+
+//  opCode: 2041
+//  金币不足，无法抢开
+message openErrorGoldNotEnough {
+  required int32 seatId = 1; // 座位号
+}
+
+// opCode: 2042
+// 默认回复弹窗
+message defaultPopResponse {
+  required int32 code = 1;
+}
+
+
+// opCode: 2043
+// token无效
+message tokenInvalid {
+  required int32 code = 1;
+}
+
+// opCode: 2045
+// 金币不足, 强制站起
+message sitDownErrorGoldNotEnough {
+}
+
+message RechargeInfo {
+  required string id = 1;
+  required bool isPurchased = 2;
+}
+
+//  opCode: 2101
+//  商店列表
+message userShops {
+  repeated ShopInfo shopList = 1;
+  repeated Goods userShopLog = 2;
+  repeated RechargeInfo rechargeInfo = 3;
+}
+
+//  opCode: 2102
+//  进入单个商店返回商品购买的记录
+message userShopLog {
+  repeated Goods log = 1;
+}
+
+//  opCode: 2103
+//  商品购买结果 [{}]
+message shopBuy {
+  repeated Item gain = 1;
+  optional bool isFirstRecharge = 2;
+  optional int64 chargeNoviceProductTime = 3;
+  optional bool isSandBox = 4;  // 是否沙盒
+}
+
+// opCode: 2202
+// 踢出游戏提示
+message kick {
+  required int32 reasonId = 1;
+  required int64 expireTime = 2;
+}
+
+// opCode: 2203
+// 领取注册礼包
+message gainRegisterReward {
+  required int64 gotTime = 1;
+  repeated Item items = 2;
+}
+
+// opCode: 2204
+// 领取救济礼包
+message gainRescueGold {
+  required int32 currentCount = 1;  // 当前已领取的次数
+}
+
+// opCode: 2205
+// 新手引导完成
+message guideStepUpdateAck {
+  required int32 step = 1;
+}
+
+// opCode: 2206
+// vip经验变化
+message vipChange {
+  required int32 vipLevel = 1;
+  required int32 vipExp = 2;
+}
+
+// opCode: 2208
+// 头像框等物品过期
+message itemExpired {
+  optional int32 avatarFrame = 1; // 新头像框
+  optional int32 bubble = 2; // 新气泡框
+  optional int32 diceBox = 3; // 新骰钟
+}
+
+message AvatarFrame {
+  required int32 itemId = 1;
+  optional bool isNew = 2;
+  required int64 expireTime = 3; // 过期时间，-1：永不过期
+}
+
+
+// opCode: 2209
+// 游戏中玩家变更骰钟
+message diceBoxChange {
+  required int32 diceBox = 1; // 新骰钟id
+  required int32 seatId = 2; // 座位号
+}
+// opCode: 2305
+// 头像列表和头像框列表（用于修改头像）
+message avatarAndFrameList {
+  repeated string avatarList = 1;
+  repeated AvatarFrame avatarFrameList = 2;
+}
+
+
+//  opCode: 2401
+//  匹配房间中
+message matchingRoom {
+  repeated int32 roomId = 1; // room config id
+  required int32 time = 2;  // 匹配时间，单位秒
+}
+
+// opCode: 2402
+// 退出匹配
+message quitMatchResponse {
+  required bool ok = 1;
+}
+
+//  opCode: 2404
+//  加入匹配系统结果
+message matchGameAck {
+  required int32 code = 1; // 错误码
+}
+// opCode: 2405
+// 匹配场次的人数
+message s2cGamingPlayerNum {
+  repeated int32 nums = 1;
+}
+
+// opCode: 2502
+// 已押注金额（发给自己）
+message betPrize {
+  required int32 believeEnoughTimes = 1;
+  required int64 believeEnoughGold = 2;
+  required int32 believeNotEnoughTimes = 3;
+  required int64 believeNotEnoughGold = 4;
+}
+
+
+// opCode: 2601  邮件列表
+message mailList {
+  repeated Mail list = 1;
+}
+
+//  opCode: 2602  邮件状态变更(邮件已读)
+message updateMailState {
+  required int64 mailId = 1;
+  required MailState state = 2;
+}
+
+// opCode: 2603  新邮件提醒
+message newMail {
+  required Mail mail = 1;
+}
+
+//  opCode: 2604  邮件删除
+message deleteMail {
+  repeated int64 mailIds = 1;
+}
+
+// opCode: 2605  邮件领取
+message receiveMail {
+  required int64 mailId = 1;
+  required MailState state = 2;
+}
+
+// opCode: 2606  邮件一键领取
+message receiveMailAll {
+  repeated Mail list = 1;
+}
+enum BroadcastTemplateId{
+  Custom = 1; //自定义模板
+  BigSmallLuck = 2; //猜大小大奖
+  BigSmallBet = 3; //猜大小下注
+  BigSmallBaozi = 4; //首次摇到豹子
+  ShaibaoBet = 5; //筛宝押注盈利广播
+  ShaibaoBankerBekicked = 6; //庄家被踢
+}
+// opCode: 2701  跑马灯广播
+message broadcast {
+  required BroadcastTemplateId templateId = 1; //模板id 
+  optional string zh = 2;
+  optional string tw = 3;
+  optional string en = 4;
+  repeated string param = 5; // 参数
+}
+
+enum GameType {
+  Base = 1;        // 吹牛模式
+  Duel = 2;        // 吹牛单挑模式
+  Soha = 3;        // 梭哈模式
+  Bullfight = 4;        // 牛牛模式
+  BlackRed = 5;        // 红黑模式
+}
+enum RoomState {
+  Idle = 1;        // 空闲中
+  Started = 2;        // 进行中
+}
+enum GameState {
+  Wait = 1;  // 等待开始
+  CallDice = 2;  // 叫点
+  Bet = 3;       // 竞猜
+  GameEnd = 4;  // 结束结算
+}
+enum LeaveType {
+  Left = 1;        // 正常离开房间
+  Kicked = 2;        // 金币不足
+  Offline = 3;       // 离线 
+  StandUp = 4;       // 玩家站起
+  UserKick = 5;       // 被用户踢
+}
+enum MailState {
+  unread = 1;        // 未读未提取
+  unreceived = 2;   // 已读未提取
+  received = 3;     // 已读已提取
+}
+message Item {
+  required int32 itemId = 1;
+  required int32 itemType = 2;
+  required int32 itemNum = 3;
+  optional bool isNew = 4;
+}
+
+message ResultUserInfo {
+  required int32 seatId = 1;
+  required DiceInfo diceInfo = 2;
+  required uint32 diceComposeType = 3;        // 0 正常点 1 顺子 2 豹子
+  required int64 goldChangeBeforeTax = 4;        // 对局结果 税前
+  required int64 goldChangeAfterTax = 5;        // 对局结果 税后
+  required int64 gold = 6;
+}
+
+// 竞猜结果
+message ResultBetInfo {
+  required string uid = 1;  
+  required int32 betGold = 2;      // 这个人总计压了多少金币
+  required int64 goldChangeBeforeTax = 3;        // 税前
+  required int64 goldChangeAfterTax = 4;        // 税后实际变化
+  required bool believeEnough = 5; // 押注的哪边， true 表示押够，false 表示押不够
+  required string avatar = 6; // 头像，用于竞猜结果显示页面
+}
+
+message DiceInfo {
+  repeated uint32 point = 1;        // 5点色子点数
+}
+//叫点
+message CallInfo {
+  required int32 seatId = 1;        // 叫点玩家椅子id
+  required int32 point = 2;        // 几点
+  required int32 num = 3;        // 几个
+}
+message PersonalRoomInfo {
+  required string masterUid = 1;
+  required string roomName = 2;
+}
+message GameInfo {
+  required RoomState roomState = 1;  // 房间状态
+  optional VoteInfo voteInfo = 2;           // 投票信息
+  required int64 betBase = 3;        // 底注
+  required int32 betBaseLevel = 4;  // 底注等级
+  required int32 roomConfigId = 5;  // 房间配置id
+  required int32 currentCallingPlayerSeatId = 6;        // 当前叫点的人的座位号。 回合状态为叫点状态才有， 没有当前玩家为-1
+  optional int64 countdownEndStamp = 7;        // 倒计时结束时间戳
+  required int32 dealerSeatId = 8;        // 地主座位号
+  required int32 questionerSeatId = 9;        // 开牌玩家座位号
+  required CallInfo currentCallInfo = 10;        // 叫点信息
+  required bool isTypeOneDiceUsed = 11;        // 1点被叫 0 没叫 1 叫过
+  required uint32 rounds = 12;        // 回合数
+  required string roomId = 13;        // 房间id
+  required GameType gameType = 14;         // 游戏类型
+  repeated PlayerBase players = 15;        // 房间内的所有玩家
+  repeated PlayerBase audiences = 16;      // 房间内的观众
+  required PlayerBriefInfo firstOne = 17;  // 首位玩家
+  required GameState gameState = 18;     // 对局状态
+  repeated FriendInfo betUserList = 19;    // 本局下过注的人的信息
+  required int32 multiple = 20;            // 抢开倍率
+  optional PersonalRoomInfo personalInfo = 21;
+}
+message UidVote {
+  required int32 seatId = 1;
+  required bool accept = 2;
+}
+message VoteInfo {
+  required bool isVoting = 1;  // 房间是否在投票中
+  repeated UidVote uidVoteList = 2; // 哪些人投过票
+  optional betBaseUpdateTime creatVoteInfo = 3; // 投票发起者信息
+}
+message PlayerBriefInfo {
+  required int32 seatId = 1;
+  required string uid = 2;
+}
+
+message PlayerBase {
+  // 基础玩家信息
+  required string uid = 1;
+  required string nickname = 2;        // 昵称
+  required uint32 sex = 3;        // 性别 0:女 1:男
+  required int32 vipLevel = 4;    // vip 等级
+  required string avatar = 5;        // 头像地址
+  required bool isSystemAvatar = 6;        // 头像地址
+  required int32 avatarFrame = 7; // 头像框 itemId
+  required int32 bubble = 8;   // 聊天气泡id
+  required OnlineState onlineState = 9;  // 在线状态
+
+  required int64 gold = 10;
+  required int32 seatId = 11;        // 座位id
+  required int32 diceBox = 12;     // 骰钟 itemId
+  required bool isOnline = 13;     // 是否在线
+  required bool isPlaying = 14;    // 是否对局中
+
+  required int32 fansNum = 15;   // 粉丝数
+  required string slogan = 16;   // 个性签名
+}
+
+message UserInfo {
+  // 基础个人信息
+  required string uid = 1;
+  required string nickname = 2;        // 昵称
+  required uint32 sex = 3;        // 性别 0:不显示 1:男 2：女
+  required string avatar = 4;        // 头像。自定义头像为url， 系统头像为 itemId
+  optional int32 avatarFrame = 5;        // 头像框 itemId
+
+  required int64 gold = 6;        // 金币
+  required int64 diamond = 7;        // 钻石
+
+  required int64 createTime = 8;        // 创角时间
+  required int64 serverTimeNow = 9;
+  required int64 serverTimeZero = 10;
+
+  optional string inviterId = 11;
+  optional int32 vipLevel = 12;  // vip 等级
+  optional int32 fansNum = 13;   // 粉丝数
+  optional string slogan = 14;   // 个性签名
+
+  required bool isSystemAvatar = 15;   // 是否系统头像
+  optional int32 diceBox = 16;     // 骰钟 itemId
+  optional bool isChangedSex = 17;        // 是否修改过性别
+  optional bool isChangedNickname = 18;        // 是否修改过昵称
+  optional int32 bubble = 19;     // 气泡id
+
+  optional string shareUrl = 20; // 邀请链接
+  optional int32 vipExp = 21;  // vip经验
+  optional bool canGainVipLevelReward = 22; // 是否有可领取的vip礼包
+
+  optional int64 chargeNoviceProductTime = 23;  // 新手礼包充值时间，默认为0
+  optional int64 gotRegisterRewardTime = 24; // 首登赠礼领取时间，默认为0
+  optional int32 dailyReliefCount = 25; // 当日领取救助金次数
+  optional int32 guideStep= 26;  // 新手引导步骤
+
+  optional bool isFirstLogin = 27; // 是否是第一次登陆
+
+  optional bool isParam = 28; // 是否是陪玩
+}
+
+message Goods {
+  required int32 goodsId = 1; // 商品id
+  required int32 buyTimes = 2;  // 已购买
+}
+
+message ShopInfo {
+  required int32 shopId = 1; // 商店id
+}
+
+message Mail {
+  required int64 mailId = 1; // 邮件id
+  required MailState state = 2; //邮件状态
+  required int32 templateId = 3; // 邮件模板id, 0：自定义邮件
+  optional string title = 4; // 标题
+  optional string content = 5; // 内容
+  optional string sign = 6; // 落款
+  repeated string param = 7; // 参数
+  repeated Item  attachment = 8; // 附件
+  required int64 createdAt = 9; // 创建时间
+  required int64 expiredAt = 10; // 过期时间
+}
+
+// ============================
+//        TASK
+// ============================
+//	opCode: 2801 获取任务列表
+message getTask {
+  repeated TaskInfo tasks = 1;
+}
+
+enum TaskKind {
+  Newcomer = 1;
+  Day = 2;
+  Week = 3;
+  Invite = 4; // 邀请
+  Season = 5;
+  Events = 6; // 活动
+  NoviceLogin = 7; // 新人登陆
+}
+
+//	opCode: 2802 任务更新
+message taskUpdate{
+  required int32 id = 1;
+  repeated int32 cmpNow = 2;
+  required int32 receivedCount = 3;
+}
+
+message TaskInfo {
+  required int32 id = 1; //任务id
+  repeated int64 cmpNow = 2; //当前完成进度
+  required bool received = 3; //已领取
+  required TaskKind kind = 4;
+  required int32 receivedCount = 5;
+}
+
+// opCode: 2803 任务奖励
+message taskGetReward {
+  required int32 id = 1; //
+  optional TaskInfo nextTask = 2; //下一个同组任务
+}
+
+enum TaskInvitedKind {
+  click = 1;  // 点击
+  register = 2; // 注册
+  charge = 3; // 充值
+}
+
+message InvitedFriend {
+  optional FriendInfo playerInfo = 1;
+  required int64 createdTime = 2;
+  repeated Item items = 3;
+}
+
+// opcode: 2804 返回邀请任务的玩家列表
+message taskInvitedPlayer {
+  repeated InvitedFriend   players = 1;
+  required TaskInvitedKind kind = 2;
+  optional int32           dailyCount = 3;
+}
+
+
+enum FriendStatus {
+  none = 1; // 陌生人
+  requesting = 2; // 申请中
+  friend = 3; // 已成为好友
+  block = 4; // 拉黑
+}
+
+
+message FriendInfo {
+  // 好友信息
+  required string uid = 1;
+  required string nickname = 2;        // 昵称
+  required uint32 sex = 3;        // 性别 0:不显示 1:男 2：女
+  required string avatar = 4;        // 头像。自定义头像为url， 系统头像为 itemId
+  required bool isSystemAvatar = 5;   // 是否系统头像
+  required OnlineState onlineState = 6;  // 在线状态
+  required int32 avatarFrame = 7;        // 头像框 itemId
+  required int32 vipLevel = 8;  // vip 等级
+  required int32 fansNum = 9;   // 粉丝数
+  optional string slogan = 10;   // 个性签名
+  optional FriendStatus status = 11; // 好友申请状态
+  optional int32 unReadMsgNum = 12; // 未读消息数
+  optional int64 gold = 13; // 金币
+  optional int32 roomConfigId = 14;  // 房间配置id
+}
+
+enum OnlineState {
+  offline = 1; // 离线
+  idle = 2; // 空闲
+  matching = 3;  // 匹配中
+  gaming = 4; // 游戏中
+  watching = 5; // 观战中
+  ban = 6;  // 封禁中
+}
+
+// opCode: 2901 好友列表
+message friendList{
+  repeated FriendInfo list = 1;
+}
+
+// opCode: 2902 搜索列表
+message friendSearchList{
+  repeated FriendInfo list = 1;
+}
+
+// opCode: 2903 被别人申请的列表
+message friendRequestList{
+  repeated FriendInfo list = 1;
+}
+
+// opCode: 2904 黑名单列表
+message blacklist{
+  repeated FriendInfo list = 1;
+}
+
+// opCode: 2905
+// 申请加为好友的回复
+message addFriendResponse {
+  required string friendUid = 1;
+  required bool ok = 2;
+}
+
+// opCode: 2906
+// 删除好友
+message deleteFriend {
+  required string friendUid = 1;
+  required bool ok = 2;
+}
+
+// opCode: 2907
+// 拉黑
+message blockFriend {
+  required bool ok = 1;
+  required FriendInfo friend = 2;
+}
+
+// opCode: 2908
+// 取消拉黑
+message cancelBlockFriend {
+  required string friendUid = 1;
+  required bool ok = 2;
+}
+
+// opCode: 2910
+// 是否同意加为好友
+message addFriendAgree {
+  required bool isAgree = 1;
+  required FriendInfo friend = 2;
+  optional string applyUid = 3; //发起申请人uid
+}
+
+// opCode: 2912 好友推荐列表
+message recommendFriendList{
+  repeated FriendInfo list = 1;
+}
+
+// opCode: 2913
+// 被申请加为好友
+message requestedToAddFriend {
+  required FriendInfo friend = 1;
+}
+
+
+// opCode: 2914
+// 取消好友申请的回复
+message cancelAddFriendResponse {
+  required bool ok = 1;
+  required string friendUid = 2;
+}
+
+
+// opCode: 2915
+// 取消好友申请
+message cancelAddFriend {
+  required bool ok = 1;
+  required string friendUid = 2;
+}
+
+// opCode: 2916
+// 自己申请过加别人的列表（向哪些人发送过好友申请）
+message friendApplyToList {
+  repeated string uids = 1;
+}
+
+// opCode: 2917
+// 好友在线状态状态通知
+message friendNetStatus {
+  required OnlineState onlineState = 1;
+  required string friendUid = 2;
+  optional int32 roomConfigId = 3;  // 房间配置id
+}
+
+// opCode: 2918
+// 好友在线状态状态通知
+message friendInfoUpdate {
+  required string uid = 1;
+  optional string nickname = 2;
+  optional string avatar = 3;
+  optional int32 avatarFrame = 4;
+  optional uint32 sex = 5;
+}
+
+// opCode: 2919
+// 好友金币变更
+message friendGoldUpdate {
+  required string uid = 1;
+  optional int64 gold = 2;
+}
+
+// opCode 2920
+// 加好友申请广播
+message friendAddRequestBroadcast {
+  required string fromUid   = 1;
+  required string toUid     = 2;
+}
+// opCode 2921
+// 加好友同意广播
+message friendAddAgreeBroadcast {
+  required string fromUid   = 1;
+  required string toUid     = 2;
+  required bool isAgree     = 3;
+}
+
+// 聊天频道
+enum ChatChannel {
+  room = 1;
+  shaibao = 2;
+}
+
+// opCode: 4003
+//  频道聊天消息确认
+message sendChatMsgAck {
+  optional string messageId = 1; // 预留的字段，目前没有使用
+  required string content = 2;
+  required bool isText = 3;
+  required int64 sendAt = 4; // 发送时间, 单位毫秒
+  required ChatChannel channel = 5; // 频道 
+}
+
+
+message Chat {
+  optional string messageId = 1; // 消息id，只有好友私聊有这个字段
+  optional bool isRead = 2; // 是否已读，只有好友私聊有这个字段
+  optional string toUid = 3; // 接收人，只有好友私聊有这个字段
+  required string content = 4;
+  required bool isText = 5;
+  required int64 sendAt = 6; // 发送时间, 单位毫秒
+  required FriendInfo from = 7; // 发送人
+}
+
+// opCode: 4002
+//  好友聊天消息单条接收（客户端需播放音效）
+message receiveFriendChatMessageOne {
+  required Chat message = 1; 
+}
+
+// opCode: 4004
+//  频道聊天消息批量接收
+message receiveChatMessage {
+  required ChatChannel channel = 1; // 频道
+  repeated Chat list = 2; // 聊天记录列表
+}
+
+// opCode: 4005
+//  好友聊天消息确认
+message sendFriendChatMsgAck {
+  required string messageId = 1;
+  required string content = 2;
+  required bool isText = 3;
+  required string toUid = 4;
+  required int64 sendAt = 5; // 发送时间, 单位毫秒
+  required bool isRead = 6;
+}
+
+
+// opCode: 4006
+//  好友聊天消息批量接收
+message receiveFriendChatMessage {
+  repeated Chat list = 1; // 聊天记录列表
+}
+
+// opCode: 4007
+//  私聊批量已读的回复
+message readFriendChatMsgAck {
+  repeated string messageIds = 1;
+}
+
+// opCode: 4008
+// 私聊未读数更新（服务端主动推送给个人）
+message updateUnreadMsgNum {
+  required int32 unReadMsgNum = 1; // 未读消息数
+  required string friendUid = 2; // 好友uid
+}
+
+// opCode: 4009
+// 发送魔法表情的回复
+message sendMagicEmojiAck {
+  required int32 code = 1;  // 错误码
+}
+
+// opCode: 4010
+// 魔法表情房间广播
+message magicEmoji {
+  required string fromUid = 1;
+  required string toUid = 2;
+  required int32 itemId = 3; // 魔法表情id
+}
+// =========================
+//        邀请
+// =========================
+// opCode: 4101, 获取邀请奖励
+message getInvitedReward {
+  repeated Item items = 1;
+}
+
+
+// =========================
+//        红点
+// =========================
+
+// 红点子分类（只列子分类，父分类由客户端判断）
+enum RedPointSubcategory {
+  diceList = 1;  // 【背包界面】【骰盅分页】
+  friendApplyList = 3; // 【好友界面】【申请列表分页】
+  mailButton = 4;  // 【主界面】【邮件按钮】
+  inviteAwardButton = 8;  //【邀请有礼】【领取按钮】 
+  inviteFriendClick = 9; //【邀请有礼】【好友点击分页】
+  inviteFriendRegister = 10;//【邀请有礼】【好友注册分页】
+  inviteFriendCharge = 11;//【邀请有礼】【好友充值分页】
+  avatarList = 13;  // 【个性设置界面】【头像框分页】 （新获得头像框）
+  nicknameEditButton = 14;  // 【编辑按钮】【角色昵称编辑按钮】
+  sexEditButton = 15;  // 【编辑按钮】【角色性别编辑按钮】
+  avatarEditButton = 16;  // 【编辑按钮】【角色头像编辑按钮】
+}
+
+message RedPoint {
+  required RedPointSubcategory subcategory = 1;
+  optional int32  num = 2;  // 某些红点需要具体数量
+}
+
+// 红点（不含聊天、任务，这些功能的红点由对应接口提供）
+// opCode: 4201
+message redPoint {
+  repeated RedPoint list = 1;
+}
+
+
+// removeRedPoint 的回复
+// opCode: 4202
+message removeRedPointAck {
+  required bool ok = 1;
+}
+
+// opCode: 4501
+message s2cPlayerIdsOnline {
+  repeated string ids = 1;
+}
+
+// opCode: 4502
+message s2cPlayerInfoForPlaymate {
+  repeated PlayerInfoForPlaymate infos = 1;
+}
+enum Language {
+  zh = 1;
+  tw = 2;
+  en = 3;
+}
+message PlayerInfoForPlaymate {
+  required string uid = 1;
+  required Language language = 2;
+  required bool isBot = 3;
+  required bool isPlaymate = 4;
+  repeated string currentPlaymateIds = 5;
+  required PlayerStatus playerStatus = 6;
+  required string nickname = 7;        // 昵称
+  required uint32 sex = 8;        // 性别 0:不显示 1:男 2：女
+  required string avatar = 9;        // 头像。自定义头像为url， 系统头像为 itemId
+  optional int32 avatarFrame = 10;        // 头像框 itemId
+  required int32 vipExp = 11;  // vip经验, 即充值金额
+  required int64 createTime = 12;        // 创角时间
+  optional string roomId = 13;        // 房间id
+  optional bool isOperator = 14;        // 是否是运营人员, 即外部陪玩
+  optional int32 roomConfigId = 15;        
+}
+enum PlayerStatus{
+  DoNothing = 1;
+  BluffRoom = 2;
+}
+
+enum BetDiceType{
+  Big = 1;
+  Small = 2;
+}
+enum BigSmallState{
+  Unopen = 1;
+  BigSmall = 2;
+  Baozi = 3;
+  Rob = 4;
+}
+
+enum BankerLeaveType {
+  Default = 1; //游戏阶段结束自动下庄
+  ReqOff = 2; //主动站起
+  GoldNotEnough = 3; //金币不足
+  Race = 4; //抢庄
+}
+message PlayerAvatarInfo{
+  required string uid = 1;
+  required string name = 2;
+  required string avatar = 3;
+  required int32 vipLevel = 4; 
+  optional int32 avatarFrame = 5;
+  optional int32 sex = 6;
+}
+message BaoziInfo{
+  required PlayerAvatarInfo player = 1;
+  required int32 baoziDiget = 2;
+}
+
+//猜大小结果
+message s2cBigSmallBet{
+  required BetDiceType betType = 1;  
+  required int64 gold = 2;
+  required int32 diceResult = 3;
+  required bool win = 4;
+}
+
+//猜大小状态变更
+message s2cBigSmallStateInfo{
+  required BigSmallState state = 1;
+  repeated BaoziInfo baozi = 2;
+  optional PlayerAvatarInfo goodLuck = 3; //大奖获得者
+}
+
+//庄家变更
+message s2cBigSmallBankerInfo{
+  optional PlayerAvatarInfo banker = 1;
+  optional int64 bankerCost = 3;
+  optional BankerLeaveType leaveType = 4;
+}
+
+//
+message s2cBigSmallPoolUpdate {
+  required int64 poolNow = 1;
+  optional int64 bankerGoldNow = 2;
+}
+//产生豹子通知
+message s2cBigSmallBaozi {
+  required BaoziInfo baozi = 1;
+}
+
+//砸鸡蛋回复
+message s2cBigSmallRobResult {
+  required PlayerAvatarInfo player = 1;
+  required int64 gold = 2;
+}
+
+message RobInfo {
+  required PlayerAvatarInfo player = 1;
+  optional int64 goldTotal = 2;
+  optional int64 count = 3;
+}
+// 扔鸡蛋排名
+message s2cBigSmallRobRank {
+  repeated RobInfo list = 1;
+  optional int64 goldTotal = 2;
+  optional int64 count = 3;
+}
+
+//庄家查看玩家压住信息
+message BigSmallBetInfo {
+  required PlayerAvatarInfo player = 1;
+  optional BetDiceType betType = 2;
+  optional bool win = 3;
+  optional int64 diceResult = 4;
+  optional int64 goldWin = 5;
+}
+// 下注信息
+message s2cBigSmallBetList {
+  repeated BigSmallBetInfo list = 1;
+}
+
+
+//===================筛宝============================
+
+//筛宝庄家信息
+message ShaibaoBanker {
+	enum OffReason{
+		TimeOver      = 1; //时间到下庄
+		ReqOff        = 2; //主动下庄
+		ChipNotEnough	= 3; //金币不足
+		BeKicked      = 4; //被踢下庄
+    On            = 5; //继续在庄上
+	}
+	optional PlayerAvatarInfo banker  = 1; //当前庄家个人信息
+	optional int64 chip               = 2; //庄家当前筹码
+	optional int64 robCost            = 3; //抢庄消耗
+	optional OffReason offReason      = 4;	//上任庄家下庄原因
+  optional int32 diceBox            = 5; //庄家筛盅
+  optional int64 gold               = 6; //庄家金币总额
+}
+//筛宝结果牌型
+enum ShaibaoDiceType{
+	Count1		= 1; //数字1的数量
+	Count2		= 2; //数字2的数量
+	Count3		= 3; //...3...
+	Count4		= 4; //...4...
+	Count5		= 5; //...5...
+	Count6		= 6; //...6...
+	
+	BigDice		= 7; //大
+	SmallDice	= 8; //小
+	Single    = 9; //单
+	Double    = 10; //双
+	Series		= 11; //顺子
+	Same      = 12; //豹子
+}
+
+//结果记录
+message ShaibaoDiceRecord{
+	repeated int32 dice = 1; //筛子结果, 例： 3 6 6 
+}
+
+//押注记录
+message ShaibaoBetInfo{
+	required string uid     = 1; //玩家uid
+	optional string avatar  = 2; //头像地址
+	optional int64 chip     = 3; //下注额
+	optional ShaibaoDiceType betType = 4; //下注类型
+  optional bool isAllin   = 5; //是否allin
+  optional int32 avatarFrame = 6; //头像框
+}
+//筛宝骰子每局点数记录 opCode 4402
+// message s2cShaibaoDiceHistory{
+// 	repeated ShaibaoDiceRecord diceResult = 1; //
+// }
+enum ShaibaoState{
+    Init    = 1; //
+    Beting  = 2; //
+}
+//筛宝全量信息 opCode 4401
+message s2cShaibaoInfo{
+	required ShaibaoBanker banker       = 1; //庄家信息
+	optional PlayerAvatarInfo secBanker = 2; //备选庄
+  optional int64 robBankerCost        = 3; //抢庄消耗
+	repeated ShaibaoBetInfo betList			= 4; //下注列表
+  optional ShaibaoState gameState     = 5; //筛宝当前所处状态
+	optional int64 timeLeft             = 6; //本阶段结束剩余时间，毫秒
+	repeated ShaibaoDiceRecord diceRecord = 7; //筛子记录
+	repeated ShaibaoDiceType area         = 8; //所有翻倍区域
+}
+
+//设置翻倍区域回复 opCode 4403
+message s2cShaibaoDouble{
+	required ShaibaoDiceType area   = 1; //翻倍区域
+	repeated ShaibaoBetInfo betInfo = 2; //由于翻倍引起的新增下注额度
+}
+
+
+//筛宝开局通知 opCode 4404
+message s2cShaibaoStart{
+	optional int32 openTimeLeft		= 1; //当局剩余时间，毫秒
+}
+//筛宝抢庄回复 opCode 4405
+message s2cShaibaoRobBanker{
+	enum Result{
+		Ok  = 1;					//成功
+		Err = 2;				//未知错误	
+		ErrCostNotEnough  = 3;	//抢庄消耗不符
+		ErrGoldNotEnough  = 4;	//金币不足
+		RepeatedRob       = 5;	//已经是庄家
+	}
+	required Result result = 1; //
+}
+
+
+//庄家信息变更 opCode 4406
+message s2cShaibaoBankerUpdate{
+	required ShaibaoBanker banker       = 1; //当前庄家
+	optional PlayerAvatarInfo secBanker = 2; //备选庄，可为空
+}
+
+//下注回复 opCode 4407
+message s2cShaibaoBet{
+    // optional string uid               = 1; //玩家uid
+	  // optional string avatar            = 2; //头像地址
+    // optional ShaibaoDiceType betType  = 3; //下注类型
+    // optional int64 chipReal           = 4; //最终下注实际值
+    required ShaibaoBetInfo betInfo = 1;
+}
+
+//筛宝对局结果 opCode 4408
+message s2cShaibaoResult{
+	message BetRsult{
+		optional string uid               = 1; // 用户id
+		optional ShaibaoDiceType betType  = 2; // 押注额
+		optional int64 chipBet            = 3; //	下注额
+		optional int64 chipWin            = 4; // 税前获利
+	}
+	repeated BetRsult betResult         = 1; //自己的押注结果
+}
+
+//主动下庄回复 opCode 4409
+message s2cShaibaoBankerOff {
+} 
+
+//筛宝对局结果 opCode 4410
+message s2cShaibaoGameover{
+  optional int64 timeLeft             = 1; //下一阶段剩余时间（毫秒）
+	optional ShaibaoDiceRecord dice	  	= 2; //筛子结果
+}
+
+// opCode: 4411
+// 魔法表情房间广播
+message s2cShaibaoMagicEmojiBroadcast {
+  required string fromUid = 1;
+  required string toUid = 2;
+  required int32 itemId = 3; // 魔法表情id
+}
+
+// 通过uid获取头像信息 opCode 4501
+message s2cAvatarInfo{
+  repeated PlayerAvatarInfo avatarInfo = 1;
+}
+// 新手引导2.0步骤更新 opCode 4601
+message s2cGuideGroupUpdateAck {
+  repeated GuideInfo guideInfos = 1;
+}
+message GuideInfo {
+  required int32 id = 1;
+  required GuideStatus status = 2;
+  repeated Item rewards =3;
+  required bool isGot = 4;
+}
+enum GuideStatus {
+  NotTriggered = 1; // 未触发
+  TriggeredButNotFinished = 2; // 已触发未完成
+  QuitButNotFinished = 3; // 退出未完成
+  Finished = 4;  // 完成
+}
+
+// opCode: 4704
+// 私房全服广播邀请
+message s2cGameInviteBroadcast {
+  required string uid       = 1;
+  required string nickname  = 2;
+  required string roomId    = 3;
+  optional string password  = 5;
+  optional string roomName  = 4;
+}
+
+enum PersonalError {
+  SeatFull = 51005;
+  GameStatusError = 56012;
+  GoldNotEnoughToJoinRoom = 60028;
+  PasswordError = 60037;
+  PersonalRoomNotExist = 60038;
+  NeedPassword  = 60039;
+}
+// opCode: 4702
+//进入私房 
+message s2cEnterPersonalRoom {
+  required PersonalError code = 1;
+  optional string roomId = 2;
+}
+// opCode: 4703
+// 房间信息变更
+message s2cPersonalRoomInfoChanged {
+  optional string roomName = 1;
+  optional string masterUid = 2;
+}
+// opCode: 4705
+// 私房密码
+message s2cPersonalPassword {
+  required string password = 1;
+}

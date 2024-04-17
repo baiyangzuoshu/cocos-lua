@@ -1,0 +1,20 @@
+
+302601_en.png
+size: 920,147
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+梭哈按钮箭头叠加
+  rotate: true
+  xy: 718, 15
+  size: 130, 200
+  orig: 130, 200
+  offset: 0, 0
+  index: -1
+梭哈英文
+  rotate: false
+  xy: 2, 2
+  size: 714, 143
+  orig: 714, 143
+  offset: 0, 0
+  index: -1

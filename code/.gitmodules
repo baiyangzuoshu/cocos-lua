@@ -1,0 +1,3 @@
+[submodule "protobuf"]
+	path = protobuf
+	url = https://gitlab.x.yunio.com/game/heihei-portrait/protobuf.git

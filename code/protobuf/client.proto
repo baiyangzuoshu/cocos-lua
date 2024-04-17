@@ -1,0 +1,551 @@
+syntax = "proto2";
+package client;
+
+// opCode 命名说明
+// 1. 总长度4位
+// 2. 第1位值为奇数，表示客户端请求
+// 3. 第2位值表示功能模块，0表示游戏逻辑，1表示商店，2表示个人中心，3表示背包， 4表示匹配，5表示竞猜，6表示邮件, 9好友, 10聊天， 11表示邀请
+// 4. 第3、第4位表示功能模块下的序号
+
+// opCode: 1
+// 心跳
+message heartbeat {
+}
+enum Language {
+  zh = 1;
+  tw = 2;
+  en = 3;
+}
+// opCode: 1001
+// 登入
+message entry {
+  required string token = 1;
+  optional string shareCode = 2;
+  optional string pushToken = 3;
+  optional string system = 4; // android or ios
+  optional Language language = 5;
+  optional string deviceId = 6;
+}
+
+// opCode: 1002
+// 匹配游戏
+message matchGame {
+  required GameType gameType = 1;        // 房间类型
+  optional GameLevel gameLevel = 2;       // 场次
+}
+// opCode: 1003
+// 叫点
+message callPoint {
+  required int32 point = 1;        // 几点
+  required int32 num = 2;        // 几个
+}
+// opCode: 1004
+// 开骰
+message openDiceBox {
+}
+
+// opCode: 1005
+// 押注(发一次下一注)
+message addBetPrize {
+  required bool trustFlag = 1;        // 相信点数够，被开的人赢
+}
+
+// opCode: 1006
+// 离开房间
+message leaveGame  {
+}
+
+// opCode: 1007
+// 重摇
+message reroll {
+}
+
+// opCode: 1012
+// 加入游戏房间
+message joinRoom {
+  required string roomId = 1;
+}
+// opCode: 1013
+// 发起底注提升投票
+message createLevelUpVote {
+}
+// opCode: 1014
+// 参与底注提升投票
+message voteForLevelUp {
+  required bool accept = 1;
+}
+
+// opCode: 1020
+// 进入主界面
+message enterHome {
+}
+
+
+// opCode: 1035
+// 观众坐下（变为玩家）
+message sitDown {
+  required int32 seatId = 1;
+}
+
+// opCode: 1036
+// 玩家站起（变为观众）
+message standUp {
+}
+
+// opCode: 1051
+// 玩家更新叫点（用于自动叫点）
+message autoCallUpdate {
+  required int32 num = 1;        // 几个
+  required int32 point = 2;        // 几点
+}
+
+// opCode: 1101
+// 获取商品列表
+message userShops {
+}
+
+// opCode: 1102
+// 进入单个商店
+message entryShop {
+  required int32 shopId = 1;
+}
+
+// opCode: 1103
+// 商店购买
+message shopBuy {
+  required int32 shopId = 1;
+  required int32 goodId = 2;
+}
+
+// opCode: 1200
+// 更新语言
+message setLanguage {
+  // 客户端不能使用 language 命名， 所以这里用lang
+  required Language lang = 1;
+}
+
+// opCode: 1201
+// 更新玩家信息
+message updatePlayerInfo {
+  optional string nickname = 2;
+  optional string avatar = 3;
+  optional int32 avatarFrame = 4;
+  optional uint32 sex = 5;
+  optional string slogan = 6;
+}
+
+// opCode: 1203
+// 领取vip等级礼包
+message gainVipLevel {
+}
+
+// opCode: 1204
+// 领取注册礼包
+message gainRegisterReward {
+}
+
+// opCode: 1205
+// 领取救济礼包
+message gainRescueGold {
+}
+
+// opCode: 1206
+// 新手引导步骤更新
+message guideStepUpdate {
+  required int32 step = 1;
+}
+
+// opCode: 1301
+// 获取背包列表
+message getBagList {
+}
+
+// opCode: 1305
+// 获取头像列表和头像框列表（用于修改头像）
+message getAvatarList {
+}
+
+// opCode: 1306 从背包中使用筛盅
+message useDiceBox {
+  required int32 itemId = 1;
+}
+
+// opCode: 1402
+// 退出匹配
+message quitMatch {
+}
+// opCode: 1405
+// 获取玩各场次游戏的人数
+message c2sGetGamingPlayerNum {
+}
+
+// opCode: 1601
+// 获取邮件列表
+message getMailList {
+}
+
+// opCode: 1602
+// 邮件已读
+message readMail {
+  required int64 mailId = 1;
+}
+
+// opCode: 1603
+// 邮件附件领取
+message receiveMailAttachment {
+  required int64 mailId = 1;
+}
+
+// opCode: 1604
+// 邮件附件一键领取
+message receiveAllMailAttachment {
+}
+
+// opCode: 1606
+// 邮件一键删除
+message deleteAllMail {
+}
+
+enum GameType {
+  Base = 1;        // 吹牛模式
+  Duel = 2;        // 吹牛单挑模式
+  ShowHand = 3;        // 梭哈模式
+  Bullfight = 4;        // 牛牛模式
+  BlackRed = 5;        // 红黑模式
+}
+
+// ============================
+//        TASK
+// ============================
+//	opCode: 1801 请求获取task列表
+message getTask {
+  // required int32 kind = 1;	// 类型
+}
+
+// opCode: 1802 领取任务奖励
+message taskGetReward{
+  required int32 id = 1;
+}
+
+// opCode: 1803 领取所有任务奖励
+message taskGetRewardAll {
+}
+
+enum TaskInvitedKind {
+  click = 1;  // 点击
+  register = 2; // 注册
+  charge = 3; // 充值
+}
+
+// opCode: 1804 获取邀请任务的玩家列表
+message taskInvitedPlayer {
+  required TaskInvitedKind kind = 1;
+}
+
+// opCode: 1901
+// 好友列表
+message getFriendList {
+}
+
+enum FriendSearchType {
+  uid = 1;
+  nickname = 2;
+}
+
+// opCode: 1902
+// 好友搜索列表
+message getFriendSearchList {
+  required string search = 1;
+}
+
+// opCode: 1903
+// 好友申请列表
+message getFriendRequestList {
+}
+
+// opCode: 1904
+// 黑名单列表
+message getBlacklist {
+}
+
+// opCode: 1905
+// 申请加为好友
+message addFriendRequest {
+  required string friendUid = 1;
+}
+
+// opCode: 1906
+// 删除好友
+message deleteFriend {
+  required string friendUid = 1;
+}
+
+// opCode: 1907
+// 拉黑
+message blockFriend {
+  required string friendUid = 1;
+}
+
+// opCode: 1908
+// 取消拉黑
+message cancelBlockFriend {
+  required string friendUid = 1;
+}
+
+// opCode: 1909
+// 对好友观战
+message watchingByFriends {
+  required string friendUid = 1;
+  optional string password = 2;
+}
+
+// opCode: 1910
+// 同意/拒绝 加为好友
+message addFriendAgree {
+  required string friendUid = 1;
+  required bool isAgree = 2;
+}
+
+// opCode: 1911
+// 全部 同意/拒绝 加为好友
+message addFriendAgreeAll {
+  required bool isAgree = 1;
+}
+
+// opCode: 1912
+// 好友推荐列表
+message getRecommendFriendList {
+}
+
+// opCode: 1914
+// 取消好友申请
+message cancelAddFriend {
+  required string friendUid = 1;
+}
+
+// 聊天频道
+enum ChatChannel {
+  room = 1;
+  shaibao = 2;
+}
+
+// opCode: 3002
+//  发送频道聊天消息
+message sendChatMsg {
+  required string content = 1;
+  required bool isText = 2;
+  required ChatChannel channel = 3;
+}
+
+// opCode: 3003
+//  发送好友聊天消息
+message sendFriendChatMsg {
+  required string content = 1;
+  required bool isText = 2;
+  required string toUid = 3;
+}
+
+// opCode: 3004
+// 按好友uid获取好友的聊天记录
+message getFriendChatMsg {
+  required string toUid = 1;
+}
+
+// opCode: 3005
+//  好友私聊全部已读
+message readFriendChatMsgAll {
+  required string friendUid = 1;
+}
+
+// opCode: 3009
+// 魔法表情（目前只有房间内有）
+message sendMagicEmoji {
+  required string toUid = 1;  // 接收人
+  required int32 itemId = 2; // 魔法表情id
+}
+
+// =========================
+//        邀请
+// =========================
+// opCode: 3101, 获取邀请奖励
+message getInvitedReward {
+}
+// opCode: 3102, 领取邀请奖励
+message gainInvitedReward {
+}
+
+// =========================
+//        红点
+// =========================
+
+// 红点子分类（只列子分类，父分类由客户端判断）
+enum RedPointSubcategory {
+  diceList = 1;  // 【背包界面】【骰盅分页】
+  friendApplyList = 3; // 【好友界面】【申请列表分页】
+  mailButton = 4;  // 【主界面】【邮件按钮】
+  inviteAwardButton = 8;  //【邀请有礼】【领取按钮】 
+  inviteFriendClick = 9; //【邀请有礼】【好友点击分页】
+  inviteFriendRegister = 10;//【邀请有礼】【好友注册分页】
+  inviteFriendCharge = 11;//【邀请有礼】【好友充值分页】
+  avatarList = 13;  // 【个性设置界面】【头像框分页】 （新获得头像框）
+  nicknameEditButton = 14;  // 【编辑按钮】【角色昵称编辑按钮】
+  sexEditButton = 15;  // 【编辑按钮】【角色性别编辑按钮】
+  avatarEditButton = 16;  // 【编辑按钮】【角色头像编辑按钮】
+}
+
+// 获取红点
+// opCode: 3201
+message getRedPoint {
+}
+
+// 取消某个红点
+// opCode: 3202
+message removeRedPoint {
+  required RedPointSubcategory subcategory = 1;
+}
+
+// 抢庄
+message c2sBigSmallBankerOn {
+  required int64 cost = 1;
+}
+// 下庄
+message c2sBigSmallBankerOff {
+}
+
+enum BetDiceType{
+  Big = 1;
+  Small = 2;
+}
+//猜大小
+message c2sBigSmallBet {
+  required BetDiceType betType = 1;  
+  required int64 gold = 2;
+}
+//庄家查看玩家压住信息
+message c2sBigSmallBetListReq {
+}
+//砸鸡蛋
+message c2sBigSmallRob {
+}
+
+// opCode: 3501
+message c2sGetPlayerIdsOnline {}
+
+// opCode: 3502
+message c2sGetPlayerInfosForPlaymate {
+  repeated string ids = 1; 
+}
+
+
+enum ShaibaoDiceType{
+	Count1		= 1; //数字1的数量
+	Count2		= 2; //数字2的数量
+	Count3		= 3; //
+	Count4		= 4; //
+	Count5		= 5; //
+	Count6		= 6; //
+	
+	BigDice		= 7; //大
+	SmallDice	= 8; //小
+	Single    = 9; //单
+	Double    = 10; //双
+	Series		= 11; //顺子
+	Same		= 12; //豹子
+}
+//=============筛宝===============
+//筛宝全量信息 opCode3401
+message c2sShaibaoInfo{
+}
+//筛子结果记录 opCode 3402
+// message c2sShaibaoDiceHistory {
+// }
+//庄家选择翻倍 opCode 3403
+message c2sShaibaoDouble{
+	required ShaibaoDiceType area = 1;
+}
+//筛宝下注请求 opCode 3404
+message c2sShaibaoBet{
+  optional int64 chip                 = 1;
+  optional ShaibaoDiceType betType    = 2;
+  optional bool isAllin               = 3; //是否是allin
+}
+//抢庄 opCode 3405
+message c2sShaibaoRobBanker {
+	required int64 cost = 1; //抢庄消耗金币
+	optional int64 chip = 2; //上庄选择兑换的筹码
+}
+//庄家主动下庄 opCode 3406
+message c2sShaibaoBankerOff {
+} 
+
+// opCode: 3407
+// 魔法表情（目前只有房间内有）
+message c2sShaibaoSendMagicEmoji {
+  required string toUid = 1;  // 接收人
+  required int32 itemId = 2; // 魔法表情id
+}
+
+
+// 通过uid获取头像信息 opCode 3501
+message c2sAvatarInfo{
+  repeated string uids = 1;
+}
+
+// opCode: 3601
+// 新手引导2.0步骤更新
+message c2sUpdateGuideGroup {
+  required int32 id = 1;
+  required GuideStatus status = 2;
+}
+
+// opCode: 3602
+// 新手引导2.0 奖励领取
+message c2sGetGuideGroupRewards {
+  repeated int32 ids = 1;
+}
+enum GuideStatus {
+  NotTriggered = 1; // 未触发
+  TriggeredButNotFinished = 2; // 已触发但未完成
+  QuitButNotFinished = 3; // 退出但未完成
+  Finished = 4;  // 完成
+}
+enum GameLevel {
+  Primary = 1;
+  Intermediate = 2;
+  Senior =3;
+}
+
+// opCode: 3701
+//创建私房
+message c2sCreatePersonalRoom {
+  required GameType gameType  = 1;
+  required int32 roomConfigId = 2;
+  optional string roomName    = 3;
+  optional string password    = 4;
+}
+// opCode: 3702
+//进入私房
+message c2sEnterPersonalRoom {
+  required string roomId = 1;
+  optional string password = 2;
+}
+// opCode: 3703
+//修改私房设置, 设置其中一个选项，其他的选项值要带上原有的
+message c2sModifyPersonalRoomInfo {
+  optional string roomName = 1;
+  optional string password = 2;
+  optional int32 roomConfigId = 3; 
+}
+// opCode: 3704
+//全服邀请
+message c2sGameInviteBroadcast {
+}
+// opCode: 3705
+// 获取私房密码
+message c2sGetPersonalPasswd {
+}
+// opCode: 3706
+// 踢人
+message c2sUserKickPlayer {
+  required string kickUid = 1;
+}

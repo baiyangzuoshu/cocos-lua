@@ -1,0 +1,69 @@
+
+303901_zh_TW.png
+size: 545,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_009
+  rotate: false
+  xy: 2, 2
+  size: 484, 338
+  orig: 484, 338
+  offset: 0, 0
+  index: -1
+icon_017
+  rotate: false
+  xy: 488, 290
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_018
+  rotate: false
+  xy: 488, 238
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_019
+  rotate: false
+  xy: 488, 186
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_020
+  rotate: false
+  xy: 488, 134
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+匹
+  rotate: false
+  xy: 518, 78
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+完
+  rotate: false
+  xy: 488, 104
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+成
+  rotate: false
+  xy: 488, 74
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+配
+  rotate: true
+  xy: 518, 104
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1

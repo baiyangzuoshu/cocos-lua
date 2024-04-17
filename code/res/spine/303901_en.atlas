@@ -1,0 +1,48 @@
+
+303901_en.png
+size: 563,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_009
+  rotate: false
+  xy: 2, 2
+  size: 484, 338
+  orig: 484, 338
+  offset: 0, 0
+  index: -1
+icon_017
+  rotate: false
+  xy: 512, 290
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_018
+  rotate: false
+  xy: 512, 238
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_019
+  rotate: false
+  xy: 512, 186
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_020
+  rotate: false
+  xy: 512, 134
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+英文Found/Match Found
+  rotate: true
+  xy: 488, 173
+  size: 167, 22
+  orig: 167, 22
+  offset: 0, 0
+  index: -1

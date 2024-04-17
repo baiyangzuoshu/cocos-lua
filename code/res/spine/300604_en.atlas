@@ -1,0 +1,62 @@
+
+300604_en.png
+size: 641,562
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: true
+  xy: 228, 2
+  size: 118, 120
+  orig: 118, 120
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 2, 337
+  size: 627, 223
+  orig: 627, 223
+  offset: 0, 0
+  index: -1
+EyesLight
+  rotate: false
+  xy: 631, 424
+  size: 8, 136
+  orig: 8, 136
+  offset: 0, 0
+  index: -1
+Font
+  rotate: false
+  xy: 228, 122
+  size: 410, 100
+  orig: 410, 100
+  offset: 0, 0
+  index: -1
+Shinelight1
+  rotate: false
+  xy: 115, 224
+  size: 426, 111
+  orig: 426, 111
+  offset: 0, 0
+  index: -1
+Shinelight2
+  rotate: false
+  xy: 350, 9
+  size: 228, 111
+  orig: 228, 111
+  offset: 0, 0
+  index: -1
+Shinelight3
+  rotate: true
+  xy: 2, 26
+  size: 309, 111
+  orig: 309, 111
+  offset: 0, 0
+  index: -1
+Shinelight4
+  rotate: true
+  xy: 115, 57
+  size: 165, 111
+  orig: 165, 111
+  offset: 0, 0
+  index: -1

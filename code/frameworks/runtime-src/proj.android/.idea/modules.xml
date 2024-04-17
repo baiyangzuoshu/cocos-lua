@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proj.android.iml" filepath="$PROJECT_DIR$/.idea/modules/proj.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android.Letsroll.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.iml" filepath="$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-2134363028/proj.android.libcocos2dx.unitTest.iml" />
+    </modules>
+  </component>
+</project>

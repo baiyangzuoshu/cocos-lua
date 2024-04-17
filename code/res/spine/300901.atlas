@@ -1,0 +1,55 @@
+
+300901.png
+size: 240,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FlyCoin
+  rotate: false
+  xy: 194, 150
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+balloon1
+  rotate: false
+  xy: 2, 96
+  size: 130, 274
+  orig: 130, 274
+  offset: 0, 0
+  index: -1
+balloon2
+  rotate: false
+  xy: 154, 374
+  size: 84, 148
+  orig: 84, 148
+  offset: 0, 0
+  index: -1
+balloon3
+  rotate: false
+  xy: 134, 180
+  size: 98, 190
+  orig: 98, 190
+  offset: 0, 0
+  index: -1
+bottom
+  rotate: true
+  xy: 134, 12
+  size: 166, 58
+  orig: 166, 58
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 2, 372
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+men
+  rotate: true
+  xy: 2, 2
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1

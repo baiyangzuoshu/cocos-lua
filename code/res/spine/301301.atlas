@@ -1,0 +1,20 @@
+
+301301.png
+size: 116,52
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 2
+  size: 68, 48
+  orig: 68, 48
+  offset: 0, 0
+  index: -1
+Jiantou
+  rotate: false
+  xy: 72, 20
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1

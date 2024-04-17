@@ -1,0 +1,48 @@
+
+302501_zh_CN.png
+size: 545,297
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+整体
+  rotate: false
+  xy: 2, 193
+  size: 365, 102
+  orig: 365, 102
+  offset: 0, 0
+  index: -1
+破产简体
+  rotate: true
+  xy: 371, 102
+  size: 193, 93
+  orig: 193, 93
+  offset: 0, 0
+  index: -1
+碎片1
+  rotate: true
+  xy: 466, 110
+  size: 185, 77
+  orig: 185, 77
+  offset: 0, 0
+  index: -1
+碎片2
+  rotate: false
+  xy: 2, 2
+  size: 363, 87
+  orig: 363, 87
+  offset: 0, 0
+  index: -1
+碎片3
+  rotate: false
+  xy: 2, 91
+  size: 367, 100
+  orig: 367, 100
+  offset: 0, 0
+  index: -1
+碎片4
+  rotate: false
+  xy: 371, 49
+  size: 68, 51
+  orig: 68, 51
+  offset: 0, 0
+  index: -1

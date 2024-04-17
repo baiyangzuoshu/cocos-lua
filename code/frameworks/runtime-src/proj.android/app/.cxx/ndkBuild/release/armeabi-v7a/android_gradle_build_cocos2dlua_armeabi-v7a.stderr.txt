@@ -1,0 +1,157 @@
+'test' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:10:
+In file included from E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos/3d/..\cocos2d.h:39:
+E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos/3d/../base/ccConfig.h:261:9: warning: In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:'CC_ENABLE_CHIPMUNK_INTEGRATION' macro redefined [-Wmacro-redefined]
+2:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos/3d/..\cocos2d.h:39:
+E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos/3d/../base/ccConfig.h:261:9: warning: 'CC_ENABLE_CHIPMUNK_INTEGRATION' macro redefined [-Wmacro-redefined]
+#define CC_ENABLE_CHIPMUNK_INTEGRATION 0#define CC_ENABLE_CHIPMUNK_INTEGRATION 0
+
+        ^        ^
+
+<command line>:2:9: note: <command line>previous definition is here:2:9: note: previous definition is here
+
+#define CC_ENABLE_CHIPMUNK_INTEGRATION 1
+        ^
+#define CC_ENABLE_CHIPMUNK_INTEGRATION 1
+        ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10273:28: warning: In file included from 'VOICE_CHANGER_PRESET' is deprecated [-Wdeprecated-declarations]E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:2:
+In file included from 
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:19:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10273:28: warning: 'VOICE_CHANGER_PRESET' is deprecated [-Wdeprecated-declarations]  int setLocalVoiceChanger(VOICE_CHANGER_PRESET voiceChanger) {
+                           ^
+
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1078:6: note: 'VOICE_CHANGER_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE VOICE_CHANGER_PRESET {
+     ^
+  int setLocalVoiceChanger(VOICE_CHANGER_PRESET voiceChanger) {
+                           ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1078E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51::6: note: 'VOICE_CHANGER_PRESET' has been explicitly marked deprecated here
+ note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+enum AGORA_DEPRECATED_ATTRIBUTE VOICE_CHANGER_PRESET {
+     ^
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10288:33: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+  int setLocalVoiceReverbPreset(AUDIO_REVERB_PRESET reverbPreset) {
+                                ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+2:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h     ^
+:19:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10288:33: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+  int setLocalVoiceReverbPreset(AUDIO_REVERB_PRESET reverbPreset) {
+                                ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.henum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10298:32: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    } else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00300000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00300002)
+                               ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10298:82: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    } else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00300000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00300002)
+                                                                                 ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+In file included from enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:
+     ^
+2E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:50::19:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:51: 10298note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+:32: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+    } else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00300000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00300002)
+                               ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10300:30: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00400000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00400002)
+                             ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:2enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^:
+
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:19E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51:
+: note: E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10298:82: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+    } else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00300000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00300002)
+                                                                                 ^
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:                                                  ^
+6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:8:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.h:17:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10300:80: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00400000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00400002)
+                                                                               ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:2:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:19:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10300:30: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00400000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00400002)
+                             ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.cpp:2:
+In file included from E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IAgoraRoomManager.h:19:
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:10300:80: warning: 'AUDIO_REVERB_PRESET' is deprecated [-Wdeprecated-declarations]
+    else if (reverbPreset > (AUDIO_REVERB_PRESET)0x00400000 && reverbPreset < (AUDIO_REVERB_PRESET)0x00400002)
+                                                                               ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include\IAgoraRtcEngine.h:1162:6: note: 'AUDIO_REVERB_PRESET' has been explicitly marked deprecated here
+enum AGORA_DEPRECATED_ATTRIBUTE AUDIO_REVERB_PRESET {
+     ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../sdk/include/AgoraBase.h:50:51: note: expanded from macro 'AGORA_DEPRECATED_ATTRIBUTE'
+#define AGORA_DEPRECATED_ATTRIBUTE __attribute__((deprecated))
+                                                  ^
+E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/jni/../../../Classes/common/IGamingRtcEngineEventHandler.cpp:80:35: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]
+            if (speakers[i].volume>=0) {
+                ~~~~~~~~~~~~~~~~~~^ ~
+8 warnings generated.
+7 warnings generated.

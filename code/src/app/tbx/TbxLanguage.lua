@@ -1,0 +1,1 @@
+cc.exports.g_TbxLanguage = {"ShopGoods", "Room", "BulletinContent", "UIMultiLanguage", "Text", "Enumeration", "Item", "Task", "GuideGroup", "SystemMessage", "GiftPackage", "Record", "MailContent", "Vision"}

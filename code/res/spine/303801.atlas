@@ -1,0 +1,20 @@
+
+303801.png
+size: 150,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+touzi1
+  rotate: false
+  xy: 82, 12
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+touzi6
+  rotate: false
+  xy: 2, 2
+  size: 78, 76
+  orig: 78, 76
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+301201_zh_TW.png
+size: 380,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dao
+  rotate: false
+  xy: 259, 2
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+Jiantou
+  rotate: false
+  xy: 343, 112
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+Kuang
+  rotate: false
+  xy: 2, 65
+  size: 272, 71
+  orig: 272, 71
+  offset: 0, 0
+  index: -1
+Le
+  rotate: false
+  xy: 195, 4
+  size: 62, 59
+  orig: 62, 59
+  offset: 0, 0
+  index: -1
+Lun
+  rotate: false
+  xy: 276, 74
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+Ni
+  rotate: false
+  xy: 318, 10
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+Touying
+  rotate: false
+  xy: 2, 5
+  size: 191, 58
+  orig: 191, 58
+  offset: 0, 0
+  index: -1

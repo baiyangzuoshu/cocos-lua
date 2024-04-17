@@ -1,0 +1,13 @@
+
+300501_zh_TW.png
+size: 212,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tips_zh_TW
+  rotate: false
+  xy: 2, 2
+  size: 208, 104
+  orig: 208, 104
+  offset: 0, 0
+  index: -1

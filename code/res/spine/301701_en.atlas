@@ -1,0 +1,48 @@
+
+301701_en.png
+size: 977,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 575, 31
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 849, 25
+  size: 126, 136
+  orig: 126, 136
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 712, 31
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+EN
+  rotate: false
+  xy: 575, 163
+  size: 356, 116
+  orig: 356, 116
+  offset: 0, 0
+  index: -1
+投影
+  rotate: true
+  xy: 2, 2
+  size: 277, 317
+  orig: 277, 317
+  offset: 0, 0
+  index: -1
+筹码
+  rotate: false
+  xy: 321, 14
+  size: 252, 265
+  orig: 252, 265
+  offset: 0, 0
+  index: -1

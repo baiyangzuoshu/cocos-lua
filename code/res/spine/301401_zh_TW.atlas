@@ -1,0 +1,20 @@
+
+301401_zh_TW.png
+size: 563,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozifanti
+  rotate: false
+  xy: 2, 36
+  size: 320, 186
+  orig: 320, 186
+  offset: 0, 0
+  index: -1
+zhuazi
+  rotate: false
+  xy: 324, 2
+  size: 237, 220
+  orig: 237, 220
+  offset: 0, 0
+  index: -1

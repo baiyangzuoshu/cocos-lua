@@ -1,0 +1,166 @@
+{
+  "buildFiles": [
+    "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ccds-release-armeabi-v7a": {
+      "artifactName": "ccds",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libccds.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libccds.a",
+      "runtimeFiles": []
+    },
+    "yasio-release-armeabi-v7a": {
+      "artifactName": "yasio",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libyasio.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libyasio.a",
+      "runtimeFiles": []
+    },
+    "crashreport-release-armeabi-v7a": {
+      "artifactName": "crashreport",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcrashreport.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcrashreport.a",
+      "runtimeFiles": []
+    },
+    "ccb-release-armeabi-v7a": {
+      "artifactName": "ccb",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libccb.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libccb.a",
+      "runtimeFiles": []
+    },
+    "ext_pvmp3dec-release-armeabi-v7a": {
+      "artifactName": "ext_pvmp3dec",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libext_pvmp3dec.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libext_pvmp3dec.a",
+      "runtimeFiles": []
+    },
+    "luacc-release-armeabi-v7a": {
+      "artifactName": "luacc",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libluacc.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libluacc.a",
+      "runtimeFiles": []
+    },
+    "net-release-armeabi-v7a": {
+      "artifactName": "net",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libnet.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libnet.a",
+      "runtimeFiles": []
+    },
+    "luaccandroid-release-armeabi-v7a": {
+      "artifactName": "luaccandroid",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libluaccandroid.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libluaccandroid.a",
+      "runtimeFiles": []
+    },
+    "flatbuffers-release-armeabi-v7a": {
+      "artifactName": "flatbuffers",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/flatbuffers.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\flatbuffers.a",
+      "runtimeFiles": []
+    },
+    "buglyagentlua-release-armeabi-v7a": {
+      "artifactName": "buglyagentlua",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libbuglyagentlua.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libbuglyagentlua.a",
+      "runtimeFiles": []
+    },
+    "cocos2dlua-release-armeabi-v7a": {
+      "artifactName": "cocos2dlua",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcocos2dlua.so",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcocos2dlua.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-release-armeabi-v7a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcpufeatures.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "ets-release-armeabi-v7a": {
+      "artifactName": "ets",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libets.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libets.a",
+      "runtimeFiles": []
+    },
+    "audio-release-armeabi-v7a": {
+      "artifactName": "audio",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libaudio.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libaudio.a",
+      "runtimeFiles": []
+    },
+    "c3d-release-armeabi-v7a": {
+      "artifactName": "c3d",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libc3d.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libc3d.a",
+      "runtimeFiles": []
+    },
+    "cc_core-release-armeabi-v7a": {
+      "artifactName": "cc_core",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcc_core.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcc_core.a",
+      "runtimeFiles": []
+    },
+    "spine-release-armeabi-v7a": {
+      "artifactName": "spine",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libspine.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libspine.a",
+      "runtimeFiles": []
+    },
+    "ccs-release-armeabi-v7a": {
+      "artifactName": "ccs",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libccs.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libccs.a",
+      "runtimeFiles": []
+    },
+    "ext_vorbisidec-release-armeabi-v7a": {
+      "artifactName": "ext_vorbisidec",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libext_vorbisidec.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libext_vorbisidec.a",
+      "runtimeFiles": []
+    },
+    "recast-release-armeabi-v7a": {
+      "artifactName": "recast",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/librecast.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\librecast.a",
+      "runtimeFiles": []
+    },
+    "ui-release-armeabi-v7a": {
+      "artifactName": "ui",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libui.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libui.a",
+      "runtimeFiles": []
+    },
+    "ccandroid-release-armeabi-v7a": {
+      "artifactName": "ccandroid",
+      "buildCommand": "D:\\Android\\android-ndk-r16b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang -j16 NDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external NDK_DEBUG\u003d0 E:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libccandroid.a",
+      "abi": "armeabi-v7a",
+      "output": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libccandroid.a",
+      "runtimeFiles": []
+    }
+  }
+}

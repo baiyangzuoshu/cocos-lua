@@ -1,0 +1,34 @@
+
+300102.png
+size: 1066,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom
+  rotate: false
+  xy: 510, 325
+  size: 554, 193
+  orig: 554, 193
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 2, 12
+  size: 506, 506
+  orig: 506, 506
+  offset: 0, 0
+  index: -1
+dislight
+  rotate: false
+  xy: 2, 2
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 510, 284
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1

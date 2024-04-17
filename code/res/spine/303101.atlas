@@ -1,0 +1,69 @@
+
+303101.png
+size: 890,398
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+头像1
+  rotate: false
+  xy: 628, 134
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像2
+  rotate: false
+  xy: 804, 311
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像3
+  rotate: false
+  xy: 628, 47
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像4
+  rotate: false
+  xy: 714, 134
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像5
+  rotate: false
+  xy: 804, 224
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像6
+  rotate: false
+  xy: 714, 47
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像7
+  rotate: false
+  xy: 800, 134
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+头像我
+  rotate: false
+  xy: 628, 221
+  size: 174, 175
+  orig: 174, 175
+  offset: 0, 0
+  index: -1
+桌面
+  rotate: true
+  xy: 2, 2
+  size: 394, 624
+  orig: 394, 624
+  offset: 0, 0
+  index: -1

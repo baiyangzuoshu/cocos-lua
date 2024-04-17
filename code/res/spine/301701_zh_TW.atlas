@@ -1,0 +1,48 @@
+
+301701_zh_TW.png
+size: 977,285
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 840, 153
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 575, 6
+  size: 126, 136
+  orig: 126, 136
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 713, 2
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+投影
+  rotate: true
+  xy: 2, 6
+  size: 277, 317
+  orig: 277, 317
+  offset: 0, 0
+  index: -1
+筹码
+  rotate: false
+  xy: 321, 18
+  size: 252, 265
+  orig: 252, 265
+  offset: 0, 0
+  index: -1
+繁体
+  rotate: false
+  xy: 575, 134
+  size: 263, 149
+  orig: 263, 149
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Let\'s Roll</string>
+    <string name="server_client_id">926884058720-705atrqkqls9j8ctnl38c96k6t6c7u60.apps.googleusercontent.com</string>
+    <string name="app_id">926884058720</string>
+    <string name="facebook_app_id">549836566709539</string>
+    <string name="facebook_client_token">a9eb59b86a18b1a57765e1dc3278aee2</string>
+    <string name="fb_login_protocol_scheme">fb549836566709539</string>
+    <string name="AFDevKey">aoH5pZB6r5eFDo5BGVszZn</string>
+</resources>

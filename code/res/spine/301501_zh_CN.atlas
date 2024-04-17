@@ -1,0 +1,34 @@
+
+301501_zh_CN.png
+size: 503,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30842
+  rotate: true
+  xy: 456, 160
+  size: 60, 45
+  orig: 60, 45
+  offset: 0, 0
+  index: -1
+30843
+  rotate: false
+  xy: 358, 82
+  size: 96, 138
+  orig: 96, 138
+  offset: 0, 0
+  index: -1
+Shunzijianti
+  rotate: false
+  xy: 2, 4
+  size: 354, 216
+  orig: 354, 216
+  offset: 0, 0
+  index: -1
+bamboo_sticks
+  rotate: true
+  xy: 358, 2
+  size: 78, 126
+  orig: 78, 126
+  offset: 0, 0
+  index: -1

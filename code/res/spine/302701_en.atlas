@@ -1,0 +1,27 @@
+
+302701_en.png
+size: 580,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 2
+  size: 344, 124
+  orig: 344, 124
+  offset: 0, 0
+  index: -1
+YING
+  rotate: false
+  xy: 348, 67
+  size: 230, 59
+  orig: 230, 59
+  offset: 0, 0
+  index: -1
+箭头
+  rotate: false
+  xy: 348, 23
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1

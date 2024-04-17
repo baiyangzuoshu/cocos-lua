@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userDefaultRoot>
+    <token>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjYwNjA4LCJpc0JvdCI6ZmFsc2UsImlhdCI6MTY2ODM5NTcyNX0.SzOPsfSljarqxfYAxLNCSHvv3bVg8yWjlKXvGK2rdxA</token>
+    <account>chat13</account>
+    <password>chat13</password>
+    <account_type>0</account_type>
+    <area_code>+886</area_code>
+    <phone_number/>
+    <resend_sms_timestamp>0</resend_sms_timestamp>
+    <music_volume>0</music_volume>
+    <sound_volume>0</sound_volume>
+    <voice_volume>0</voice_volume>
+    <shake_switch>false</shake_switch>
+    <guestId/>
+    <MultiLanguage>TW</MultiLanguage>
+    <music_switch>true</music_switch>
+    <sound_switch>true</sound_switch>
+    <voice_switch>true</voice_switch>
+    <isFirstInstall>false</isFirstInstall>
+    <login_auto>true</login_auto>
+    <lastLoginType>User</lastLoginType>
+    <mic_switch>false</mic_switch>
+    <WorldChatSessageId>2ee8b393-c7b5-4c3c-8822-403058c11461</WorldChatSessageId>
+</userDefaultRoot>

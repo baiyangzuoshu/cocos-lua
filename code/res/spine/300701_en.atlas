@@ -1,0 +1,83 @@
+
+300701_en.png
+size: 1109,788
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 820, 65
+  size: 608, 220
+  orig: 608, 220
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: true
+  xy: 651, 66
+  size: 720, 167
+  orig: 720, 167
+  offset: 0, 0
+  index: -1
+FlyCoin1
+  rotate: false
+  xy: 1042, 304
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+FlyCoin2
+  rotate: false
+  xy: 588, 3
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+FlyCoin3
+  rotate: true
+  xy: 659, 5
+  size: 59, 45
+  orig: 59, 45
+  offset: 0, 0
+  index: -1
+FlyCoin4
+  rotate: true
+  xy: 706, 17
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+FlyCoin5
+  rotate: true
+  xy: 1042, 236
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+FontShineLight
+  rotate: false
+  xy: 820, 675
+  size: 228, 111
+  orig: 228, 111
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: true
+  xy: 2, 66
+  size: 720, 647
+  orig: 720, 647
+  offset: 0, 0
+  index: -1
+Tips
+  rotate: true
+  xy: 1050, 382
+  size: 404, 33
+  orig: 404, 33
+  offset: 0, 0
+  index: -1
+Title
+  rotate: false
+  xy: 2, 2
+  size: 584, 62
+  orig: 584, 62
+  offset: 0, 0
+  index: -1

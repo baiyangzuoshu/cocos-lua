@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Dahua
+
+  Created by 魏雨 on 2022/6/1.
+  
+*/
+
+NSMicrophoneUsageDescription="需要使用您的麦克风，来进行语音聊天";
+NSLocationWhenInUseUsageDescription="需要您的位置信息，提供更好的服务";

@@ -1,0 +1,83 @@
+
+300701_zh_TW.png
+size: 1115,773
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 724, 163
+  size: 608, 220
+  orig: 608, 220
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: true
+  xy: 946, 51
+  size: 720, 167
+  orig: 720, 167
+  offset: 0, 0
+  index: -1
+FlyCoin1
+  rotate: true
+  xy: 724, 96
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+FlyCoin2
+  rotate: false
+  xy: 802, 100
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+FlyCoin3
+  rotate: false
+  xy: 690, 49
+  size: 59, 45
+  orig: 59, 45
+  offset: 0, 0
+  index: -1
+FlyCoin4
+  rotate: false
+  xy: 751, 49
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+FlyCoin5
+  rotate: false
+  xy: 873, 98
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+FontShineLight
+  rotate: false
+  xy: 460, 11
+  size: 228, 111
+  orig: 228, 111
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 2, 124
+  size: 720, 647
+  orig: 720, 647
+  offset: 0, 0
+  index: -1
+Tips
+  rotate: false
+  xy: 2, 2
+  size: 324, 30
+  orig: 324, 30
+  offset: 0, 0
+  index: -1
+Title
+  rotate: false
+  xy: 2, 34
+  size: 456, 88
+  orig: 456, 88
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+300301_zh_CN.png
+size: 70,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_01
+  rotate: false
+  xy: 2, 2
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1

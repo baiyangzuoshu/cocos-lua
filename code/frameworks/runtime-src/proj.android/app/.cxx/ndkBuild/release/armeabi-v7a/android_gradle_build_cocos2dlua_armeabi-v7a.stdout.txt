@@ -1,0 +1,5 @@
+Android NDK: WARNING: Unsupported source file extensions in E:\LetUsRoll\code\client\code\frameworks\runtime-src\proj.android\app\jni\Android.mk for module cocos2dlua    
+Android NDK:   FILE_LIST +=    
+[armeabi-v7a] Compile++ thumb: cocos2dlua <= IAgoraRoomManager.cpp
+[armeabi-v7a] Compile++ thumb: cocos2dlua <= IGamingRtcEngineEventHandler.cpp
+[armeabi-v7a] SharedLibrary  : libcocos2dlua.so

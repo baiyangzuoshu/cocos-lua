@@ -1,0 +1,40 @@
+PODS:
+  - FBAEMKit (12.3.2):
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit (12.3.2):
+    - FBAEMKit (= 12.3.2)
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit_Basics (12.3.2)
+  - FBSDKLoginKit (12.3.2):
+    - FBSDKCoreKit (= 12.3.2)
+  - FBSDKShareKit (12.3.2):
+    - FBSDKCoreKit (= 12.3.2)
+  - LineSDKSwift/Core (5.8.1)
+  - LineSDKSwift/ObjC (5.8.1):
+    - LineSDKSwift/Core
+
+DEPENDENCIES:
+  - FBSDKLoginKit (~> 12.3.0)
+  - FBSDKShareKit (~> 12.3.0)
+  - LineSDKSwift/ObjC (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - LineSDKSwift
+
+SPEC CHECKSUMS:
+  FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
+  FBSDKCoreKit: 678f64eda3f0ff25c189c2ebbfe87b1d96a85a6d
+  FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
+  FBSDKLoginKit: 56d55e23fe66a6db045826190b0b4dbc0e1ca0a0
+  FBSDKShareKit: 4ef957addab76816116ea92bd872e792f7137669
+  LineSDKSwift: 55ea1486ad3b2802b7e00f80aeb5844e3ed3faa3
+
+PODFILE CHECKSUM: cbf039972f2db54c9b19994dc129e62c5bab10d5
+
+COCOAPODS: 1.11.2

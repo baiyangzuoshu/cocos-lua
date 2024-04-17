@@ -1,0 +1,792 @@
+
+Showing Recent Messages
+
+Prepare build
+note: Using new build system
+note: Planning
+note: Build preparation complete
+note: Building targets in dependency order
+
+
+Analyze workspace
+
+Build target letsroll-mobile of project Dahua with configuration Debug
+/Users/sophia/Documents/code/frameworks/runtime-src/proj.ios_mac/Dahua.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 6.0, but the range of supported deployment target versions is 9.0 to 15.2.99. (in target 'letsroll-mobile' from project 'Dahua')
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'letsroll-mobile' from project 'Dahua')
+/Users/sophia/Documents/code/frameworks/runtime-src/proj.ios_mac/Dahua.xcodeproj: warning: OpenGLES is deprecated. Consider migrating to Metal instead. (in target 'letsroll-mobile' from project 'Dahua')
+
+
+Ld /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/letsroll-mobile.app/letsroll-mobile normal (in target 'letsroll-mobile' from project 'Dahua')
+    cd /Users/sophia/Documents/code/frameworks/runtime-src/proj.ios_mac
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-ios6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk -L/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos -F/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos -filelist /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Intermediates.noindex/Dahua.build/Debug-iphoneos/letsroll-mobile.build/Objects-normal/arm64/letsroll-mobile.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Intermediates.noindex/Dahua.build/Debug-iphoneos/letsroll-mobile.build/Objects-normal/arm64/letsroll-mobile_lto.o -Xlinker -no_deduplicate -stdlib\=libc++ -fobjc-link-runtime -framework CoreText -framework CFNetwork -liconv /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libsimulator\ iOS.a -framework Security /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libluacocos2d\ iOS.a /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d\ iOS.a -framework MediaPlayer -framework CoreMotion -lz -framework UIKit -framework OpenGLES -framework QuartzCore -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework Foundation -framework WebKit -framework CoreGraphics -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Intermediates.noindex/Dahua.build/Debug-iphoneos/letsroll-mobile.build/Objects-normal/arm64/letsroll-mobile_dependency_info.dat -o /Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/letsroll-mobile.app/letsroll-mobile
+
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftbase.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftinit.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftglyph.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftstroke.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftbitmap.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftsystem.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(autofit.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bdf.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cff.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(raster.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(smooth.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftf.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcf.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pfr.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(psaux.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pshinter.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(psnames.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sfnt.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(type1.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(type1cid.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(type42.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(truetype.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(winfnt.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftgzip.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ftlzw.ios8_arm64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(async_wait.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(async.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_buff.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bss_sock.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(buffer.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(comp_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(threads_pthread.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ex_data.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(mem.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_str.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_log.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_policy.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_init.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(digest.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(names.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_fips.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(obj_dat.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_asn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_ext.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_cl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(lhash.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cryptlib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(init.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_init.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(stack.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rand_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rec_layer_s3.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_oct.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_sct.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_ciph.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tls_srp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_sess.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t1_ext.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_rsa.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_cert.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(statem.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(methods.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_exten.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_lu.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(by_file.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(by_dir.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_name.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_vfy.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_d2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_vpm.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_cmp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_x509.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_ext.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_purp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_set.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_txt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_pubkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t1_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(statem_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_info.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_asid.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_typ.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_int.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_gentm.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_object.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_octet.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn1_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_strex.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_time.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_type.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_utctm.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_dec.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_dup.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_fre.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_new.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_sign.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn_pack.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_akeya.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_bcons.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(b_sock2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bss_file.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(b_print.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_ctx.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_word.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_print.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_const.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_shift.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_rand.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_zlib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_mod.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_crld.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(mem_dbg.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(arm64cpuid.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(mem_sec.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_b64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_rfc5114.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dso_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rec_layer_d1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(d1_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_curve.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_kmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_oct.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_rand.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_cipher.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_digest.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_fat.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_pbe.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pmeth_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ameth_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_aes.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_aes_cbc_hmac_sha1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_aes_cbc_hmac_sha256.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_camellia.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_chacha20_poly1305.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_des.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_des3.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_null.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_idea.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_md5.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_md5_sha1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_rc2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_rc4.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_rc4_hmac_md5.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_seed.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_sha1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_genn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(hmac.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_addr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_ncons.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_names.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(obj_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(obj_xref.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_dir.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(armcap.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_oth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_info.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_all.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_x509.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_xaux.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_pcia.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(md_rand.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_crpt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_sct_ctx.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_vfy.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha256.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(srp_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(srp_vfy.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl3_buffer.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl3_record.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_mcnf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(d1_srtp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_conf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_algor.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_attrib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_x509a.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_crl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509cset.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_all.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_v3.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_info.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509name.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_obj.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_trs.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_val.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_utl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_def.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_tree.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(async_null.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(b_addr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(b_sock.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_meth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(d2i_pr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(d1_msg.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(statem_dtls.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_dyn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_openssl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_padlock.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_rdrand.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(err_all.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_allc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_alld.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_sap.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(statem_clnt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(statem_srvr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_cache.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(s3_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(s3_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(s3_msg.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t1_reneg.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t1_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(aes_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(aes_core.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_bitstr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_print.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_strnid.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_d2i_fp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn1_gen.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_i2d_fp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_digest.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_verify.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_mbstr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn1_par.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_bignum.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(b_dump.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bss_mem.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_blind.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_mont.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_add.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_div.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_mod.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_exp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_gcd.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_mul.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(wrap128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cbc128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ccm128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cfb128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ctr128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(gcm128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocb128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ofb128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(xts128.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cmll_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cmll_misc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(chacha-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cfb64enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cfb_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecb3_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecb_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(des_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cfb64ede.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ofb64ede.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ofb64enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(set_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_ossl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dso_dlfcn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecp_nistz256.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_cvt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_mult.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_list.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_dh.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_dsa.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_eckey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_rsa.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_asnmth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tb_pkmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_all.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn1_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(async_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(buf_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(comp_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cpt_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dso_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(kdf_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(obj_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pk12err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pkcs7err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rand_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ts_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ui_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_err.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cmeth_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(encode.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_sigver.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pmeth_fn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pmeth_gn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p_sign.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p_verify.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_bf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_blake2b.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_blake2s.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_cast.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(e_xcbc_d.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_md4.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_mdc2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_ripemd.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(m_wp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_alt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i_cfb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i_ecb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i_ofb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_long.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(md5_dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_def.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_spki.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ocsp_ht.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_time.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_mall.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pem_pk8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_crpt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p5_crpt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p5_crpt2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p5_scrypt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pk7_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p8_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_p8d.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_cpols.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_pcons.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(poly1305.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rand_unix.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc2_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc2cfb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc2_ecb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc2ofb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc2_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc4_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rc4_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_ossl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(seed_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(seed_cfb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(seed_ecb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(seed_ofb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(seed.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha1_one.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha1dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha512.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ssl_conf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(txt_db.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(a_utf8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_req.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_req.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x_sig.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509type.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(conf_api.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_dh.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(aesv8-armx.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_utl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_asm.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_srp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_intern.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cm_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cm_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(nsseq.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dtls1_bitmap.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec2_oct.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecp_oct.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecx_meth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_table.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(hkdf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(hm_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(hm_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(i2d_pr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_node.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(o_fopen.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecdh_ossl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecdsa_ossl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pqueue.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_map.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pcy_data.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_ameth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_pmeth.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha256-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(s3_cbc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tls1_prf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_akey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_ocsp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_int.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_enum.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_x509v3.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_extku.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_bitst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_ia5.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_pci.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_pku.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_pmaps.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_sxnet.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_tlsf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(vpaes-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn_moid.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn_mstbl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t_pkey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(tasn_prn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_cfb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_ecb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_ofb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bf_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(blake2b.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(blake2s.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_gf2m.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_recp.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_kron.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_exp2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_sqrt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_sqr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_cfb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_ecb.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_ofb64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(c_skey.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cmac.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_env.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_kari.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_sd.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(camellia.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(xcbc_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_kdf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_check.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dh_gen.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_sign.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_vrf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecdh_kdf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecdsa_sign.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecdsa_vrf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eck_prn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec2_smpl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecp_mont.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_cnf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(eng_ctrl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(scrypt.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(evp_cnf.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(md4_dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(mdc2dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p5_pbev2.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p5_pbe.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_decr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_key.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pk7_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pk7_doit.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_p8e.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rmd_dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_x931.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_gen.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_oaep.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_pss.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_pk1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_ssl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_none.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_sign.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(rsa_saos.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ct_prn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ui_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(wp_dgst.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(curve25519.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509_att.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(x509rset.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(t_x509.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(armv8-mont.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(dsa_gen.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecp_smpl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ecp_nistz256-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ghashv8-armx.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(f_int.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(f_string.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(poly1305-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha1-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(sha512-armv8.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(aes_wrap.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_md.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bss_null.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bn_prime.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_lib.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_att.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_io.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec_print.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(err_prn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_utl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(pk7_attr.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ui_openssl.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(v3_prn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_enc.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_pwri.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(ec2_mult.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(wp_block.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_ndef.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(asn_mime.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(p12_asn.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(cms_dd.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_asn1.o)) was built for newer iOS version (7.0) than being linked (6.0)
+ld: warning: object file (/Users/sophia/Library/Developer/Xcode/DerivedData/Dahua-ffnwjwxzkfbziedkofnwsxqklnhi/Build/Products/Debug-iphoneos/libcocos2d iOS.a(bio_b64.o)) was built for newer iOS version (7.0) than being linked (6.0)
+Undefined symbols for architecture arm64:
+  "typeinfo for yasio::inet::io_transport", referenced from:
+      typeinfo for yasio::inet::io_transport* in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::read_v32()", referenced from:
+      lyasio::$_16::operator()(yasio::ibstream*, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::ibstream_view(yasio::obstream const*)", referenced from:
+      kaguya::ObjectWrapper<yasio::ibstream_view>::ObjectWrapper<yasio::obstream const*>(yasio::obstream const*&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::~ibstream_view()", referenced from:
+      kaguya::ObjectWrapper<yasio::ibstream_view>::~ObjectWrapper() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::write_v(cxx17::basic_string_view<char, std::__1::char_traits<char> >)", referenced from:
+      lyasio::$_15::operator()(yasio::obstream*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::write_v8(cxx17::basic_string_view<char, std::__1::char_traits<char> >)", referenced from:
+      lyasio::$_15::operator()(yasio::obstream*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::obstream(unsigned long)", referenced from:
+      kaguya::ObjectWrapper<yasio::obstream>::ObjectWrapper<>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      kaguya::ObjectWrapper<yasio::obstream>::ObjectWrapper<int>(int&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::set_option(int, ...)", referenced from:
+      luaopen_yasio::$_6::operator()(yasio::inet::io_service*, int, kaguya::VariadicArgType) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::io_service(std::__1::vector<yasio::inet::io_hostent, std::__1::allocator<yasio::inet::io_hostent> > const&)", referenced from:
+      kaguya::ObjectWrapper<yasio::inet::io_service>::ObjectWrapper<std::__1::vector<yasio::inet::io_hostent, std::__1::allocator<yasio::inet::io_hostent> > >(std::__1::vector<yasio::inet::io_hostent, std::__1::allocator<yasio::inet::io_hostent> >&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::io_service()", referenced from:
+      kaguya::ObjectWrapper<yasio::inet::io_service>::ObjectWrapper<>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::~ibstream_view()", referenced from:
+      yasio::ibstream::~ibstream() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::consume(unsigned long)", referenced from:
+      bool yasio::ibstream_view::read_i<bool>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      signed char yasio::ibstream_view::read_i<signed char>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      short yasio::ibstream_view::read_i<short>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      int yasio::ibstream_view::read_i<int>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      long long yasio::ibstream_view::read_i<long long>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      unsigned char yasio::ibstream_view::read_i<unsigned char>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      unsigned short yasio::ibstream_view::read_i<unsigned short>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      ...
+  "yasio::inet::io_service::stop()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::ibstream_view(void const*, unsigned long)", referenced from:
+      kaguya::ObjectWrapper<yasio::ibstream_view>::ObjectWrapper<void const*, int>(void const*&&, int&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::ip::compat::inet_pton(int, char const*, void*)", referenced from:
+      yasio::inet::ip::endpoint::as_in(char const*, unsigned short) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::dispatch(int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::read_v8()", referenced from:
+      lyasio::$_16::operator()(yasio::ibstream*, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::io_service(int)", referenced from:
+      kaguya::ObjectWrapper<yasio::inet::io_service>::ObjectWrapper<int>(int&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::is_open(int) const", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::is_open(yasio::inet::io_transport*) const", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::close(yasio::inet::io_transport*)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::push32()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::read_v16()", referenced from:
+      lyasio::$_16::operator()(yasio::ibstream*, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::write_v16(cxx17::basic_string_view<char, std::__1::char_traits<char> >)", referenced from:
+      lyasio::$_15::operator()(yasio::obstream*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop32()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::push24()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop16()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::write_i24(int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ExtCocosEffect::ExtCocosEffect()", referenced from:
+      lua_pixeGame_ExtCocosEffect_constructor(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::obstream::write_bytes(cxx17::basic_string_view<char, std::__1::char_traits<char> >)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ExtCocosEffect::create()", referenced from:
+      lua_pixeGame_ExtCocosEffect_create(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream_view::read_u24()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "typeinfo for ExtCocosEffect", referenced from:
+      lua_register_pixeGame_ExtCocosEffect(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::obstream::pop8(unsigned char)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ExtCocosEffect::setLastFrameCallBack(int)", referenced from:
+      lua_pixeGame_ExtCocosEffect_setLastFrameCallBack(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream_view::read_i24()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ExtCocosEffect::timelineCallback()", referenced from:
+      lua_pixeGame_ExtCocosEffect_timelineCallback(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream_view::ibstream_view()", referenced from:
+      kaguya::ObjectWrapper<yasio::ibstream_view>::ObjectWrapper<>() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "typeinfo for MagicAnimation", referenced from:
+      lua_register_kuizhi_MagicAnimation(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream_view::read_v()", referenced from:
+      lyasio::$_16::operator()(yasio::ibstream*, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "MagicAnimation::MagicAnimation()", referenced from:
+      lua_kuizhi_MagicAnimation_constructor(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "MagicAnimation::create()", referenced from:
+      lua_kuizhi_MagicAnimation_create(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::inet::io_service::~io_service()", referenced from:
+      kaguya::ObjectWrapper<yasio::inet::io_service>::~ObjectWrapper() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::write_bytes(void const*, int)", referenced from:
+      void yasio::obstream::write_i<bool>(bool) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<signed char>(signed char) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<short>(short) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<int>(int) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<long long>(long long) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<unsigned char>(unsigned char) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      void yasio::obstream::write_i<unsigned short>(unsigned short) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      ...
+  "MagicAnimation::createMagic(char const*, float, bool)", referenced from:
+      lua_kuizhi_MagicAnimation_createMagic(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::obstream::~obstream()", referenced from:
+      kaguya::ObjectWrapper<yasio::obstream>::~ObjectWrapper() in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "MagicAnimation::pustFrameTexture(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      lua_kuizhi_MagicAnimation_pustFrameTexture(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::obstream::pop32(unsigned int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ExtMagicManager::onUpdate(float)", referenced from:
+      lua_pixeGame_ExtMagicManager_onUpdate(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "LayerCustom::initPlistList(char const*)", referenced from:
+      lua_kuizhi_LayerCustom_initPlistList(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "DeviceManager::getInstance()", referenced from:
+      lua_kuizhi_DeviceManager_getInstance(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "LayerCustom::create()", referenced from:
+      lua_kuizhi_LayerCustom_create(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "LayerCustom::appendPlist(char const*)", referenced from:
+      lua_kuizhi_LayerCustom_appendPlist(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::inet::io_service::start(std::__1::function<void (std::__1::unique_ptr<yasio::inet::io_event, std::__1::default_delete<yasio::inet::io_event> >&&)>)", referenced from:
+      luaopen_yasio::$_1::operator()(yasio::inet::io_service*, kaguya::LuaFunction) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::push8()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ResManage::instance()", referenced from:
+      lua_kuizhi_ResManage_instance(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "typeinfo for LayerCustom", referenced from:
+      lua_register_kuizhi_LayerCustom(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::inet::io_service::write(yasio::inet::io_transport*, std::__1::vector<char, std::__1::allocator<char> >, std::__1::function<void (int, unsigned long)>)", referenced from:
+      luaopen_yasio::$_2::operator()(yasio::inet::io_service*, yasio::inet::io_transport*, cxx17::basic_string_view<char, std::__1::char_traits<char> >) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      luaopen_yasio::$_3::operator()(yasio::inet::io_service*, yasio::inet::io_transport*, yasio::obstream*) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "DeviceManager::pasteFromClipboard()", referenced from:
+      lua_kuizhi_DeviceManager_pasteFromClipboard(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "cMagic::createMagic(char const*, float, bool)", referenced from:
+      lua_pixeGame_cMagic_createMagic(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::obstream::write_v32(cxx17::basic_string_view<char, std::__1::char_traits<char> >)", referenced from:
+      lyasio::$_15::operator()(yasio::obstream*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, int) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop24(unsigned int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "LayerCustom::LayerCustom()", referenced from:
+      lua_kuizhi_LayerCustom_constructor(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream_view::read_bytes(int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::inet::io_service::write_to(yasio::inet::io_transport*, std::__1::vector<char, std::__1::allocator<char> >, yasio::inet::ip::endpoint const&, std::__1::function<void (int, unsigned long)>)", referenced from:
+      luaopen_yasio::$_4::operator()(yasio::inet::io_service*, yasio::inet::io_transport*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, cxx17::basic_string_view<char, std::__1::char_traits<char> >, unsigned short) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      luaopen_yasio::$_5::operator()(yasio::inet::io_service*, yasio::inet::io_transport*, yasio::obstream*, cxx17::basic_string_view<char, std::__1::char_traits<char> >, unsigned short) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::push16()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop16(unsigned short)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "ResManage::loadTextureAsync(char const*, int)", referenced from:
+      lua_kuizhi_ResManage_loadTextureAsync(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::inet::io_service::close(int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop8()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::obstream::pop24()", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "cMagic::create()", referenced from:
+      lua_pixeGame_cMagic_create(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ResManage::loadPlistRes(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      lua_kuizhi_ResManage_loadPlistRes(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ExtCocosEffect::loadCsd(char const*)", referenced from:
+      lua_pixeGame_ExtCocosEffect_loadCsd(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ResManage::callback(cocos2d::Ref*)", referenced from:
+      lua_kuizhi_ResManage_callback(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::ibstream::ibstream(yasio::obstream const*)", referenced from:
+      kaguya::ObjectWrapper<yasio::ibstream>::ObjectWrapper<yasio::obstream const*>(yasio::obstream const*&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "typeinfo for cEntity", referenced from:
+      lua_register_pixeGame_cEntity(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ExtMagicManager::instance()", referenced from:
+      lua_pixeGame_ExtMagicManager_instance(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ExtMagicManager::creatMagic(char const*, float, bool)", referenced from:
+      lua_pixeGame_ExtMagicManager_creatMagic(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ResManage::unLoadPlistRes(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      lua_kuizhi_ResManage_unLoadPlistRes(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "DeviceManager::copyToClipboard(char const*)", referenced from:
+      lua_kuizhi_DeviceManager_copyToClipboard(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "typeinfo for cMagic", referenced from:
+      lua_register_pixeGame_cMagic(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "yasio::inet::io_service::open(unsigned long, int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream_view::seek(long, int)", referenced from:
+      _luaopen_yasio in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "yasio::ibstream::ibstream(std::__1::vector<char, std::__1::allocator<char> >)", referenced from:
+      luaopen_yasio::$_0::operator()(yasio::inet::io_event*, bool, bool) const in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+      kaguya::ObjectWrapper<yasio::ibstream>::ObjectWrapper<std::__1::vector<char, std::__1::allocator<char> > >(std::__1::vector<char, std::__1::allocator<char> >&&) in lyasio-520c7ab857ea2f8f2e0b1f2510239046.o
+  "cMagic::registerLastFrameCallBack(int)", referenced from:
+      lua_pixeGame_cMagic_setLastFrameCallFunc(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ExtCocosEffect::play(bool)", referenced from:
+      lua_pixeGame_ExtCocosEffect_play(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "cEntity::cEntity()", referenced from:
+      lua_pixeGame_cEntity_constructor(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "cEntity::pustFrameTexture(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      lua_pixeGame_cEntity_pustFrameTexture(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "ExtCocosEffect::play(char const*, bool)", referenced from:
+      lua_pixeGame_ExtCocosEffect_playActionName(lua_State*) in lua_kuizhi_auto-fe6d644871abc3c882ec00e56b619bf0.o
+  "_luaopen_pb", referenced from:
+      register_all_packages(lua_State*) in AppDelegate-2a9f23b156f742e34c196ca1e1506ffb.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Build target libcocos2d iOS of project cocos2d_libs with configuration Debug
+/Users/sophia/Documents/code/frameworks/cocos2d-x/build/cocos2d_libs.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 6.0, but the range of supported deployment target versions is 9.0 to 15.2.99. (in target 'libcocos2d iOS' from project 'cocos2d_libs')
+
+
+
+Build target libluacocos2d iOS of project cocos2d_lua_bindings with configuration Debug
+/Users/sophia/Documents/code/frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 6.0, but the range of supported deployment target versions is 9.0 to 15.2.99. (in target 'libluacocos2d iOS' from project 'cocos2d_lua_bindings')
+
+
+
+Build target libsimulator iOS of project libsimulator with configuration Debug
+/Users/sophia/Documents/code/frameworks/cocos2d-x/tools/simulator/libsimulator/proj.ios_mac/libsimulator.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.1, but the range of supported deployment target versions is 9.0 to 15.2.99. (in target 'libsimulator iOS' from project 'libsimulator')
+
+
+
+
+Build failed    2021/12/31, 15:09    8.3 seconds

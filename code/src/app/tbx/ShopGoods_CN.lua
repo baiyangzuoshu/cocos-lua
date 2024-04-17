@@ -1,0 +1,20 @@
+local ShopGoods_CN = {
+["1"] = { ShopGoodsId = 1, ShopGoodsShowType = 1, ShowName = "一捧金币", Desc = "购买可获得20000金币", ShopGoodsIcon = "201", CostResData = {{1,{20}}}, Discount = 100, GetResData = {{2,{20000}}}, GiftResData = {}, ShopGoodsCount = -1, IsShowRes = true },
+["2"] = { ShopGoodsId = 2, ShopGoodsShowType = 1, ShowName = "一小堆金币", Desc = "购买可获得100000金币", ShopGoodsIcon = "202", CostResData = {{1,{100}}}, Discount = 100, GetResData = {{2,{100000}}}, GiftResData = {}, ShopGoodsCount = -1, IsShowRes = true },
+["3"] = { ShopGoodsId = 3, ShopGoodsShowType = 1, ShowName = "一堆金币", Desc = "购买可获得500000金币", ShopGoodsIcon = "203", CostResData = {{1,{500}}}, Discount = 100, GetResData = {{2,{500000}}}, GiftResData = {{2,{10000}}}, ShopGoodsCount = -1, IsShowRes = true },
+["4"] = { ShopGoodsId = 4, ShopGoodsShowType = 1, ShowName = "一大堆金币 ", Desc = "购买可获得1000000金币", ShopGoodsIcon = "204", CostResData = {{1,{1000}}}, Discount = 100, GetResData = {{2,{1000000}}}, GiftResData = {{2,{40000}}}, ShopGoodsCount = -1, IsShowRes = true },
+["5"] = { ShopGoodsId = 5, ShopGoodsShowType = 1, ShowName = "一袋金币", Desc = "购买可获得5000000金币", ShopGoodsIcon = "205", CostResData = {{1,{5000}}}, Discount = 100, GetResData = {{2,{5000000}}}, GiftResData = {{2,{300000}}}, ShopGoodsCount = -1, IsShowRes = true },
+["6"] = { ShopGoodsId = 6, ShopGoodsShowType = 1, ShowName = "一大箱金币", Desc = "购买可获得10000000金币", ShopGoodsIcon = "206", CostResData = {{1,{10000}}}, Discount = 100, GetResData = {{2,{10000000}}}, GiftResData = {{2,{800000}}}, ShopGoodsCount = -1, IsShowRes = true },
+["7"] = { ShopGoodsId = 7, ShopGoodsShowType = 2, ShowName = "马里奥红", Desc = "", ShopGoodsIcon = "103002", CostResData = {{1,{100}}}, Discount = 100, GetResData = {{103,{103002}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["8"] = { ShopGoodsId = 8, ShopGoodsShowType = 2, ShowName = "招财进宝喵", Desc = "", ShopGoodsIcon = "103003", CostResData = {{1,{200}}}, Discount = 100, GetResData = {{103,{103003}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["9"] = { ShopGoodsId = 9, ShopGoodsShowType = 2, ShowName = "神隐大鸟", Desc = "", ShopGoodsIcon = "103004", CostResData = {{1,{1000}}}, Discount = 100, GetResData = {{103,{103004}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["10"] = { ShopGoodsId = 10, ShopGoodsShowType = 2, ShowName = "尊贵象征", Desc = "", ShopGoodsIcon = "103005", CostResData = {{1,{2000}}}, Discount = 100, GetResData = {{103,{103005}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["11"] = { ShopGoodsId = 11, ShopGoodsShowType = 2, ShowName = "王者临世", Desc = "", ShopGoodsIcon = "103006", CostResData = {{1,{2000}}}, Discount = 100, GetResData = {{103,{103006}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["12"] = { ShopGoodsId = 12, ShopGoodsShowType = 2, ShowName = "Mr.J", Desc = "", ShopGoodsIcon = "103007", CostResData = {{1,{500}}}, Discount = 100, GetResData = {{103,{103007}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["13"] = { ShopGoodsId = 13, ShopGoodsShowType = 2, ShowName = "怒鸟出击", Desc = "", ShopGoodsIcon = "103008", CostResData = {{1,{500}}}, Discount = 100, GetResData = {{103,{103008}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["14"] = { ShopGoodsId = 14, ShopGoodsShowType = 2, ShowName = "汪蛋", Desc = "", ShopGoodsIcon = "103009", CostResData = {{1,{300}}}, Discount = 100, GetResData = {{103,{103009}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["15"] = { ShopGoodsId = 15, ShopGoodsShowType = 2, ShowName = "汪汪狗", Desc = "", ShopGoodsIcon = "103010", CostResData = {{1,{300}}}, Discount = 100, GetResData = {{103,{103010}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false },
+["16"] = { ShopGoodsId = 16, ShopGoodsShowType = 2, ShowName = "巾帼英雄", Desc = "", ShopGoodsIcon = "103011", CostResData = {{1,{1000}}}, Discount = 100, GetResData = {{103,{103011}}}, GiftResData = {}, ShopGoodsCount = 1, IsShowRes = false }
+
+}
+cc.exports.g_ShopGoods_CN = ShopGoods_CN

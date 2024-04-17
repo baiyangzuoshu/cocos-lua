@@ -1,0 +1,86 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt, will remove stale json folder",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\u0027",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : D:\\Android\\android-ndk-r16b\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\n-j16\nNDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external\nNDK_DEBUG\u003d1\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\Android\\android-ndk-r16b\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/LetUsRoll/code/client/code/frameworks/runtime-src/proj.android/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dE:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\n-j16\nNDK_MODULE_PATH\u003dE:/LetUsRoll/code/client/code/frameworks/cocos2d-x;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/cocos;E:/LetUsRoll/code/client/code/frameworks/cocos2d-x/external\nNDK_DEBUG\u003d1\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_output.txt",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Application.mk",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "E:\\LetUsRoll\\code\\client\\code\\frameworks\\runtime-src\\proj.android\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a"
+  }
+]

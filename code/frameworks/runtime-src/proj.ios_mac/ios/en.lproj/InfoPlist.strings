@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Dahua
+
+  Created by 魏雨 on 2022/6/1.
+  
+*/
+
+
+NSMicrophoneUsageDescription="To send audio messages,needs access to your device is microphone.";
+NSLocationWhenInUseUsageDescription="Need your location information to provide better services.";

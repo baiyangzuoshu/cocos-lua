@@ -1,0 +1,48 @@
+
+301701_zh_CN.png
+size: 966,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 575, 2
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 838, 149
+  size: 126, 136
+  orig: 126, 136
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 712, 2
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+投影
+  rotate: true
+  xy: 2, 8
+  size: 277, 317
+  orig: 277, 317
+  offset: 0, 0
+  index: -1
+筹码
+  rotate: false
+  xy: 321, 20
+  size: 252, 265
+  orig: 252, 265
+  offset: 0, 0
+  index: -1
+简体
+  rotate: false
+  xy: 575, 134
+  size: 261, 151
+  orig: 261, 151
+  offset: 0, 0
+  index: -1

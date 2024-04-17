@@ -1,0 +1,48 @@
+
+302801.png
+size: 539,329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+text
+  rotate: false
+  xy: 224, 146
+  size: 192, 181
+  orig: 192, 181
+  offset: 0, 0
+  index: -1
+信封前
+  rotate: false
+  xy: 2, 161
+  size: 220, 166
+  orig: 220, 166
+  offset: 0, 0
+  index: -1
+信封底
+  rotate: false
+  xy: 2, 2
+  size: 220, 157
+  orig: 220, 157
+  offset: 0, 0
+  index: -1
+合
+  rotate: false
+  xy: 224, 45
+  size: 220, 99
+  orig: 220, 99
+  offset: 0, 0
+  index: -1
+对
+  rotate: false
+  xy: 418, 232
+  size: 108, 95
+  orig: 108, 95
+  offset: 0, 0
+  index: -1
+开
+  rotate: true
+  xy: 446, 10
+  size: 220, 91
+  orig: 220, 91
+  offset: 0, 0
+  index: -1

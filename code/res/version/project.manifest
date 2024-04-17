@@ -1,0 +1,4146 @@
+{
+  "assets": {
+    "res/art/animation/106001/106001_1.plist": {
+      "md5": "00468e743bee50bbb9829dcadf60faf7"
+    }, 
+    "res/art/animation/106001/106001_1.pvr.ccz": {
+      "md5": "f63e5c45d15d29b41c0cf395aa8f1af9"
+    }, 
+    "res/art/animation/106002/106002_1.plist": {
+      "md5": "5d1002cb8e40fa40cf63b75aed2647c8"
+    }, 
+    "res/art/animation/106002/106002_1.pvr.ccz": {
+      "md5": "f63e5c45d15d29b41c0cf395aa8f1af9"
+    }, 
+    "res/art/animation/106003/106003_1.plist": {
+      "md5": "7c422d6e70d9f37b45b093120856f3f5"
+    }, 
+    "res/art/animation/106003/106003_1.pvr.ccz": {
+      "md5": "a3e65be40715ecb49be8a2bd16401ffa"
+    }, 
+    "res/art/animation/106004/106004_1.plist": {
+      "md5": "21996d1ef83362103ca17cfca5f4018a"
+    }, 
+    "res/art/animation/106004/106004_1.pvr.ccz": {
+      "md5": "4b3797cae4b3d71349915cb38ad97129"
+    }, 
+    "res/art/animation/106005/106005_1.plist": {
+      "md5": "a08e7df89712e0fb174dbcf1c0c3259e"
+    }, 
+    "res/art/animation/106005/106005_1.pvr.ccz": {
+      "md5": "139b03d2faed361477728f8da20e1991"
+    }, 
+    "res/art/animation/106006/106006_1.plist": {
+      "md5": "0f0765a00a15ef5a3e59b109dcc474ae"
+    }, 
+    "res/art/animation/106006/106006_1.pvr.ccz": {
+      "md5": "326b01fb63997e102dbee8fd1524d287"
+    }, 
+    "res/art/animation/106007/106007_1.plist": {
+      "md5": "4ce686b04f1d20f94de615ede7e55d89"
+    }, 
+    "res/art/animation/106007/106007_1.pvr.ccz": {
+      "md5": "7e217c465a8605b2538b755ce464f1de"
+    }, 
+    "res/art/animation/106008/106008_1.plist": {
+      "md5": "41f80a0d393bce1b810d789857d811e6"
+    }, 
+    "res/art/animation/106008/106008_1.pvr.ccz": {
+      "md5": "8bf9b2ca9ce1c370fb41a1091e28fef2"
+    }, 
+    "res/art/animation/106009/106009_1.plist": {
+      "md5": "78af35730f5eeb4dfa349c3f1675b736"
+    }, 
+    "res/art/animation/106009/106009_1.pvr.ccz": {
+      "md5": "5407ef1982f4c26180248007e465fc96"
+    }, 
+    "res/art/animation/106010/106010_1.plist": {
+      "md5": "a32387e712a7c197afa3738f9d7a9178"
+    }, 
+    "res/art/animation/106010/106010_1.pvr.ccz": {
+      "md5": "a5e234e1749ca4e6efd99a607d40e1bc"
+    }, 
+    "res/art/animation/106011/106011_1.plist": {
+      "md5": "9bbf907912143ce72f71a5ca7c6945ec"
+    }, 
+    "res/art/animation/106011/106011_1.pvr.ccz": {
+      "md5": "70d7eab68f29fad8e22064efb0d7a11c"
+    }, 
+    "res/art/animation/106012/106012_1.plist": {
+      "md5": "614b496af331f267bd45349eed6b0b3a"
+    }, 
+    "res/art/animation/106012/106012_1.pvr.ccz": {
+      "md5": "6e4c8a4c63f2641cac28f406b5dfe2fe"
+    }, 
+    "res/art/animation/106013/106013_1.plist": {
+      "md5": "d05b498ad8bf1febcc21cf1f3c40da51"
+    }, 
+    "res/art/animation/106013/106013_1.pvr.ccz": {
+      "md5": "864859a1cdf7ca2a9124410773da5535"
+    }, 
+    "res/art/animation/106014/106014_1.plist": {
+      "md5": "684344180425e7045596733ecd75fac1"
+    }, 
+    "res/art/animation/106014/106014_1.pvr.ccz": {
+      "md5": "6f78459ebf8482ec35917057e6a8a34d"
+    }, 
+    "res/art/animation/106015/106015_1.plist": {
+      "md5": "687c92d4d57fcbd77ff093aab736ea1d"
+    }, 
+    "res/art/animation/106015/106015_1.pvr.ccz": {
+      "md5": "33062e23e9bc7c83474b49f779fca7de"
+    }, 
+    "res/art/animation/106016/106016_1.plist": {
+      "md5": "729c986039fc37324d128b3d3bce67d4"
+    }, 
+    "res/art/animation/106016/106016_1.pvr.ccz": {
+      "md5": "dc12dd8a5e73998b3fa640a8790a84c3"
+    }, 
+    "res/art/picture/0010/010_1.plist": {
+      "md5": "4cead489f864f58ee523472c219776b4"
+    }, 
+    "res/art/picture/0010/010_1.pvr.ccz": {
+      "md5": "c9a8a0df7bcfcbd97a78444d66565720"
+    }, 
+    "res/art/picture/0020/020_1.plist": {
+      "md5": "28b4feff52529865e35093686a026535"
+    }, 
+    "res/art/picture/0020/020_1.pvr.ccz": {
+      "md5": "a8b0900b550b0f784cbbb4f90262b51f"
+    }, 
+    "res/art/picture/0030/030_1.plist": {
+      "md5": "254dcec2da0b21142bef18f84efe1bfb"
+    }, 
+    "res/art/picture/0030/030_1.pvr.ccz": {
+      "md5": "7031a3a6e4ce99ec2a41427c97cf792d"
+    }, 
+    "res/art/picture/0031/031_1.plist": {
+      "md5": "7cb8a4da909ceabc44884a3da0e49805"
+    }, 
+    "res/art/picture/0031/031_1.pvr.ccz": {
+      "md5": "3e857234764b5c8eb8f76bbe36cd2c18"
+    }, 
+    "res/art/picture/0032/032_1.plist": {
+      "md5": "f87ace132b1c0cc8f4e02ec44d8b2cf2"
+    }, 
+    "res/art/picture/0032/032_1.pvr.ccz": {
+      "md5": "ec0e3dbd338f815e14ed7a64bf757581"
+    }, 
+    "res/art/picture/0040/040_1.plist": {
+      "md5": "4df876097414bf4a912014686a3c8f90"
+    }, 
+    "res/art/picture/0040/040_1.pvr.ccz": {
+      "md5": "58a632e9cfb4ac545ac9e98d50eed0a1"
+    }, 
+    "res/art/picture/0050/050_1.plist": {
+      "md5": "568d6ad2d56a16572eac67c6d7e52357"
+    }, 
+    "res/art/picture/0050/050_1.pvr.ccz": {
+      "md5": "dd66c252d2c245be9696a05f5874d7b2"
+    }, 
+    "res/art/picture/0060/060_1.plist": {
+      "md5": "1d042a1ae572a840f8ded1e8abe48c13"
+    }, 
+    "res/art/picture/0060/060_1.pvr.ccz": {
+      "md5": "65d45615a8e8020420d1084ad2d8f86d"
+    }, 
+    "res/art/picture/0070/070_1.plist": {
+      "md5": "52cc73b03ecc5688600a6c590cba265e"
+    }, 
+    "res/art/picture/0070/070_1.pvr.ccz": {
+      "md5": "3537a520f1dd7f187149871dd42c59ff"
+    }, 
+    "res/art/picture/0080/080_1.plist": {
+      "md5": "89b0243fed599886f48b94f045bce839"
+    }, 
+    "res/art/picture/0080/080_1.pvr.ccz": {
+      "md5": "57a9584afa7a97c21dd4659ff0b2294f"
+    }, 
+    "res/art/picture/0090/090_1.plist": {
+      "md5": "7e8bb1cb5fd5fbf3ae75b97675cb8bdc"
+    }, 
+    "res/art/picture/0090/090_1.pvr.ccz": {
+      "md5": "a86472be0fe47ba9cddd3211ea9e2b2c"
+    }, 
+    "res/art/picture/0100/100_1.plist": {
+      "md5": "faae336744ae4d5a235ccab59b22d91f"
+    }, 
+    "res/art/picture/0100/100_1.pvr.ccz": {
+      "md5": "210d315d72f3993e28c6ecbaf8edd233"
+    }, 
+    "res/art/picture/0101/101_1.plist": {
+      "md5": "86aec7d46832488f83b9fd48585b9bb7"
+    }, 
+    "res/art/picture/0101/101_1.pvr.ccz": {
+      "md5": "2988be7f74d8531ce0c288a2d4422448"
+    }, 
+    "res/art/picture/0102/102_1.plist": {
+      "md5": "ddb7925c3faf69ef2a30176e41456fd9"
+    }, 
+    "res/art/picture/0102/102_1.pvr.ccz": {
+      "md5": "b37de420c349e4ef4001d3c13156987b"
+    }, 
+    "res/cocosAnimation/Animation/200101_en.csb": {
+      "md5": "2099688d00111578fd2974c63364833f"
+    }, 
+    "res/cocosAnimation/Animation/200101_zh_CN.csb": {
+      "md5": "ed3567271de982cd722b680423168df6"
+    }, 
+    "res/cocosAnimation/Animation/200101_zh_TW.csb": {
+      "md5": "c1dcefc9653c650e61be796ae93c431a"
+    }, 
+    "res/cocosAnimation/Animation/200102_en.csb": {
+      "md5": "8df47d74a17d4f6a55214ea1cdb8097a"
+    }, 
+    "res/cocosAnimation/Animation/200102_zh_CN.csb": {
+      "md5": "ed3567271de982cd722b680423168df6"
+    }, 
+    "res/cocosAnimation/Animation/200102_zh_TW.csb": {
+      "md5": "c1dcefc9653c650e61be796ae93c431a"
+    }, 
+    "res/cocosAnimation/Animation/200103_en.csb": {
+      "md5": "2099688d00111578fd2974c63364833f"
+    }, 
+    "res/cocosAnimation/Animation/200103_zh_CN.csb": {
+      "md5": "ed3567271de982cd722b680423168df6"
+    }, 
+    "res/cocosAnimation/Animation/200103_zh_TW.csb": {
+      "md5": "6b7ec943e2eb7f36bf933198ccc76618"
+    }, 
+    "res/cocosAnimation/Animation/200104_en.csb": {
+      "md5": "8df47d74a17d4f6a55214ea1cdb8097a"
+    }, 
+    "res/cocosAnimation/Animation/200104_zh_CN.csb": {
+      "md5": "ed3567271de982cd722b680423168df6"
+    }, 
+    "res/cocosAnimation/Animation/200104_zh_TW.csb": {
+      "md5": "c1dcefc9653c650e61be796ae93c431a"
+    }, 
+    "res/cocosAnimation/Animation/200105_en.csb": {
+      "md5": "8df47d74a17d4f6a55214ea1cdb8097a"
+    }, 
+    "res/cocosAnimation/Animation/200105_zh_CN.csb": {
+      "md5": "ed3567271de982cd722b680423168df6"
+    }, 
+    "res/cocosAnimation/Animation/200105_zh_TW.csb": {
+      "md5": "c7034ad27ec84a17c510860383560bf0"
+    }, 
+    "res/cocosAnimation/Animation/200106_en.csb": {
+      "md5": "e9c13b32d8cd0bf97c2444d74cd14431"
+    }, 
+    "res/cocosAnimation/Animation/200106_zh_CN.csb": {
+      "md5": "c878a10cee6e82927de6df8903aa3f5f"
+    }, 
+    "res/cocosAnimation/Animation/200106_zh_TW.csb": {
+      "md5": "106c6203bb5f02c1634854c3310d11ea"
+    }, 
+    "res/cocosAnimation/Animation/2001_zh_TW.csb": {
+      "md5": "546493d492a8c7496de5b22fd0eacb71"
+    }, 
+    "res/cocosAnimation/Animation/2002.csb": {
+      "md5": "73ee177b8a001b3529d6fbd08336ff01"
+    }, 
+    "res/cocosAnimation/Animation/200201_en.csb": {
+      "md5": "714844e9309667cdcb469065bac5672b"
+    }, 
+    "res/cocosAnimation/Animation/200201_zh_CN.csb": {
+      "md5": "6b5477ed48e99a97e56ea6d805b768f8"
+    }, 
+    "res/cocosAnimation/Animation/200201_zh_TW.csb": {
+      "md5": "6191e5b791a19abdbd7a20c2096eaff7"
+    }, 
+    "res/cocosAnimation/Animation/200202_en.csb": {
+      "md5": "bdcf0e5b3dd246e4c9228029bd8c7755"
+    }, 
+    "res/cocosAnimation/Animation/200202_zh_CN.csb": {
+      "md5": "6480ddc18d5fa95b19ef4a7bad3ae089"
+    }, 
+    "res/cocosAnimation/Animation/200202_zh_TW.csb": {
+      "md5": "5ae54f05f18b9f2b42123c097099d73e"
+    }, 
+    "res/cocosAnimation/Animation/200203_en.csb": {
+      "md5": "665ceddac9f8ec1c8f2289aaf3698073"
+    }, 
+    "res/cocosAnimation/Animation/200203_zh_CN.csb": {
+      "md5": "954fa57e25173df02d5dc0096b9cde2b"
+    }, 
+    "res/cocosAnimation/Animation/200203_zh_TW.csb": {
+      "md5": "3bdc769de2acb9dbe196a8f25c9a8caf"
+    }, 
+    "res/cocosAnimation/Animation/200204_en.csb": {
+      "md5": "77edfec0b0f499c23084e0c612d56916"
+    }, 
+    "res/cocosAnimation/Animation/200204_zh_CN.csb": {
+      "md5": "78c5ccbbb748acaafc25674530589bf8"
+    }, 
+    "res/cocosAnimation/Animation/200204_zh_TW.csb": {
+      "md5": "bacdbcc635f969bc7791f84c09f15348"
+    }, 
+    "res/cocosAnimation/Animation/200205_en.csb": {
+      "md5": "34cf7ea009bc79b9ef9c0e255ab41152"
+    }, 
+    "res/cocosAnimation/Animation/200205_zh_CN.csb": {
+      "md5": "cd474434562a53164f39c90c213652c5"
+    }, 
+    "res/cocosAnimation/Animation/200205_zh_TW.csb": {
+      "md5": "63b2fad5b81bf510ab2a020367ff3f89"
+    }, 
+    "res/cocosAnimation/Animation/200206_en.csb": {
+      "md5": "fb84a5557e60000fcad538c373c00822"
+    }, 
+    "res/cocosAnimation/Animation/200206_zh_CN.csb": {
+      "md5": "93f8c85d15c5748845316750405c2646"
+    }, 
+    "res/cocosAnimation/Animation/200206_zh_TW.csb": {
+      "md5": "a498daab2ed49e2faf69fd0a15f615b2"
+    }, 
+    "res/cocosAnimation/Animation/200207_en.csb": {
+      "md5": "c81526369a290a3d6d7627975fd9bc24"
+    }, 
+    "res/cocosAnimation/Animation/200207_zh_CN.csb": {
+      "md5": "8f0c93788df7e3e601de4ed9c8b8f583"
+    }, 
+    "res/cocosAnimation/Animation/200207_zh_TW.csb": {
+      "md5": "2fd82c38bfb161bfbc9111bf528cb2b3"
+    }, 
+    "res/cocosAnimation/Animation/2002_zh_TW.csb": {
+      "md5": "9f6e89111d15a0a1518d78a3ffe61a56"
+    }, 
+    "res/cocosAnimation/Animation/200301_en.csb": {
+      "md5": "610833743cc988290c8326d41f87a811"
+    }, 
+    "res/cocosAnimation/Animation/200301_zh_CN.csb": {
+      "md5": "008ad044338cee52dd5c7c2bf6b80cea"
+    }, 
+    "res/cocosAnimation/Animation/200301_zh_TW.csb": {
+      "md5": "ce7ad654f67271c45542a20c9e830a3a"
+    }, 
+    "res/cocosAnimation/Animation/2003_zh_TW.csb": {
+      "md5": "43be77b2554757dc4ade79ab1dadf9ad"
+    }, 
+    "res/cocosAnimation/Animation/200401_en.csb": {
+      "md5": "013ac86ca390ae4c4847a2d74bf46c85"
+    }, 
+    "res/cocosAnimation/Animation/200401_zh_CN.csb": {
+      "md5": "7e49d9bf3e251e33ad5a0d9998dbf3b5"
+    }, 
+    "res/cocosAnimation/Animation/200401_zh_TW.csb": {
+      "md5": "41b15b48ca9d1dc12676c0e5645516f0"
+    }, 
+    "res/cocosAnimation/Animation/200402_en.csb": {
+      "md5": "175a7dfe660f724452c20a01b3a4314e"
+    }, 
+    "res/cocosAnimation/Animation/200402_zh_CN.csb": {
+      "md5": "bf434d98baab4131bdbd9eb370ff82c3"
+    }, 
+    "res/cocosAnimation/Animation/200402_zh_TW.csb": {
+      "md5": "8b206161f750bf625b99ae64ffb46799"
+    }, 
+    "res/cocosAnimation/Animation/200403_en.csb": {
+      "md5": "992d93de5389417ab186db0924946ba4"
+    }, 
+    "res/cocosAnimation/Animation/200403_zh_CN.csb": {
+      "md5": "7e1ea9001b0b5f66a39901125a9716eb"
+    }, 
+    "res/cocosAnimation/Animation/200403_zh_TW.csb": {
+      "md5": "e937cab8f7157c3f2931b68d0c9f640f"
+    }, 
+    "res/cocosAnimation/Animation/200404_en.csb": {
+      "md5": "48e436f212f4cdde25a258d7898c9fd3"
+    }, 
+    "res/cocosAnimation/Animation/200404_zh_CN.csb": {
+      "md5": "18b7253f631cc9d3b9f42b148ea6b2ab"
+    }, 
+    "res/cocosAnimation/Animation/200404_zh_TW.csb": {
+      "md5": "27a66ab97b5266d20cbd396b5249f215"
+    }, 
+    "res/cocosAnimation/Animation/200405_en.csb": {
+      "md5": "c8a5326b43860964f788db862a0d8188"
+    }, 
+    "res/cocosAnimation/Animation/200405_zh_CN.csb": {
+      "md5": "2bf674908e290e9c81e054fbbd340545"
+    }, 
+    "res/cocosAnimation/Animation/200405_zh_TW.csb": {
+      "md5": "c76225d82bf591688382453a7d7496ad"
+    }, 
+    "res/cocosAnimation/Animation/200406_en.csb": {
+      "md5": "8585968a297dac96e7daf1b4ba03790f"
+    }, 
+    "res/cocosAnimation/Animation/200406_zh_CN.csb": {
+      "md5": "bca6cd544ff01a7058f79ad5e88da660"
+    }, 
+    "res/cocosAnimation/Animation/200406_zh_TW.csb": {
+      "md5": "a312fb8a02d4643ae678718604fc0dc6"
+    }, 
+    "res/cocosAnimation/Animation/200407_en.csb": {
+      "md5": "556f17d97bbb739b5e7605fc39bd4e1f"
+    }, 
+    "res/cocosAnimation/Animation/200407_zh_CN.csb": {
+      "md5": "d3d86119497379a7b52d8c0596318a17"
+    }, 
+    "res/cocosAnimation/Animation/200407_zh_TW.csb": {
+      "md5": "61c437819623a230b39ccb34b3b0f88b"
+    }, 
+    "res/cocosAnimation/Animation/2004_zh_TW.csb": {
+      "md5": "5d4993451d93cfd5ac34a1524edabe83"
+    }, 
+    "res/cocosAnimation/Animation/200501_en.csb": {
+      "md5": "1acdd87542d74c6a9818b465873cb64f"
+    }, 
+    "res/cocosAnimation/Animation/200501_zh_CN.csb": {
+      "md5": "5f56b68bc56847eb7cf260e906b6a8be"
+    }, 
+    "res/cocosAnimation/Animation/200501_zh_TW.csb": {
+      "md5": "d2f98d60e329725cf331c3bc7e8c159c"
+    }, 
+    "res/cocosAnimation/Animation/200502_en.csb": {
+      "md5": "c8af8b6534c588869fc0fbf12ddac50d"
+    }, 
+    "res/cocosAnimation/Animation/200502_zh_CN.csb": {
+      "md5": "63a4a393cef9b96f417fc9f420c97bd6"
+    }, 
+    "res/cocosAnimation/Animation/200502_zh_TW.csb": {
+      "md5": "df40d9e178e43a1e2630ba8ffb7f6294"
+    }, 
+    "res/cocosAnimation/Animation/200503_en.csb": {
+      "md5": "f31fb11078f31b4180589aea4caf25c9"
+    }, 
+    "res/cocosAnimation/Animation/200503_zh_CN.csb": {
+      "md5": "a1972297303758d984c02698b3ee4081"
+    }, 
+    "res/cocosAnimation/Animation/200503_zh_TW.csb": {
+      "md5": "5d99a03ed64bb5543f403958bd6229c2"
+    }, 
+    "res/cocosAnimation/Animation/200504_en.csb": {
+      "md5": "e2c82369c9eab12ac05db75d98a56d34"
+    }, 
+    "res/cocosAnimation/Animation/200504_zh_CN.csb": {
+      "md5": "9b4b00881880b7129f2fcc9a596c58c4"
+    }, 
+    "res/cocosAnimation/Animation/200504_zh_TW.csb": {
+      "md5": "56a75a88ac8baf8944629be098abf018"
+    }, 
+    "res/cocosAnimation/Animation/200505_en.csb": {
+      "md5": "77cfcb6ace5e745c1b7a480aae5c537c"
+    }, 
+    "res/cocosAnimation/Animation/200505_zh_CN.csb": {
+      "md5": "39a84becd26047fc66a3c40b6d93c05b"
+    }, 
+    "res/cocosAnimation/Animation/200505_zh_TW.csb": {
+      "md5": "6c8912ed6b16167561f35faf54b70540"
+    }, 
+    "res/cocosAnimation/Animation/200506_en.csb": {
+      "md5": "6f2df0893f278469aa1c280b91acd49c"
+    }, 
+    "res/cocosAnimation/Animation/200506_zh_CN.csb": {
+      "md5": "f7a934804422d975c09b9e9b66db1380"
+    }, 
+    "res/cocosAnimation/Animation/200506_zh_TW.csb": {
+      "md5": "13de75e12143a82a6f07230e761acf8e"
+    }, 
+    "res/cocosAnimation/Animation/2005_zh_TW.csb": {
+      "md5": "355820376d39f3a257c886c4d806406c"
+    }, 
+    "res/cocosAnimation/Animation/200601_en.csb": {
+      "md5": "c48eca987eba1d58c132297fbae6eabd"
+    }, 
+    "res/cocosAnimation/Animation/200601_zh_CN.csb": {
+      "md5": "a433314de8d786a94ba368a6fcbb63a7"
+    }, 
+    "res/cocosAnimation/Animation/200601_zh_TW.csb": {
+      "md5": "6f17bd361060ce857f7a5882238845e0"
+    }, 
+    "res/cocosAnimation/Animation/200701_en.csb": {
+      "md5": "c482c5910caa28552e15797e8cd694c7"
+    }, 
+    "res/cocosAnimation/Animation/200701_zh_CN.csb": {
+      "md5": "a86b867523836b4d9f855cc9941ec38b"
+    }, 
+    "res/cocosAnimation/Animation/200701_zh_TW.csb": {
+      "md5": "d42e7eae9438b5c6935a564ef94c5323"
+    }, 
+    "res/cocosAnimation/Animation/200801_en.csb": {
+      "md5": "66829bcb339212523eb1816a0dd2a872"
+    }, 
+    "res/cocosAnimation/Animation/200801_zh_CN.csb": {
+      "md5": "9301306d8b057fa5c4e68ef10dbd002c"
+    }, 
+    "res/cocosAnimation/Animation/200801_zh_TW.csb": {
+      "md5": "a16e21cf87c81969b0da40ec669c67fd"
+    }, 
+    "res/cocosAnimation/Animation/200901.csb": {
+      "md5": "3e27bce6f1632c03861ee9cff01a688d"
+    }, 
+    "res/cocosAnimation/Animation/201001.csb": {
+      "md5": "f05320346c33fa0a3ea54ce953d96d6d"
+    }, 
+    "res/cocosAnimation/Animation/201101.csb": {
+      "md5": "9ec6ae003c3814e92a4d8f1babc5cd07"
+    }, 
+    "res/cocosAnimation/Animation/201201.csb": {
+      "md5": "3204ab3c8fe6b135ad02462445ad5fd8"
+    }, 
+    "res/cocosAnimation/Animation/201301_en.csb": {
+      "md5": "8971f85cb326e88f5c626a9470cd6742"
+    }, 
+    "res/cocosAnimation/Animation/201301_zh_CN.csb": {
+      "md5": "9cbccf3d8991690657b39dda7999c54c"
+    }, 
+    "res/cocosAnimation/Animation/201301_zh_TW.csb": {
+      "md5": "6fb86e0dc708802562321b5f97c069a9"
+    }, 
+    "res/cocosAnimation/Animation/201401_en.csb": {
+      "md5": "8899a1ea1cde56ab33969b720db99ab2"
+    }, 
+    "res/cocosAnimation/Animation/201401_zh_CN.csb": {
+      "md5": "5260823560e16fd36ccc7a84696b80f3"
+    }, 
+    "res/cocosAnimation/Animation/201401_zh_TW.csb": {
+      "md5": "208d14096c0df3d7773397c53295dae1"
+    }, 
+    "res/cocosAnimation/Animation/201501.csb": {
+      "md5": "ff8ca81e016daf62163d7f052897c22d"
+    }, 
+    "res/cocosAnimation/Animation/201601_en.csb": {
+      "md5": "859c65b41dea1ee1b2b929c5e2ec3928"
+    }, 
+    "res/cocosAnimation/Animation/201601_zh_CN.csb": {
+      "md5": "3dc12736c91c941c3eac8bfec7666cc5"
+    }, 
+    "res/cocosAnimation/Animation/201601_zh_TW.csb": {
+      "md5": "f9c10b0aac211135894f11b6617ab9e5"
+    }, 
+    "res/cocosAnimation/Art/2001/2001.plist": {
+      "md5": "6b81276b25a17ae316225cb882c08eb9"
+    }, 
+    "res/cocosAnimation/Art/2001/2001.png": {
+      "md5": "4cf8463f8c741f1aa698cefe35630cd4"
+    }, 
+    "res/cocosAnimation/Art/2002/2002.plist": {
+      "md5": "0fdd9c846866a2c4bf11a650f9f3a08b"
+    }, 
+    "res/cocosAnimation/Art/2002/2002.png": {
+      "md5": "4bffd22daeaedf26a36775f45fde7a74"
+    }, 
+    "res/cocosAnimation/Art/2003/2003.plist": {
+      "md5": "18b2f73bb2de31c152bf65809bd07b28"
+    }, 
+    "res/cocosAnimation/Art/2003/2003.png": {
+      "md5": "3bd7280e33f4082a099661ffa69259a2"
+    }, 
+    "res/cocosAnimation/Art/2004/2004.plist": {
+      "md5": "f26d31a55319c5e1a636f76c14a23a3b"
+    }, 
+    "res/cocosAnimation/Art/2004/2004.png": {
+      "md5": "cb2951f47062f64660a011655ca1bb43"
+    }, 
+    "res/cocosAnimation/Art/2005/2005.plist": {
+      "md5": "10201eaee94fa7ffda1a81861f13461e"
+    }, 
+    "res/cocosAnimation/Art/2005/2005.png": {
+      "md5": "d974c0ad5a6c8455b8031f972ba126c2"
+    }, 
+    "res/cocosAnimation/Default/ImageFile.png": {
+      "md5": "8b8ddbe2391511ba6e05d975dd2d9dba"
+    }, 
+    "res/cocosAnimation/Default/Sprite.png": {
+      "md5": "380f19a83e69524450a3fc2b466dc275"
+    }, 
+    "res/cocosAnimation/HelloWorld.png": {
+      "md5": "ddd079dbd7b0bb745795250c4647f04a"
+    }, 
+    "res/cocosAnimation/MainScene.csb": {
+      "md5": "4e8f7e73d4437f4fdd1af8d581df1352"
+    }, 
+    "res/cocosAnimation/csi/2001.plist": {
+      "md5": "9b9f87a61ed0b384cd27e8051d460443"
+    }, 
+    "res/cocosAnimation/csi/2001.png": {
+      "md5": "055fb84176472ffc193a3174867d80f2"
+    }, 
+    "res/cocosAnimation/csi/2002.plist": {
+      "md5": "bc8fe5d890b63fff97f5a39869ed46ee"
+    }, 
+    "res/cocosAnimation/csi/2002.png": {
+      "md5": "8dc3ca21426c928ebc29e0a5a9c59304"
+    }, 
+    "res/cocosAnimation/csi/2003.plist": {
+      "md5": "0bb717b1e184fecd5accbc3b5abdd12a"
+    }, 
+    "res/cocosAnimation/csi/2003.png": {
+      "md5": "a9e3aeb21f8f251a2fbd9df6e8c287c0"
+    }, 
+    "res/cocosAnimation/csi/2004.plist": {
+      "md5": "04c44488ff1cea037614bcba6d19ec0c"
+    }, 
+    "res/cocosAnimation/csi/2004.png": {
+      "md5": "a8d05e6537dd890a85b079b1a3b33894"
+    }, 
+    "res/cocosAnimation/csi/2005.plist": {
+      "md5": "7496af363c8ad151095962dca7a72461"
+    }, 
+    "res/cocosAnimation/csi/2005.png": {
+      "md5": "75cc0a07f7db5a9ae7fb4c87994874ce"
+    }, 
+    "res/cocosAnimation/csi/2006.plist": {
+      "md5": "da59e6d67d0fc11a098fa765123a459e"
+    }, 
+    "res/cocosAnimation/csi/2006.png": {
+      "md5": "88c9982f5c1f9ff84da3fedd2fd82f32"
+    }, 
+    "res/cocosAnimation/csi/2007.plist": {
+      "md5": "1a5018ffb1621f7a3099ffb9e92dc52f"
+    }, 
+    "res/cocosAnimation/csi/2007.png": {
+      "md5": "2c721910839156a2e40fc98af5b8a7e7"
+    }, 
+    "res/cocosAnimation/csi/2008.plist": {
+      "md5": "626403b409b14c25814f0f2b299ae4d4"
+    }, 
+    "res/cocosAnimation/csi/2008.png": {
+      "md5": "00bd7fb8715d536d449eb646041b673d"
+    }, 
+    "res/cocosAnimation/csi/2009.plist": {
+      "md5": "8f34a7498da009b81acf939b95291621"
+    }, 
+    "res/cocosAnimation/csi/2009.png": {
+      "md5": "312cd69b6d32d444e4dd78910b692953"
+    }, 
+    "res/cocosAnimation/csi/2010.plist": {
+      "md5": "19d1107ca4e248f3ff02d4b82b7b9099"
+    }, 
+    "res/cocosAnimation/csi/2010.png": {
+      "md5": "80b03d20bb0bacf55b44a29b5333c032"
+    }, 
+    "res/cocosAnimation/csi/2011.plist": {
+      "md5": "d8f0ffb21ea7e3300b9b12c64abb331c"
+    }, 
+    "res/cocosAnimation/csi/2011.png": {
+      "md5": "e2213f865478370e83ed30fc17bb0452"
+    }, 
+    "res/cocosAnimation/csi/2012.plist": {
+      "md5": "5a587ca5b4e6edb8221a4a65130fa588"
+    }, 
+    "res/cocosAnimation/csi/2012.png": {
+      "md5": "ab5e429e39622bcc9d889507568bbeaa"
+    }, 
+    "res/cocosAnimation/csi/2013.plist": {
+      "md5": "893acc604d6a69d41dd71eb6769ccfe0"
+    }, 
+    "res/cocosAnimation/csi/2013.png": {
+      "md5": "d224465358d5ac683b26c0c34bf77ee1"
+    }, 
+    "res/cocosAnimation/csi/2014.plist": {
+      "md5": "fb5162359bca051fbd366997cb04effb"
+    }, 
+    "res/cocosAnimation/csi/2014.png": {
+      "md5": "c147c5fe0dc255bd8dd926d9dd672357"
+    }, 
+    "res/cocosAnimation/csi/2015.plist": {
+      "md5": "45b1e532e5272e6b32ff41b9589f4721"
+    }, 
+    "res/cocosAnimation/csi/2015.png": {
+      "md5": "5ba33e4f9acb10f5f41337f226bb7bd1"
+    }, 
+    "res/cocosAnimation/csi/2016.plist": {
+      "md5": "dca64fededa46f3f34d26f46c6e77f86"
+    }, 
+    "res/cocosAnimation/csi/2016.png": {
+      "md5": "491e5e881ae9f146b161f52d6244cb4d"
+    }, 
+    "res/csd/01_01_Login/01_01_LoadingLayer.lua": {
+      "md5": "d85adb111274a8459bddbce45d19913d"
+    }, 
+    "res/csd/01_01_Login/01_01_LoadingLayer_0.lua": {
+      "md5": "f7999e77761384df2b115946f5a1aa9b"
+    }, 
+    "res/csd/01_01_Login/01_01_LoadingTipPopUp_2.lua": {
+      "md5": "eb80531e2ce40f2ca3968db00ff9eb15"
+    }, 
+    "res/csd/01_01_Login/01_01_LoadingTipPopUp_3.lua": {
+      "md5": "475cfa9d4e1de2ea76bbd589b6332774"
+    }, 
+    "res/csd/01_01_Login/01_01_LoadingTipPopUp_4.lua": {
+      "md5": "ae5d9192975513c404b09551a553e4da"
+    }, 
+    "res/csd/01_01_Login/01_01_LoginLayer.lua": {
+      "md5": "280a9b4f83450185d90b0982f6570956"
+    }, 
+    "res/csd/01_01_Login/01_01_LoginLimitPopUp.lua": {
+      "md5": "fb0654773558e9584b425937167251eb"
+    }, 
+    "res/csd/01_01_Login/01_01_NoticeLayer.lua": {
+      "md5": "c64ef75e89827beaddd2cffdde052114"
+    }, 
+    "res/csd/01_01_Login/Node.lua": {
+      "md5": "483905fa67e2340a3ef8d556e1753cb5"
+    }, 
+    "res/csd/01_02_Main/01_02_AccountReplacePopUp.lua": {
+      "md5": "77b7661de60267ec86cb1a7371106cf3"
+    }, 
+    "res/csd/01_02_Main/01_02_CommonMediumTipPopUp_2.lua": {
+      "md5": "66bf20dc77844af7c249469876b73640"
+    }, 
+    "res/csd/01_02_Main/01_02_CommonMiniTipPopUp_0.lua": {
+      "md5": "a358ee1d78c9bb8707a2cc4835804439"
+    }, 
+    "res/csd/01_02_Main/01_02_CommonMiniTipPopUp_1.lua": {
+      "md5": "76db7ea9866288dee0373d2f46830110"
+    }, 
+    "res/csd/01_02_Main/01_02_CommonMiniTipPopUp_2.lua": {
+      "md5": "744232553771bcadff970328fd916de9"
+    }, 
+    "res/csd/01_02_Main/01_02_MainAddFriendsPopUp.lua": {
+      "md5": "d30b620f55bbb5b785e40510997b8900"
+    }, 
+    "res/csd/01_02_Main/01_02_MainFriendListCell.lua": {
+      "md5": "ce7df218581b68410c87d02b542ee8bf"
+    }, 
+    "res/csd/01_02_Main/01_02_MainFriendListCell_1.lua": {
+      "md5": "e0a27f2a7aea64d958575dee86500c12"
+    }, 
+    "res/csd/01_02_Main/01_02_MainFriendListCell_2.lua": {
+      "md5": "45258363bc652894c6f08e9d7d21c24e"
+    }, 
+    "res/csd/01_02_Main/01_02_MainFriendsList.lua": {
+      "md5": "be5f0d72112d03497fb0f1b76f38ede7"
+    }, 
+    "res/csd/01_02_Main/01_02_MainLayer.lua": {
+      "md5": "c5d0bab126d751b96f7861a494cdb5b8"
+    }, 
+    "res/csd/01_02_Main/01_02_WarnCell.lua": {
+      "md5": "3696ab1d0751082861217a2f4d44b1b7"
+    }, 
+    "res/csd/01_03_PropKnapsack/01_03_PropKnapsackCell.lua": {
+      "md5": "122d84da74550c9aeb1e887cd335c5e4"
+    }, 
+    "res/csd/01_03_PropKnapsack/01_03_PropKnapsackDiceCupPopUp.lua": {
+      "md5": "8b7c8ad287e8e66ed5a3a29bba9c9b14"
+    }, 
+    "res/csd/01_03_PropKnapsack/01_03_PropKnapsackNodeCell.lua": {
+      "md5": "088cd0551298cba7618ef02a98ac8f4e"
+    }, 
+    "res/csd/01_03_PropKnapsack/01_03_PropKnapsackPopUp.lua": {
+      "md5": "a2f75dd132d9f64dd74b82ad050487f2"
+    }, 
+    "res/csd/01_03_PropKnapsack/01_03_PropKnapsackTipPopUp.lua": {
+      "md5": "02b64aa48b03ad42ae3fe05e4ac85e2f"
+    }, 
+    "res/csd/01_04_Task/01_04_TaskCell.lua": {
+      "md5": "639df4c75e3bfd93307e473a720aea48"
+    }, 
+    "res/csd/01_04_Task/01_04_TaskPopUp.lua": {
+      "md5": "fe88ca38c9e8f91861adb30375dfb87e"
+    }, 
+    "res/csd/01_04_Task/01_04_TaskResCell.lua": {
+      "md5": "1530508e432ab9504713cc651a30e6fb"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_HeadSittingCell.lua": {
+      "md5": "1dfcea9da9ff8b5f7f2aef2fb1dbd591"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_HeadSittingLayer.lua": {
+      "md5": "154954dc3e9a3c26343634598249a371"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_HeadSittingNodeCell.lua": {
+      "md5": "f1387ecddfffabb93ff0589d3d9098ca"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_ModifyNameConfirmLayer.lua": {
+      "md5": "bcd4835a91b3419692d77c6fdc20d586"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_ModifyNameLayer.lua": {
+      "md5": "53afa56687e2ed572bf44a7f7487a0df"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_ModifySexLayer.lua": {
+      "md5": "72ef6774795cf6963341a4597d4460d3"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_ModifySignatureLayer.lua": {
+      "md5": "b1b206c7e2fe5b05736da4245d68158e"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_PersonalCenterBlackTipPopUp.lua": {
+      "md5": "4a669605ba27819fcc30dac712218044"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_PersonalCenterDeleteTipPopUp.lua": {
+      "md5": "1e55c9a9d0096e428a543a267bdab3e7"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_PersonalCenterMorePopUp.lua": {
+      "md5": "345eadee01d516d0cb9881bad324d8fe"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_PersonalInformationLayer.lua": {
+      "md5": "e3b6161931579a75bd233a259c147269"
+    }, 
+    "res/csd/01_06_PersonalCenter/01_06_PersonalLayer.lua": {
+      "md5": "23a56e861e0cb43a68410d7ef66f2fe2"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SIttingLanguagePopUp.lua": {
+      "md5": "935fb3f1ac8d5a77118191fcb61cecb3"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingAccountLayer.lua": {
+      "md5": "ad472682cb5e52b6fee1e949e1a40a52"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingBindChangeLayer.lua": {
+      "md5": "6a4fb2907973d4bd406c6a6065c6e1f3"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingBindLayer.lua": {
+      "md5": "cab8c454287481da37f56532a060fb5d"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingChangePopUp.lua": {
+      "md5": "5634abc417b80f82a42c6d6a8b993e9f"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingHelpLayer.lua": {
+      "md5": "a31af47191dce79ff5e359812f7b7106"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingLayer.lua": {
+      "md5": "4f95ff3e32cca406ce4e7d2ef0485433"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingModifyAccountLayer.lua": {
+      "md5": "db907d7aec124e19248854acafdbf150"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingModifyAccountPopUp.lua": {
+      "md5": "2f1b5900b92664e8a6c68df96a131149"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingModifyPasswordLayer.lua": {
+      "md5": "1b624ec7aea127053914a2d6636d98e3"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingPhoneNumAreaLayer.lua": {
+      "md5": "c8b1c62971df11412bd3b51bd9851ede"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingSignOutAgreementLayer.lua": {
+      "md5": "8e4027c901788fdb97cceac1fd6a0334"
+    }, 
+    "res/csd/01_07_Sitting/01_07_SittingUnbindPopUp.lua": {
+      "md5": "5ccd26e313b55d7304cd183e54cbd8a6"
+    }, 
+    "res/csd/01_10_Mail/01_10_DeleteConfirmLayer.lua": {
+      "md5": "08c8b2b0a187e09b61cc7566ca7d0546"
+    }, 
+    "res/csd/01_10_Mail/01_10_MailBoxLayer.lua": {
+      "md5": "3e9e5a78d8e44dea868bb446ea664c15"
+    }, 
+    "res/csd/01_10_Mail/01_10_MailCell.lua": {
+      "md5": "4a006dd19a5af397814b3eeb59fa2ae1"
+    }, 
+    "res/csd/01_10_Mail/01_10_MailCheckLayer.lua": {
+      "md5": "1278304f6bd39e8fee80d55f6cfee28f"
+    }, 
+    "res/csd/01_10_Mail/01_10_MailLayer.lua": {
+      "md5": "f683adfe5293f914e97332a69c1139ad"
+    }, 
+    "res/csd/01_11_ActivitiesBulletin/01_11_ActivitiesCell.lua": {
+      "md5": "6e908ea320ff0a62ece87a7bc1aa7f12"
+    }, 
+    "res/csd/01_11_ActivitiesBulletin/01_11_ActivitiesLayer.lua": {
+      "md5": "57aaf327e196acc070f992ba6934a9e8"
+    }, 
+    "res/csd/01_11_ActivitiesBulletin/01_11_ActivitiesNoiceCell.lua": {
+      "md5": "a4b0aab22722b0fd610d36c1c3bd8578"
+    }, 
+    "res/csd/01_11_ActivitiesBulletin/01_11_ActivitiesNoticePopUp.lua": {
+      "md5": "9e061ad22496c4609447eea2a249d935"
+    }, 
+    "res/csd/01_11_ActivitiesBulletin/01_11_WalkingLanternLayer.lua": {
+      "md5": "060065aad69e656e94dd4d31131590b6"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideBigPrizeLayer.lua": {
+      "md5": "6710e3456cfb2437eb6a372262a2d4e7"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideBoastLayer.lua": {
+      "md5": "0bd9a863dcee100b35f6b0e6ff7b6e68"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideBoastResultPopUp.lua": {
+      "md5": "81dba0f34299db9847966f9f8dcc0cdb"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideDiceCupLayer.lua": {
+      "md5": "ab3bc13367d9bfe3499840ebbc8c77b5"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideGuessingLayer.lua": {
+      "md5": "6d65682ffb2c59c47a26680d27aada04"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideMiniTipPopUp_1.lua": {
+      "md5": "8f53c743be5ff2f1c9f9061abbd6c230"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideMiniTipPopUp_2.lua": {
+      "md5": "838b35cab7a21395c687d53e7eabed26"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideMiniTipPopUp_3.lua": {
+      "md5": "e1189c1a1299a901e2d22595bf8c5e7c"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideNumberLayer.lua": {
+      "md5": "1b69d77830978d1493f598a6edf4bdae"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuidePointLayer.lua": {
+      "md5": "717fa3c4520633b3484336c25a0edfd1"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_GuideWinAwardLayer.lua": {
+      "md5": "61cf616b33eea49496fdbb65d5dc92e2"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_NoviceGuideLayer.lua": {
+      "md5": "02642d72b6f52ca0db3d0380e88a31d2"
+    }, 
+    "res/csd/01_16_NoviceGuide/01_16_NoviceStartGuideLayer.lua": {
+      "md5": "fd28c0aece394580bfe312c7f5d7090c"
+    }, 
+    "res/csd/01_17_GetRes/01_17_EnclosureLayer.lua": {
+      "md5": "042a5febe1fae94d8e344e072b25192e"
+    }, 
+    "res/csd/01_17_GetRes/01_17_GetResourcesLayer.lua": {
+      "md5": "c3da2eae2bf87b927fac2c8917185620"
+    }, 
+    "res/csd/01_18_Relief/01_18_ReliefLayer.lua": {
+      "md5": "241ea14dc6668280823e99149b1dd754"
+    }, 
+    "res/csd/02_01_Boast/02_01_BingoLayer.lua": {
+      "md5": "53f0011977adf10bac5e9c122058234e"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoasPlayerListCell.lua": {
+      "md5": "c150207e5f9243f4788b6e41f87dd370"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoasPlayertListPopUp.lua": {
+      "md5": "bcf5cbc179f1a05301cea248c424b300"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastChatPopUp.lua": {
+      "md5": "75791523d58504d758c2c9b5a72c638c"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastGuessingHeadCell.lua": {
+      "md5": "6d7629b7240a600bf17bbe6d67714cfb"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastHangUpPopUp.lua": {
+      "md5": "813cbb383ab770f98fc9f6816efb0049"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastLayer.lua": {
+      "md5": "9597aec7923bd1fa7241941b9db6fc2f"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastListCell.lua": {
+      "md5": "da1cda67d5bb8ab8c1e9ab1640b55580"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastMagicEmojiCell.lua": {
+      "md5": "1c2afb91ca728903f703adb8fdab4143"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastMagicEmojiPopUp.lua": {
+      "md5": "78d707bc0d42abe0da0864bd1e893d20"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastMoneyFlyLayer.lua": {
+      "md5": "c45322aec4b02ea6e6f730bd9b5aa5fa"
+    }, 
+    "res/csd/02_01_Boast/02_01_BoastResultPopUp.lua": {
+      "md5": "45269a2b86a204271ae348a1180bb24f"
+    }, 
+    "res/csd/02_01_Boast/02_01_CancelLayer.lua": {
+      "md5": "babbb5bf7f43fa89cec57ba30bfd1218"
+    }, 
+    "res/csd/02_01_Boast/02_01_DiceCupLayer.lua": {
+      "md5": "c2f9b9d00ed2edf0ae07719652feb9d9"
+    }, 
+    "res/csd/02_01_Boast/02_01_GuessingHeadLayer.lua": {
+      "md5": "093bf8fa30c915be43a7c01a11846284"
+    }, 
+    "res/csd/02_01_Boast/02_01_GuessingLayer.lua": {
+      "md5": "894cbd0f8c89a9cd1f086d0614b3552d"
+    }, 
+    "res/csd/02_01_Boast/02_01_GuessingResultLayer.lua": {
+      "md5": "e8b5cf3f8b60c32c36ddb263435927b9"
+    }, 
+    "res/csd/02_01_Boast/02_01_LossLayer.lua": {
+      "md5": "59323474dd01826120dd71fdbe6a4ff2"
+    }, 
+    "res/csd/02_01_Boast/02_01_MatchingLayer.lua": {
+      "md5": "5d11b1f081ef1d8332aa8a5d0b71a720"
+    }, 
+    "res/csd/02_01_Boast/02_01_NumberLayer.lua": {
+      "md5": "19e6ee2516a394d3d6c76dc649256df1"
+    }, 
+    "res/csd/02_01_Boast/02_01_PointLayer.lua": {
+      "md5": "71ae465b252becf17a392341d66f3394"
+    }, 
+    "res/csd/02_01_Boast/02_01_ReapProfitLayer.lua": {
+      "md5": "bd4729a093ab1c9fb23210c6a1cf1818"
+    }, 
+    "res/csd/02_01_Boast/02_01_ReplaceBottomInjection.lua": {
+      "md5": "12415d86d689b4f58cf3cc201a69d4c8"
+    }, 
+    "res/csd/02_01_Boast/02_01_ReplaceBottomInjectionFail.lua": {
+      "md5": "419c28c50a3f8a9c155dfc500b550aa1"
+    }, 
+    "res/csd/02_01_Boast/02_01_ReplaceBottomInjectionSuccess.lua": {
+      "md5": "268c7e1dfe2034a9b1b17f898107b353"
+    }, 
+    "res/csd/02_01_Boast/02_01_ReplaceBottomLayer.lua": {
+      "md5": "f3bc84f1b5e9d992d051e900d2dddfc5"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_BankerGuessSizeLayer.lua": {
+      "md5": "8426462e482a13b5476dd1f911cfbbc5"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_GuessSizeHintCell.lua": {
+      "md5": "ae51bea5c191a59c00da35d3902d931e"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_GuessSizeLayer.lua": {
+      "md5": "d5db29154a53d6d75a3de4d1c2457712"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_GuessSizeMiniTipPopUp_1.lua": {
+      "md5": "4d6d0ebe31410c2da4e77db0cd2d13a4"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_GuessSizeMiniTipPopUp_2.lua": {
+      "md5": "3808de6641221212a48b51f207809da9"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_GuessSizeMiniTipPopUp_3.lua": {
+      "md5": "de9aae0427c2ef2b9375b70f54808e8e"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_MainGuessSizeHintCell.lua": {
+      "md5": "5805c3de6cc28896dbe0d2bdbe078fe5"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_PlayerMessageCell.lua": {
+      "md5": "b75b036f66119e02a3f88effae6fe526"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_RankingPlayerCell.lua": {
+      "md5": "1ec11bac72721c516d655ddc483e705d"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_RodGoldRankingLayer.lua": {
+      "md5": "80c5a2e1e3c135446d1fa3ddd9542f05"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_SelectedLeopardCell.lua": {
+      "md5": "e6e0023db2451708a2511d734425cf23"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_SizeResultCell.lua": {
+      "md5": "2673460a612a5216a4646b76d68b26c9"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_SizeResultSpriteCell.lua": {
+      "md5": "183ceb8e71e2a44d8c2b3fed70ed201b"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_SmashEggCell.lua": {
+      "md5": "41dbb9299daa90879d380a97cb7a67c9"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_SmashEggPlaceCell.lua": {
+      "md5": "951bffe01595c6fe05e969b235de0bfa"
+    }, 
+    "res/csd/02_02_GuessSize/02_02_WalkingLanternCell.lua": {
+      "md5": "879eb417706537d052e581268c0f655e"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_AudioHeadCell.lua": {
+      "md5": "7ef513a8a78c6242b0b3e1a382defbde"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_BetChipAndHeadCell.lua": {
+      "md5": "e7ea5937a840ba8a57d9088e960794b6"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_DiceBabyMiniTipPopUp_1.lua": {
+      "md5": "ecf18ffb76bc2abeac57e7bd1434b2ae"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_DiceBabyMiniTipPopUp_2.lua": {
+      "md5": "c1a5eff53d0769a2b82097cf49a77f1d"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_DiceBabyMiniTipPopUp_3.lua": {
+      "md5": "cc6c3400303cee8df8e1f7a126f7ff48"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_MainDiceBabyHintCell.lua": {
+      "md5": "9d44b707d49af6c68e3b75f17f92eb4c"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_ModelRecordCell.lua": {
+      "md5": "ba4358478a5148fe95cf6e0891f50e6c"
+    }, 
+    "res/csd/02_04_DiceBaby/02_04_OpenAnimationCell.lua": {
+      "md5": "df3a00106ad1e20cc1b2e300bda047bb"
+    }, 
+    "res/csd/03_01_Shop/03_01_DiceBoxLayer.lua": {
+      "md5": "958f8dc07566c6cb92c511ed36ebfdea"
+    }, 
+    "res/csd/03_01_Shop/03_01_DiceBoxShowLayer.lua": {
+      "md5": "ab3ea5273ab57ac4eb428995a5a49329"
+    }, 
+    "res/csd/03_01_Shop/03_01_GoldConfirmLayer.lua": {
+      "md5": "f0d398832a4da443216b625d6d6221e3"
+    }, 
+    "res/csd/03_01_Shop/03_01_NodeLayer.lua": {
+      "md5": "09b722b109bd2b199d61329d673f2ef2"
+    }, 
+    "res/csd/03_01_Shop/03_01_RechargeLayer.lua": {
+      "md5": "a2f32745b72c3ba5e2373d639625ad30"
+    }, 
+    "res/csd/03_01_Shop/03_01_ShopVipRewardCell.lua": {
+      "md5": "22a58e56c34ff5d24d6efa270d76149b"
+    }, 
+    "res/csd/03_01_Shop/03_01_StoreLayer.lua": {
+      "md5": "df89c0760c5e80c8e288437db9bf6791"
+    }, 
+    "res/csd/03_01_Shop/03_01_SuccessLayer.lua": {
+      "md5": "94648a46001c0737e7dc2a0bd19ca763"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationCheck.lua": {
+      "md5": "e2421f8fe8e74c28fcd110247a0bf508"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationCheckCell.lua": {
+      "md5": "47a32fda07838e06b4b0df7110711344"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationPopUp.lua": {
+      "md5": "2ef0373e20ddb50a78078c4af3eac839"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationRewardCell.lua": {
+      "md5": "7dc1692a8f5ed0d9c4361ba3df770c8c"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationRulesPopUp.lua": {
+      "md5": "4594575484fac87009ff1678b41e2656"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationSharePopUp.lua": {
+      "md5": "d0544eab4b12592b3eefa50478a08dbe"
+    }, 
+    "res/csd/03_04_Invitation/03_04_InvitationTaskCell.lua": {
+      "md5": "79c8e1947652f04f9f44d3ee32f85444"
+    }, 
+    "res/csd/03_08_NewWelfare/03_08_NewWelfareLoginCell.lua": {
+      "md5": "25c8f460f3ea08c155c00201c8b6d4a0"
+    }, 
+    "res/csd/03_08_NewWelfare/03_08_NewWelfareLoginPopUp.lua": {
+      "md5": "8c183bd04dac38944b1feb8e22091443"
+    }, 
+    "res/csd/03_08_NewWelfare/03_08_NewWelfareNoviceCell.lua": {
+      "md5": "a3bf5d5718914d6e35ecca91318a1004"
+    }, 
+    "res/csd/03_08_NewWelfare/03_08_NewWelfareNovicePopUp.lua": {
+      "md5": "ae5351626986bba1e41d3476631b9729"
+    }, 
+    "res/csd/03_10_OperateGiftBag/03_10_OperateGiftBagNoviceCell.lua": {
+      "md5": "f17190304a2ffd393f4ffe666714cf09"
+    }, 
+    "res/csd/03_10_OperateGiftBag/03_10_OperateGiftBagNovicePopUp.lua": {
+      "md5": "e6050eb9c9f25424c3a9f9f596c99102"
+    }, 
+    "res/csd/03_12_Service/03_12_CurrentServiceCell.lua": {
+      "md5": "c27be399fcffa61cb759edd0dccf9168"
+    }, 
+    "res/csd/03_12_Service/03_12_MiniTipPopUp.lua": {
+      "md5": "211feeb4d7b5ec66cbd4a9b57fa92ce0"
+    }, 
+    "res/csd/03_12_Service/03_12_ServiceCell.lua": {
+      "md5": "b48b9a7bcf4c514b13619a5658bac15d"
+    }, 
+    "res/csd/03_12_Service/03_12_ServiceInletLayer.lua": {
+      "md5": "9df63d2fa87e4e8dc60bcd45e37afc16"
+    }, 
+    "res/csd/03_12_Service/03_12_ServiceLayer.lua": {
+      "md5": "f07857d56c8a8cf43fe602c2fcdb2d62"
+    }, 
+    "res/csd/03_12_Service/03_12_UserDetailsCell.lua": {
+      "md5": "6a0561490b0b9c0acb39d29b3dbd958e"
+    }, 
+    "res/csd/04_01_Chat/04_01_ChatCell.lua": {
+      "md5": "a391c9426a9bcd95e6979310c03784d0"
+    }, 
+    "res/csd/04_01_Chat/04_01_ChatChannelCell.lua": {
+      "md5": "d922fddb71cd1cd8107b87c5173b9c5c"
+    }, 
+    "res/csd/04_01_Chat/04_01_ChatLayer.lua": {
+      "md5": "890705b507a37cfeec54086e260bcf28"
+    }, 
+    "res/csd/04_01_Chat/04_01_ChatPlayerCell.lua": {
+      "md5": "4dc594ca1bef9773d69134f4f7a7da46"
+    }, 
+    "res/csd/04_02_Friends/04_02_FriendsCell.lua": {
+      "md5": "18d2571a28421191ff826214c1d59804"
+    }, 
+    "res/csd/04_02_Friends/04_02_FriendsPopUp.lua": {
+      "md5": "96210a236584c5e3cbae77215f0f32ed"
+    }, 
+    "res/csd/LuaScript/LuaExtend.lua": {
+      "md5": "ff0e4ae57f935c02f7b10b4545dfc0e0"
+    }, 
+    "res/csd/LuaScript/newButton.lua": {
+      "md5": "b9ab357a0e4b12d0d8d54d56c83d409a"
+    }, 
+    "res/font/Default.TTF": {
+      "md5": "e63653407669814f5b0eb9bbdc175f77"
+    }, 
+    "res/font/Font001.ttf": {
+      "md5": "8864ba3cfc27587b7541100a6c032a40"
+    }, 
+    "res/font/Font002.TTF": {
+      "md5": "53aae799c3508c75204976a575b73086"
+    }, 
+    "res/font/Font003.ttf": {
+      "md5": "c8eecd684bbe09392d8a29d998a2c120"
+    }, 
+    "res/font/Font004.ttf": {
+      "md5": "989cfaa05a19bc9e1d2714b84447a96e"
+    }, 
+    "res/font/Font005.ttf": {
+      "md5": "8a36205bd9b83e03af0591a004bc97f4"
+    }, 
+    "res/font/WordArt001.png": {
+      "md5": "19aea7d5fb4d642ca428dd5e468636ff"
+    }, 
+    "res/font/WordArt002.fnt": {
+      "md5": "80a6e4e94441025335342ca42557d71a"
+    }, 
+    "res/font/WordArt002_0.png": {
+      "md5": "6b3aebaa5f8967f067237d90c99e921c"
+    }, 
+    "res/font/en/font/Default.ttf": {
+      "md5": "5673da52c98bb6cb33ada5aaf649703e"
+    }, 
+    "res/font/en/font/Font001.ttf": {
+      "md5": "36b5bab58a18b9c924861a4ccbf1a790"
+    }, 
+    "res/font/en/font/Font002.ttf": {
+      "md5": "53aae799c3508c75204976a575b73086"
+    }, 
+    "res/font/en/font/Font003.ttf": {
+      "md5": "c8eecd684bbe09392d8a29d998a2c120"
+    }, 
+    "res/font/en/font/Font004.ttf": {
+      "md5": "989cfaa05a19bc9e1d2714b84447a96e"
+    }, 
+    "res/font/en/font/Font005.ttf": {
+      "md5": "8a36205bd9b83e03af0591a004bc97f4"
+    }, 
+    "res/font/en/font/WordArt001.png": {
+      "md5": "19aea7d5fb4d642ca428dd5e468636ff"
+    }, 
+    "res/font/en/font/WordArt002.fnt": {
+      "md5": "80a6e4e94441025335342ca42557d71a"
+    }, 
+    "res/font/en/font/WordArt002_0.png": {
+      "md5": "6b3aebaa5f8967f067237d90c99e921c"
+    }, 
+    "res/music/01bgm/Bgm001.mp3": {
+      "md5": "840f14854e23ab06d265d1ac800842df"
+    }, 
+    "res/music/01bgm/Bgm002.mp3": {
+      "md5": "864fcbaf1c39326988895b250dbea3a1"
+    }, 
+    "res/music/01bgm/Bgm003.mp3": {
+      "md5": "7a2a10cec3099ff9e867a4adf2751723"
+    }, 
+    "res/music/01bgm/Bgm004.mp3": {
+      "md5": "5550728a49daabd00bd0e7e2c2354e85"
+    }, 
+    "res/music/01bgm/Bgm005.mp3": {
+      "md5": "497fedb8e7543387f4e875c06d81e7a9"
+    }, 
+    "res/music/02sound/Sound001.mp3": {
+      "md5": "efa3f3923e55dcc8ed5c637bed7b4226"
+    }, 
+    "res/music/02sound/Sound002.mp3": {
+      "md5": "bba3a3e0c465df1794f275df3e4b1e55"
+    }, 
+    "res/music/02sound/Sound003.mp3": {
+      "md5": "0477c9fe4171a3e13ab6a084df559ee9"
+    }, 
+    "res/music/02sound/Sound004.mp3": {
+      "md5": "e4df7b1f3fce03aaa4aa2af9f108bc4b"
+    }, 
+    "res/music/02sound/Sound005.mp3": {
+      "md5": "60fbe951e80b0f5f4f2c9449d8fc841b"
+    }, 
+    "res/music/02sound/Sound006.mp3": {
+      "md5": "eacfe4f2c9c3ecf8342aad29e27bbec2"
+    }, 
+    "res/music/02sound/Sound007.mp3": {
+      "md5": "4585088f9c5db65fed49ac7c3ef1032b"
+    }, 
+    "res/music/02sound/Sound008.mp3": {
+      "md5": "3683d81472add67c5fbcfb043574740d"
+    }, 
+    "res/music/02sound/Sound009.mp3": {
+      "md5": "3df85b3e45870746474329c5f7fd417c"
+    }, 
+    "res/music/02sound/Sound010.mp3": {
+      "md5": "6cf5c1e6a171e52ebcd409a38aecca70"
+    }, 
+    "res/music/02sound/Sound011.mp3": {
+      "md5": "5ea0402038a12805fe7a5c4ce79a4c3c"
+    }, 
+    "res/music/02sound/Sound012.mp3": {
+      "md5": "9c6b72c76c03867b13f3cad90a14bbbf"
+    }, 
+    "res/music/02sound/Sound013.mp3": {
+      "md5": "c596583e5beb8e58df0fb76e6aeb493e"
+    }, 
+    "res/music/02sound/Sound014.mp3": {
+      "md5": "d0b98754b63ff90e1f67083bf5d246e5"
+    }, 
+    "res/music/02sound/Sound015.mp3": {
+      "md5": "1d0cd54b420a3b4c3d31f04da09796f0"
+    }, 
+    "res/music/02sound/Sound016.mp3": {
+      "md5": "5b23d88089881496cd7d44d5abc9c808"
+    }, 
+    "res/music/02sound/Sound017.mp3": {
+      "md5": "963c1add3d715d1bed34e261997eb66b"
+    }, 
+    "res/music/02sound/Sound018.mp3": {
+      "md5": "936be2186bb434589d34ee93e0542742"
+    }, 
+    "res/music/02sound/Sound019.mp3": {
+      "md5": "e6bf95a6ff48b7d24a469ec37add86ca"
+    }, 
+    "res/music/02sound/Sound020.mp3": {
+      "md5": "452c28011dec27240e9f2312d0177aae"
+    }, 
+    "res/music/02sound/Sound021.mp3": {
+      "md5": "3d89a36733e2c0fea0b59b0b597992e2"
+    }, 
+    "res/music/02sound/Sound022.mp3": {
+      "md5": "5825e67ef018f8c24e623fdba45c6e7d"
+    }, 
+    "res/music/02sound/Sound023.mp3": {
+      "md5": "2dbbc09492e6aa183756e131273e3387"
+    }, 
+    "res/music/02sound/Sound024.mp3": {
+      "md5": "4e40bd10ea4ee1ac64c6da92eb630297"
+    }, 
+    "res/music/02sound/Sound025.mp3": {
+      "md5": "c68be2f1394aaf27139d5a84e52f812b"
+    }, 
+    "res/music/02sound/Sound026.mp3": {
+      "md5": "6a55164930939deb4dcdcb778fa50242"
+    }, 
+    "res/music/02sound/Sound106001.mp3": {
+      "md5": "85bcb6d8a9d9430374b2675a07cab6f1"
+    }, 
+    "res/music/02sound/Sound106002.mp3": {
+      "md5": "faef0b1730c1c385c8d74c16d43b9ccd"
+    }, 
+    "res/music/02sound/Sound106003.mp3": {
+      "md5": "ba9e38b25012a2aa26bd7ebfbcf4f2dc"
+    }, 
+    "res/music/02sound/Sound106004.mp3": {
+      "md5": "92e36a22a82483e2b84904e5421d2fbe"
+    }, 
+    "res/music/02sound/Sound106005.mp3": {
+      "md5": "988fb2cced598e739582762a2bb43945"
+    }, 
+    "res/music/02sound/Sound106006.mp3": {
+      "md5": "d6637c7a405b6d7f3922e30b1bd7fbac"
+    }, 
+    "res/music/02sound/Sound106007.mp3": {
+      "md5": "434fb5de79b3b4c940cbb6453545d8ce"
+    }, 
+    "res/music/02sound/Sound106008.mp3": {
+      "md5": "0f921c09d6de61a96d52d0317fc840c2"
+    }, 
+    "res/music/02sound/Sound106009.mp3": {
+      "md5": "a28bbbfbbaf800ce40fdbe19418c2f57"
+    }, 
+    "res/music/02sound/Sound106010.mp3": {
+      "md5": "367ac4f515d4a2b77a94c8f862231ff1"
+    }, 
+    "res/music/02sound/Sound106011.mp3": {
+      "md5": "b518104f6884b72d5554b5343da51d0a"
+    }, 
+    "res/music/02sound/Sound106012.mp3": {
+      "md5": "028cb6fc04ae675409c82f61ea7d3831"
+    }, 
+    "res/music/02sound/Sound106013.mp3": {
+      "md5": "64894665d19fedd35f41d9d49872b8ff"
+    }, 
+    "res/music/02sound/Sound106014.mp3": {
+      "md5": "e8bedc254b85d328062677c63d0f0e7e"
+    }, 
+    "res/music/02sound/Sound106015.mp3": {
+      "md5": "4d8e57bddb7dc8aca4b4a388c82132ed"
+    }, 
+    "res/music/02sound/Sound106016.mp3": {
+      "md5": "9c49467c8942ac0a750c64002408bdd3"
+    }, 
+    "res/music/03cv/01zhCN/10s_zh_CN.mp3": {
+      "md5": "345b618e02fd33f68f2e0463a4abc2b6"
+    }, 
+    "res/music/03cv/01zhCN/11s_zh_CN.mp3": {
+      "md5": "39d50d05c99d2086256ba54f4dd5d5ea"
+    }, 
+    "res/music/03cv/01zhCN/12s_zh_CN.mp3": {
+      "md5": "72461d0fd37c56acf23585632c6fef95"
+    }, 
+    "res/music/03cv/01zhCN/13s_zh_CN.mp3": {
+      "md5": "e0fc6bb45d454275ad586a785cdc381d"
+    }, 
+    "res/music/03cv/01zhCN/14s_zh_CN.mp3": {
+      "md5": "b258f5ad8dacd7b0f2f34aadba4d2177"
+    }, 
+    "res/music/03cv/01zhCN/15s_zh_CN.mp3": {
+      "md5": "ad7d9d1cc3fc82fc63ddfeecb3f1eb47"
+    }, 
+    "res/music/03cv/01zhCN/16s_zh_CN.mp3": {
+      "md5": "1a73f8ffe72e146089088e2e779bd2f6"
+    }, 
+    "res/music/03cv/01zhCN/17s_zh_CN.mp3": {
+      "md5": "eef657a5e774bc40ae9b258ffb2c8d7b"
+    }, 
+    "res/music/03cv/01zhCN/18s_zh_CN.mp3": {
+      "md5": "8c3ed2db27da4ea83b890091aabb0201"
+    }, 
+    "res/music/03cv/01zhCN/19s_zh_CN.mp3": {
+      "md5": "8643cf7d01a33deda3d39ce8a67dd3df"
+    }, 
+    "res/music/03cv/01zhCN/1_zh_CN.mp3": {
+      "md5": "6a127c9addc218137a1cf282c18f3d57"
+    }, 
+    "res/music/03cv/01zhCN/20s_zh_CN.mp3": {
+      "md5": "6439439ddafc7e5fe07f51ce527fd31d"
+    }, 
+    "res/music/03cv/01zhCN/21s_zh_CN.mp3": {
+      "md5": "b3945ae413d1552f71016e7530e6aeaa"
+    }, 
+    "res/music/03cv/01zhCN/22s_zh_CN.mp3": {
+      "md5": "5306ce19265c6182909f05f7dc01145a"
+    }, 
+    "res/music/03cv/01zhCN/23s_zh_CN.mp3": {
+      "md5": "0d3e4febf6c30dfe831ceeb750bd0b62"
+    }, 
+    "res/music/03cv/01zhCN/24s_zh_CN.mp3": {
+      "md5": "28ea54abfcddf46833fed7000e32c1f7"
+    }, 
+    "res/music/03cv/01zhCN/25s_zh_CN.mp3": {
+      "md5": "a630665ff893b0f1a10d93a6baf16378"
+    }, 
+    "res/music/03cv/01zhCN/26s_zh_CN.mp3": {
+      "md5": "61e5767c3516ef7193b5ba5f9abdca1b"
+    }, 
+    "res/music/03cv/01zhCN/27s_zh_CN.mp3": {
+      "md5": "e31d7a57538848c7eb9c01eed8991866"
+    }, 
+    "res/music/03cv/01zhCN/28s_zh_CN.mp3": {
+      "md5": "cb2ba8aebdbe0372629f44b4dce36570"
+    }, 
+    "res/music/03cv/01zhCN/29s_zh_CN.mp3": {
+      "md5": "c2c37e56302e22f6589469f445615839"
+    }, 
+    "res/music/03cv/01zhCN/2_zh_CN.mp3": {
+      "md5": "5dc715ba45380b96ae68418cbacd69ee"
+    }, 
+    "res/music/03cv/01zhCN/2s_zh_CN.mp3": {
+      "md5": "2ae291e5b79223ebd1a9ea71950aba04"
+    }, 
+    "res/music/03cv/01zhCN/30s_zh_CN.mp3": {
+      "md5": "59b8875f52407259745c95a6ddf45849"
+    }, 
+    "res/music/03cv/01zhCN/31s_zh_CN.mp3": {
+      "md5": "47fd4391dfdbc2c5d0fd7b6ec2bc545f"
+    }, 
+    "res/music/03cv/01zhCN/32s_zh_CN.mp3": {
+      "md5": "7387f9a934409b76ce608f49352eb3da"
+    }, 
+    "res/music/03cv/01zhCN/33s_zh_CN.mp3": {
+      "md5": "dd4f732f4c2b967543c559a7046749a4"
+    }, 
+    "res/music/03cv/01zhCN/34s_zh_CN.mp3": {
+      "md5": "25d0aab23dc8e672304140d41ea709f4"
+    }, 
+    "res/music/03cv/01zhCN/35s_zh_CN.mp3": {
+      "md5": "e417a16da2721eeb23045be9e9901222"
+    }, 
+    "res/music/03cv/01zhCN/36s_zh_CN.mp3": {
+      "md5": "3e4cd9a1a9d85e2c9901318b2720e58b"
+    }, 
+    "res/music/03cv/01zhCN/3_zh_CN.mp3": {
+      "md5": "01a6400c8c595d2e7ccadf23d7e7c927"
+    }, 
+    "res/music/03cv/01zhCN/3s_zh_CN.mp3": {
+      "md5": "8d91000d2cff5fde44455b524d93a5f6"
+    }, 
+    "res/music/03cv/01zhCN/4_zh_CN.mp3": {
+      "md5": "8ee23c52c90ef2b9b848f0a99b27eea5"
+    }, 
+    "res/music/03cv/01zhCN/4s_zh_CN.mp3": {
+      "md5": "6b513363e1da399f6f018d2a0f510984"
+    }, 
+    "res/music/03cv/01zhCN/5_zh_CN.mp3": {
+      "md5": "185de7a4e08b0aba94241adf0fa5325b"
+    }, 
+    "res/music/03cv/01zhCN/5s_zh_CN.mp3": {
+      "md5": "8250fc5ce07cdfecd66f81564412e872"
+    }, 
+    "res/music/03cv/01zhCN/6_zh_CN.mp3": {
+      "md5": "e4b3958c69f6b4ae03e42acc0f0e5874"
+    }, 
+    "res/music/03cv/01zhCN/6s_zh_CN.mp3": {
+      "md5": "395809c79a2baa26eadd8727452147ca"
+    }, 
+    "res/music/03cv/01zhCN/7s_zh_CN.mp3": {
+      "md5": "63cd83869e243445a187d26e19332f78"
+    }, 
+    "res/music/03cv/01zhCN/8s_zh_CN.mp3": {
+      "md5": "568b50b9b3bb9fe6bbe255a297e41925"
+    }, 
+    "res/music/03cv/01zhCN/9s_zh_CN.mp3": {
+      "md5": "d209153e255c52fd4ff568633644c776"
+    }, 
+    "res/music/03cv/01zhCN/addchip10x_zh_CN.mp3": {
+      "md5": "0e79f913ebd936b577de065780df9fa2"
+    }, 
+    "res/music/03cv/01zhCN/addchip1x_zh_CN.mp3": {
+      "md5": "3c4ef3ffc2b41fcc03a3e5dab82228d4"
+    }, 
+    "res/music/03cv/01zhCN/addchip3x_zh_CN.mp3": {
+      "md5": "86e08c82b5e7dc1a99946a13e842fa90"
+    }, 
+    "res/music/03cv/01zhCN/addchip5x_zh_CN.mp3": {
+      "md5": "d5cc96acb758668ed45e768fde3aa389"
+    }, 
+    "res/music/03cv/01zhCN/allin_zh_CN.mp3": {
+      "md5": "d4d6d113acd88b5d6c9ab591770e8e43"
+    }, 
+    "res/music/03cv/01zhCN/check_zh_CN.mp3": {
+      "md5": "7ef76a1e6a4c3746f50b8a3d3e07a81f"
+    }, 
+    "res/music/03cv/01zhCN/fold_zh_CN.mp3": {
+      "md5": "4820e20963a69a36b0df6f95c0f5f301"
+    }, 
+    "res/music/03cv/01zhCN/follow_zh_CN.mp3": {
+      "md5": "e3187e576db8b0e8113cf980d1676e03"
+    }, 
+    "res/music/03cv/01zhCN/grab_zh_CN.mp3": {
+      "md5": "cc32cf397528499d35bff8f32bc0a847"
+    }, 
+    "res/music/03cv/01zhCN/open_zh_CN.mp3": {
+      "md5": "98b6aaa4d169b2a975daccb9fcd515ec"
+    }, 
+    "res/music/03cv/01zhCN/top_zh_CN.mp3": {
+      "md5": "f290760ca39b3fe46e3b2bca953096ba"
+    }, 
+    "res/music/03cv/02zhTW/10s_zh_TW.mp3": {
+      "md5": "62cbe0a926bea6894c97797f85b3b4b6"
+    }, 
+    "res/music/03cv/02zhTW/11s_zh_TW.mp3": {
+      "md5": "10b068d41ee12a3ae8d5d9debe67a33d"
+    }, 
+    "res/music/03cv/02zhTW/12s_zh_TW.mp3": {
+      "md5": "de656a6e43a48e74126d1d56155c5e64"
+    }, 
+    "res/music/03cv/02zhTW/13s_zh_TW.mp3": {
+      "md5": "b0172edd718fae92a7ee19e55eb40aba"
+    }, 
+    "res/music/03cv/02zhTW/14s_zh_TW.mp3": {
+      "md5": "43ab3426fe3c2cb160f9f5e3e39b2157"
+    }, 
+    "res/music/03cv/02zhTW/15s_zh_TW.mp3": {
+      "md5": "db7523dfcf519c16e3dd65b90f8c34bb"
+    }, 
+    "res/music/03cv/02zhTW/16s_zh_TW.mp3": {
+      "md5": "4c14389a7ad6591dcfef36ac7623331e"
+    }, 
+    "res/music/03cv/02zhTW/17s_zh_TW.mp3": {
+      "md5": "36368ba594f4135dcd3fdba4b301fe60"
+    }, 
+    "res/music/03cv/02zhTW/18s_zh_TW.mp3": {
+      "md5": "77da5f7eb9eddc104de10d6973a180d4"
+    }, 
+    "res/music/03cv/02zhTW/19s_zh_TW.mp3": {
+      "md5": "0891723d34f839c783cff55e43df782d"
+    }, 
+    "res/music/03cv/02zhTW/1_zh_TW.mp3": {
+      "md5": "57d7b15ad89f024c123a38ac648a79b9"
+    }, 
+    "res/music/03cv/02zhTW/20s_zh_TW.mp3": {
+      "md5": "f855fe9a20c9fe9314fe793276215c2f"
+    }, 
+    "res/music/03cv/02zhTW/21s_zh_TW.mp3": {
+      "md5": "a9f113ef8cc79851a636a89f6103e6b4"
+    }, 
+    "res/music/03cv/02zhTW/22s_zh_TW.mp3": {
+      "md5": "776ab94bd394e7eaee09afce95224753"
+    }, 
+    "res/music/03cv/02zhTW/23s_zh_TW.mp3": {
+      "md5": "1e5db737f9d3a3324c5f3c5f76aff480"
+    }, 
+    "res/music/03cv/02zhTW/24s_zh_TW.mp3": {
+      "md5": "0265fa547a06614e1fd95bf3e726e88e"
+    }, 
+    "res/music/03cv/02zhTW/25s_zh_TW.mp3": {
+      "md5": "85fd021cfb596e865223ba24f61eb821"
+    }, 
+    "res/music/03cv/02zhTW/26s_zh_TW.mp3": {
+      "md5": "e029c35a76597229a79d2f029133092c"
+    }, 
+    "res/music/03cv/02zhTW/27s_zh_TW.mp3": {
+      "md5": "c4a5664cb6284f7a21e9b1300bc7ed58"
+    }, 
+    "res/music/03cv/02zhTW/28s_zh_TW.mp3": {
+      "md5": "ef9bd31e585b4e97551229bacca888e2"
+    }, 
+    "res/music/03cv/02zhTW/29s_zh_TW.mp3": {
+      "md5": "06038f3ba160263534c12e7d7d23d857"
+    }, 
+    "res/music/03cv/02zhTW/2_zh_TW.mp3": {
+      "md5": "c6022c943041c13105ff47800f682097"
+    }, 
+    "res/music/03cv/02zhTW/2s_zh_TW.mp3": {
+      "md5": "d2cd44cce8a53cc5e826d0016bdfcd7e"
+    }, 
+    "res/music/03cv/02zhTW/30s_zh_TW.mp3": {
+      "md5": "0476eb8f3a91c5e0790d5cd03748513e"
+    }, 
+    "res/music/03cv/02zhTW/31s_zh_TW.mp3": {
+      "md5": "6e6605a67c8282b6d06372a560a49b3c"
+    }, 
+    "res/music/03cv/02zhTW/32s_zh_TW.mp3": {
+      "md5": "e6ff1719b755202b7930cd0369587cb7"
+    }, 
+    "res/music/03cv/02zhTW/33s_zh_TW.mp3": {
+      "md5": "e5af349fa78645ee7c051c0c7d71bd84"
+    }, 
+    "res/music/03cv/02zhTW/34s_zh_TW.mp3": {
+      "md5": "c9fdb2701d2d3eb4de2f84279facdebe"
+    }, 
+    "res/music/03cv/02zhTW/35s_zh_TW.mp3": {
+      "md5": "c5f8001f064868ee882e55d3a55cd6a9"
+    }, 
+    "res/music/03cv/02zhTW/36s_zh_TW.mp3": {
+      "md5": "bc1cb2bbe0ddac7f9fdfb5b76956aa14"
+    }, 
+    "res/music/03cv/02zhTW/3_zh_TW.mp3": {
+      "md5": "0f3c64c23efee8337cadc2b91a56843f"
+    }, 
+    "res/music/03cv/02zhTW/3s_zh_TW.mp3": {
+      "md5": "347b4d47d9ed9234d6242e66a78dd0e2"
+    }, 
+    "res/music/03cv/02zhTW/4_zh_TW.mp3": {
+      "md5": "4210c1f7ecf3f0509c2df6a91893ff8f"
+    }, 
+    "res/music/03cv/02zhTW/4s_zh_TW.mp3": {
+      "md5": "b772c954e1c45d10a6a8c03fafd39719"
+    }, 
+    "res/music/03cv/02zhTW/5_zh_TW.mp3": {
+      "md5": "84f2984e216390bb4ddb4d3ebc593314"
+    }, 
+    "res/music/03cv/02zhTW/5s_zh_TW.mp3": {
+      "md5": "0e82038f956dcc2812fa99e1fbd3e841"
+    }, 
+    "res/music/03cv/02zhTW/6_zh_TW.mp3": {
+      "md5": "95fcb2f96e94bc0e3c914b81b8c2c6ae"
+    }, 
+    "res/music/03cv/02zhTW/6s_zh_TW.mp3": {
+      "md5": "0377efc33ec21f57f40b4a411a9e6322"
+    }, 
+    "res/music/03cv/02zhTW/7s_zh_TW.mp3": {
+      "md5": "2d9509ef73a95e76c6d43bcd1befe366"
+    }, 
+    "res/music/03cv/02zhTW/8s_zh_TW.mp3": {
+      "md5": "8baf1e2ed7e2d69deec73887b6a8a80e"
+    }, 
+    "res/music/03cv/02zhTW/9s_zh_TW.mp3": {
+      "md5": "07ea8aec6c123f5240df69c266ba023a"
+    }, 
+    "res/music/03cv/02zhTW/addchip10x_zh_TW.mp3": {
+      "md5": "2f99a1e296db7c9460de7ebceb36e469"
+    }, 
+    "res/music/03cv/02zhTW/addchip1x_zh_TW.mp3": {
+      "md5": "2ff7f454662c7b68ddcbb40f102188e3"
+    }, 
+    "res/music/03cv/02zhTW/addchip3x_zh_TW.mp3": {
+      "md5": "5f0441f51c62dcdf332816f91ee68f7c"
+    }, 
+    "res/music/03cv/02zhTW/addchip5x_zh_TW.mp3": {
+      "md5": "d3ee700d17d8a1d1da40a5110eea088d"
+    }, 
+    "res/music/03cv/02zhTW/allin_r1_zh_TW.mp3": {
+      "md5": "b73fc46290f4733dbae16fcdf9ae0b2e"
+    }, 
+    "res/music/03cv/02zhTW/allin_r2_zh_TW.mp3": {
+      "md5": "8e25875668842dd251baf3ac6f7ba72f"
+    }, 
+    "res/music/03cv/02zhTW/allin_zh_TW.mp3": {
+      "md5": "daba4f1d5493ff6a4b4d8c1fc1a67bc6"
+    }, 
+    "res/music/03cv/02zhTW/check_r1_zh_TW.mp3": {
+      "md5": "36fabf00463721daa00f6f00487e7736"
+    }, 
+    "res/music/03cv/02zhTW/check_zh_TW.mp3": {
+      "md5": "97eb9e650b2eae9330a002e8ccb503d0"
+    }, 
+    "res/music/03cv/02zhTW/fold_r1_zh_TW.mp3": {
+      "md5": "0c7bfeccc68971f10a3a86015a50a91a"
+    }, 
+    "res/music/03cv/02zhTW/fold_zh_TW.mp3": {
+      "md5": "b46aecd9af4b57f7eea3eadfed366019"
+    }, 
+    "res/music/03cv/02zhTW/follow_r1_zh_TW.mp3": {
+      "md5": "2b5538e1c3e3ad42c766df99c7231b20"
+    }, 
+    "res/music/03cv/02zhTW/follow_r2_zh_TW.mp3": {
+      "md5": "d8ba912c408eee57d964e088ed201880"
+    }, 
+    "res/music/03cv/02zhTW/follow_zh_TW.mp3": {
+      "md5": "7efcd3688c54291f39cfebe02e02c831"
+    }, 
+    "res/music/03cv/02zhTW/grab_zh_TW.mp3": {
+      "md5": "1ffb6906056062f65363a4ba654a4fcd"
+    }, 
+    "res/music/03cv/02zhTW/open_r1_zh_TW.mp3": {
+      "md5": "9b0764f20d7be34c1418be3a83717234"
+    }, 
+    "res/music/03cv/02zhTW/open_zh_TW.mp3": {
+      "md5": "5457f1bd39b47482f449747f8f264896"
+    }, 
+    "res/music/03cv/02zhTW/top_r1_zh_TW.mp3": {
+      "md5": "bc0b91e3f862b358543d400b42f3199f"
+    }, 
+    "res/music/03cv/02zhTW/top_r2_zh_TW.mp3": {
+      "md5": "ea82e3cae13def52b29387f151f8e89d"
+    }, 
+    "res/music/03cv/02zhTW/top_r3_zh_TW.mp3": {
+      "md5": "6c7f4dd3510e0093c7a937868d0d1f59"
+    }, 
+    "res/music/03cv/02zhTW/top_zh_TW.mp3": {
+      "md5": "2ca55dcc14fd933acdfcb586093934ef"
+    }, 
+    "res/music/03cv/03en/10s_en.mp3": {
+      "md5": "712fa9424610a146050e453b3d67d8ef"
+    }, 
+    "res/music/03cv/03en/11s_en.mp3": {
+      "md5": "bf4f080f86e5be5fa839996d037bd0c4"
+    }, 
+    "res/music/03cv/03en/12s_en.mp3": {
+      "md5": "f2de30ed9a3387291e7a8bd916f76978"
+    }, 
+    "res/music/03cv/03en/13s_en.mp3": {
+      "md5": "934a25dca0547ac6212c146b7a279187"
+    }, 
+    "res/music/03cv/03en/14s_en.mp3": {
+      "md5": "9f785dae84aecf83a30bf2114b175a55"
+    }, 
+    "res/music/03cv/03en/15s_en.mp3": {
+      "md5": "f08fc37c885ff4203275a7a8030bf9dd"
+    }, 
+    "res/music/03cv/03en/16s_en.mp3": {
+      "md5": "8cacbded3d0a37863a290c86f62b735a"
+    }, 
+    "res/music/03cv/03en/17s_en.mp3": {
+      "md5": "298e9288d8e05e3676cf9fdaf3f4ced3"
+    }, 
+    "res/music/03cv/03en/18s_en.mp3": {
+      "md5": "aa5d85910efb885cde1bb038b7a9b8a6"
+    }, 
+    "res/music/03cv/03en/19s_en.mp3": {
+      "md5": "adb29576360745154e2af5f2f6512f57"
+    }, 
+    "res/music/03cv/03en/1_en.mp3": {
+      "md5": "ea10f0f72f89025ee9657ca58e027218"
+    }, 
+    "res/music/03cv/03en/20s_en.mp3": {
+      "md5": "f0e7fc97a1b6df5b0b4f0177d35ce05b"
+    }, 
+    "res/music/03cv/03en/21s_en.mp3": {
+      "md5": "0c5f01a0a2d7492a9773a1c2253a8873"
+    }, 
+    "res/music/03cv/03en/22s_en.mp3": {
+      "md5": "79354675b1e3edb18cee0f78f63cb10d"
+    }, 
+    "res/music/03cv/03en/23s_en.mp3": {
+      "md5": "b685a2cdc6e978ddb029871bcee27f00"
+    }, 
+    "res/music/03cv/03en/24s_en.mp3": {
+      "md5": "2a4d488508c84e3c4f38f3fc8cdf7362"
+    }, 
+    "res/music/03cv/03en/25s_en.mp3": {
+      "md5": "6ff565e01439f2fa12a8f295f1026c89"
+    }, 
+    "res/music/03cv/03en/26s_en.mp3": {
+      "md5": "c667dcb4fb078e29d94bca06da55e253"
+    }, 
+    "res/music/03cv/03en/27s_en.mp3": {
+      "md5": "2cd45324dbbe928eda4318b39a426a0d"
+    }, 
+    "res/music/03cv/03en/28s_en.mp3": {
+      "md5": "f8e99c58ca8e10fa065c18a0100a023b"
+    }, 
+    "res/music/03cv/03en/29s_en.mp3": {
+      "md5": "838f0608bd1b461b7f5299301877b08b"
+    }, 
+    "res/music/03cv/03en/2_en.mp3": {
+      "md5": "6ceea816d37522938c72bd6d65a66531"
+    }, 
+    "res/music/03cv/03en/2s_en.mp3": {
+      "md5": "7f22c5d3a4c5d6fa0ed9e64927170b5b"
+    }, 
+    "res/music/03cv/03en/30s_en.mp3": {
+      "md5": "b62d3d06c9dbbd4a8d0c9648f1c3007e"
+    }, 
+    "res/music/03cv/03en/31s_en.mp3": {
+      "md5": "ee5b4273b0496d9f8930e29b82c218bd"
+    }, 
+    "res/music/03cv/03en/32s_en.mp3": {
+      "md5": "75386e34757a99885b165c51c1b30996"
+    }, 
+    "res/music/03cv/03en/33s_en.mp3": {
+      "md5": "4eda3a488d4a6afaad48d63082d2331a"
+    }, 
+    "res/music/03cv/03en/34s_en.mp3": {
+      "md5": "394d5b7df6d97f6b09a1af9c0c1d53ea"
+    }, 
+    "res/music/03cv/03en/35s_en.mp3": {
+      "md5": "2282399bcd09175374d71bc473f603b4"
+    }, 
+    "res/music/03cv/03en/36s_en.mp3": {
+      "md5": "6cc5e326073652112178a27f81b4a6a5"
+    }, 
+    "res/music/03cv/03en/3_en.mp3": {
+      "md5": "05a5b483ad0685f4751cdb80967e88f6"
+    }, 
+    "res/music/03cv/03en/3s_en.mp3": {
+      "md5": "2eb9cc3987258539c4300997632b68f7"
+    }, 
+    "res/music/03cv/03en/4_en.mp3": {
+      "md5": "ca3bf84c7efcbfd3b1298436ebfc14e1"
+    }, 
+    "res/music/03cv/03en/4s_en.mp3": {
+      "md5": "8f833f718b539b6bf76fc78ba5b89ca4"
+    }, 
+    "res/music/03cv/03en/5_en.mp3": {
+      "md5": "3a9266de03f008c54aafb83e93f3e69a"
+    }, 
+    "res/music/03cv/03en/5s_en.mp3": {
+      "md5": "244bc92ae3a0d126955f28ab6e4625a4"
+    }, 
+    "res/music/03cv/03en/6_en.mp3": {
+      "md5": "628998a8249fca70ad1a8251d7378e5e"
+    }, 
+    "res/music/03cv/03en/6s_en.mp3": {
+      "md5": "5848db59cc001bea63af68282360812f"
+    }, 
+    "res/music/03cv/03en/7s_en.mp3": {
+      "md5": "398d9a0159982515967692b33b278f36"
+    }, 
+    "res/music/03cv/03en/8s_en.mp3": {
+      "md5": "30128ff27717f2fcdf769a005763d152"
+    }, 
+    "res/music/03cv/03en/9s_en.mp3": {
+      "md5": "28b466ae1cebcffdf511bce5bf2c6d40"
+    }, 
+    "res/music/03cv/03en/allin_en.mp3": {
+      "md5": "d4d6d113acd88b5d6c9ab591770e8e43"
+    }, 
+    "res/music/03cv/03en/grab_en.mp3": {
+      "md5": "ce1a7eac25f55d627ccb44b35c45f16d"
+    }, 
+    "res/music/03cv/03en/open_en.mp3": {
+      "md5": "3d4e12e14254ec5ced370d6f20cccdef"
+    }, 
+    "res/music/03cv/03en/top_en.mp3": {
+      "md5": "0cefbe1ed9f3129709d52b8265652b6c"
+    }, 
+    "res/music/03cv/04GirlzhCN/10s_zh_CN.mp3": {
+      "md5": "b01bf19f093e6661cc9bbc135e7a44c2"
+    }, 
+    "res/music/03cv/04GirlzhCN/11s_zh_CN.mp3": {
+      "md5": "bf2a2fd7ef825df80f3923f07090cf44"
+    }, 
+    "res/music/03cv/04GirlzhCN/12s_zh_CN.mp3": {
+      "md5": "e05ee29a5be9151d9afea22f51f24bb7"
+    }, 
+    "res/music/03cv/04GirlzhCN/13s_zh_CN.mp3": {
+      "md5": "850c8bda8a7ff7c0eca2268f6f2e17ba"
+    }, 
+    "res/music/03cv/04GirlzhCN/14s_zh_CN.mp3": {
+      "md5": "1f3048e4fd9825e3d51c5f6a660088c2"
+    }, 
+    "res/music/03cv/04GirlzhCN/15s_zh_CN.mp3": {
+      "md5": "6c914a341d3e34761186122cdc440047"
+    }, 
+    "res/music/03cv/04GirlzhCN/16s_zh_CN.mp3": {
+      "md5": "e1df5f6c893caa9326715d70f1124688"
+    }, 
+    "res/music/03cv/04GirlzhCN/17s_zh_CN.mp3": {
+      "md5": "ccc267776f353eaffe30d023e6d42dbc"
+    }, 
+    "res/music/03cv/04GirlzhCN/18s_zh_CN.mp3": {
+      "md5": "f54a713e7ca606db3132976958ef693e"
+    }, 
+    "res/music/03cv/04GirlzhCN/19s_zh_CN.mp3": {
+      "md5": "65349db36c3f4fbc56475c2930b648e2"
+    }, 
+    "res/music/03cv/04GirlzhCN/1_zh_CN.mp3": {
+      "md5": "184adfdd3ccccac3154f520de13e5ed7"
+    }, 
+    "res/music/03cv/04GirlzhCN/20s_zh_CN.mp3": {
+      "md5": "2217d4e2ea4e1e2a61978f400e322565"
+    }, 
+    "res/music/03cv/04GirlzhCN/21s_zh_CN.mp3": {
+      "md5": "b4e94156927eebcae8f4885ade3b655e"
+    }, 
+    "res/music/03cv/04GirlzhCN/22s_zh_CN.mp3": {
+      "md5": "8d2237516d615035b0256c5332477bcf"
+    }, 
+    "res/music/03cv/04GirlzhCN/23s_zh_CN.mp3": {
+      "md5": "1fdfd5362832c0c853e80e4724619bcb"
+    }, 
+    "res/music/03cv/04GirlzhCN/24s_zh_CN.mp3": {
+      "md5": "ffde4fba8b020010430d328dc7a0de87"
+    }, 
+    "res/music/03cv/04GirlzhCN/25s_zh_CN.mp3": {
+      "md5": "e28146d4f3afaea355c59c4ec69c0a12"
+    }, 
+    "res/music/03cv/04GirlzhCN/26s_zh_CN.mp3": {
+      "md5": "cee9bf34fa294b0f82fc62ec1bd4e9a2"
+    }, 
+    "res/music/03cv/04GirlzhCN/27s_zh_CN.mp3": {
+      "md5": "edc9f6901e560e3f4b0969c4a86bd106"
+    }, 
+    "res/music/03cv/04GirlzhCN/28s_zh_CN.mp3": {
+      "md5": "3ed9db17c85ec6e53472737f3a69df26"
+    }, 
+    "res/music/03cv/04GirlzhCN/29s_zh_CN.mp3": {
+      "md5": "d3490e946ab7e4d5b73145d38e84a44a"
+    }, 
+    "res/music/03cv/04GirlzhCN/2_zh_CN.mp3": {
+      "md5": "8e12e5c4eca227d7d251722723defe0a"
+    }, 
+    "res/music/03cv/04GirlzhCN/2s_zh_CN.mp3": {
+      "md5": "4d69a6282e74e48e98ccf4c747801d8c"
+    }, 
+    "res/music/03cv/04GirlzhCN/30s_zh_CN.mp3": {
+      "md5": "5ac76f6f30e151e762397bdfd44d5e64"
+    }, 
+    "res/music/03cv/04GirlzhCN/31s_zh_CN.mp3": {
+      "md5": "73af50a100537b728d95972d1a9d064e"
+    }, 
+    "res/music/03cv/04GirlzhCN/32s_zh_CN.mp3": {
+      "md5": "d63c2db8452e1c70a1d5dc64635cf60f"
+    }, 
+    "res/music/03cv/04GirlzhCN/33s_zh_CN.mp3": {
+      "md5": "cde191796d2af2885d7f5180009ab0c3"
+    }, 
+    "res/music/03cv/04GirlzhCN/34s_zh_CN.mp3": {
+      "md5": "1ffd668b550194df01d7425b4bda826c"
+    }, 
+    "res/music/03cv/04GirlzhCN/35s_zh_CN.mp3": {
+      "md5": "8186349c4d5bcd121dc10761f871e1f8"
+    }, 
+    "res/music/03cv/04GirlzhCN/36s_zh_CN.mp3": {
+      "md5": "bd1b1f49558b1920c702ca893b1c04ff"
+    }, 
+    "res/music/03cv/04GirlzhCN/3_zh_CN.mp3": {
+      "md5": "4392da99fcdb8c705a27487ded96d919"
+    }, 
+    "res/music/03cv/04GirlzhCN/3s_zh_CN.mp3": {
+      "md5": "c4eceaf0755c1588d6455387cbc45a10"
+    }, 
+    "res/music/03cv/04GirlzhCN/4_zh_CN.mp3": {
+      "md5": "59435f5ce343830115188e7e078972d7"
+    }, 
+    "res/music/03cv/04GirlzhCN/4s_zh_CN.mp3": {
+      "md5": "315542b176aee5bcd7aaab1e02f6bc82"
+    }, 
+    "res/music/03cv/04GirlzhCN/5_zh_CN.mp3": {
+      "md5": "d01d89881bec6dca2da52c5701885f61"
+    }, 
+    "res/music/03cv/04GirlzhCN/5s_zh_CN.mp3": {
+      "md5": "1f81450626e4da254ce0b3c731a3ce8a"
+    }, 
+    "res/music/03cv/04GirlzhCN/6_zh_CN.mp3": {
+      "md5": "f2485f482120350eecf4dc462f559d03"
+    }, 
+    "res/music/03cv/04GirlzhCN/6s_zh_CN.mp3": {
+      "md5": "1397a9ede4ff67ecc2e64c42b9ccdb37"
+    }, 
+    "res/music/03cv/04GirlzhCN/7s_zh_CN.mp3": {
+      "md5": "3b6c293633e7b0e62b119b7d39784079"
+    }, 
+    "res/music/03cv/04GirlzhCN/8s_zh_CN.mp3": {
+      "md5": "cec243a76b2cad08f17f716c2b66a993"
+    }, 
+    "res/music/03cv/04GirlzhCN/9s_zh_CN.mp3": {
+      "md5": "313774ab020bcc73e2ba27b96a03292c"
+    }, 
+    "res/music/03cv/04GirlzhCN/addchip10x_zh_CN.mp3": {
+      "md5": "346a1a820cec59471cd77aebb21fa572"
+    }, 
+    "res/music/03cv/04GirlzhCN/addchip1x_zh_CN.mp3": {
+      "md5": "95f48272c8147c348d9d26b27dc83dee"
+    }, 
+    "res/music/03cv/04GirlzhCN/addchip3x_zh_CN.mp3": {
+      "md5": "a185dd0bd197b9b5301b07ed1d6fa779"
+    }, 
+    "res/music/03cv/04GirlzhCN/addchip5x_zh_CN.mp3": {
+      "md5": "e952704bd60d6c43569192a116a27a04"
+    }, 
+    "res/music/03cv/04GirlzhCN/allin_zh_CN.mp3": {
+      "md5": "22c08fe3a6536a34475a7648452a38c9"
+    }, 
+    "res/music/03cv/04GirlzhCN/check_zh_CN.mp3": {
+      "md5": "3e488495ab1b6481e1ba09d439999308"
+    }, 
+    "res/music/03cv/04GirlzhCN/fold_zh_CN.mp3": {
+      "md5": "1bd350a1085ea8643fa683b4f4396ee8"
+    }, 
+    "res/music/03cv/04GirlzhCN/follow_zh_CN.mp3": {
+      "md5": "8088094bfbb1f250107019f7606854f0"
+    }, 
+    "res/music/03cv/04GirlzhCN/grab_zh_CN.mp3": {
+      "md5": "1ab786ebc6525ac4db20a549b24b8a9a"
+    }, 
+    "res/music/03cv/04GirlzhCN/open_zh_CN.mp3": {
+      "md5": "78775d0f4f65592c46db351f6c55e115"
+    }, 
+    "res/music/03cv/04GirlzhCN/top_zh_CN.mp3": {
+      "md5": "b19a224e5eeadda502ed3f7078a0c683"
+    }, 
+    "res/music/03cv/05GirlzhTW/10s_zh_TW.mp3": {
+      "md5": "4c8efd83a19ba4ae749d04f61c7faaae"
+    }, 
+    "res/music/03cv/05GirlzhTW/11s_zh_TW.mp3": {
+      "md5": "e456702f5041d186b3364531cbeb32ba"
+    }, 
+    "res/music/03cv/05GirlzhTW/12s_zh_TW.mp3": {
+      "md5": "9d1fd663bdfbc1c934d69b502c1baa21"
+    }, 
+    "res/music/03cv/05GirlzhTW/13s_zh_TW.mp3": {
+      "md5": "8d9a077dff4ad655c5c68cc6cb193850"
+    }, 
+    "res/music/03cv/05GirlzhTW/14s_zh_TW.mp3": {
+      "md5": "bb2ba461e21ddd1d2fbc64ab0da7d329"
+    }, 
+    "res/music/03cv/05GirlzhTW/15s_zh_TW.mp3": {
+      "md5": "d738d2cd28b8cc8cbf3e371b47cfafaf"
+    }, 
+    "res/music/03cv/05GirlzhTW/16s_zh_TW.mp3": {
+      "md5": "7a618f9316f5ea1b90d812ef185dcff1"
+    }, 
+    "res/music/03cv/05GirlzhTW/17s_zh_TW.mp3": {
+      "md5": "a02f74c13053c9f38a4291f9890cf3c8"
+    }, 
+    "res/music/03cv/05GirlzhTW/18s_zh_TW.mp3": {
+      "md5": "79d621a9a309933fba252a41b7d461ce"
+    }, 
+    "res/music/03cv/05GirlzhTW/19s_zh_TW.mp3": {
+      "md5": "814b2035803db672f9a0c4f52d2eceba"
+    }, 
+    "res/music/03cv/05GirlzhTW/1_zh_TW.mp3": {
+      "md5": "bd7a206551ae7037f7ba28676a535fe4"
+    }, 
+    "res/music/03cv/05GirlzhTW/20s_zh_TW.mp3": {
+      "md5": "ff309e6c2e0db7f2045a49d2ddb9242e"
+    }, 
+    "res/music/03cv/05GirlzhTW/21s_zh_TW.mp3": {
+      "md5": "feb77e2302a70f8e25a4fbe9deec4613"
+    }, 
+    "res/music/03cv/05GirlzhTW/22s_zh_TW.mp3": {
+      "md5": "328821a8c8a3e70b19dbb17ed8a92adf"
+    }, 
+    "res/music/03cv/05GirlzhTW/23s_zh_TW.mp3": {
+      "md5": "9a33f51e07f6e67324c86611f6f67c0f"
+    }, 
+    "res/music/03cv/05GirlzhTW/24s_zh_TW.mp3": {
+      "md5": "d458962ffbe2f800d65bc08fbbad7c42"
+    }, 
+    "res/music/03cv/05GirlzhTW/25s_zh_TW.mp3": {
+      "md5": "86426db6844baf9219c0687c970f8cf7"
+    }, 
+    "res/music/03cv/05GirlzhTW/26s_zh_TW.mp3": {
+      "md5": "e12a4dda9494a3c3467e49045e00a280"
+    }, 
+    "res/music/03cv/05GirlzhTW/27s_zh_TW.mp3": {
+      "md5": "62699ade7960d2bfe6d4c15cbe2a459e"
+    }, 
+    "res/music/03cv/05GirlzhTW/28s_zh_TW.mp3": {
+      "md5": "7f28fd14bb871fb067c81b59a3022f24"
+    }, 
+    "res/music/03cv/05GirlzhTW/29s_zh_TW.mp3": {
+      "md5": "f01882657abd96b5bf9aa84ad8c9c71f"
+    }, 
+    "res/music/03cv/05GirlzhTW/2_zh_TW.mp3": {
+      "md5": "18ee35d8c058436cddc1fac07c41a255"
+    }, 
+    "res/music/03cv/05GirlzhTW/2s_zh_TW.mp3": {
+      "md5": "4ee39c14cea5a0526ea2482a46e5def7"
+    }, 
+    "res/music/03cv/05GirlzhTW/30s_zh_TW.mp3": {
+      "md5": "70952d1dc06826e9ffaf44cc40db9492"
+    }, 
+    "res/music/03cv/05GirlzhTW/31s_zh_TW.mp3": {
+      "md5": "e7c2c374c29f5a873f8ad66ee45bc96e"
+    }, 
+    "res/music/03cv/05GirlzhTW/32s_zh_TW.mp3": {
+      "md5": "74eaad6dba72eb5443e94b3ddb437ee0"
+    }, 
+    "res/music/03cv/05GirlzhTW/33s_zh_TW.mp3": {
+      "md5": "c20106d2a83901ca4e0654f5246460e3"
+    }, 
+    "res/music/03cv/05GirlzhTW/34s_zh_TW.mp3": {
+      "md5": "af4544abe8de2b4f30282a4cea960281"
+    }, 
+    "res/music/03cv/05GirlzhTW/35s_zh_TW.mp3": {
+      "md5": "15f061aa78aab5b42e760ca5bc67c05c"
+    }, 
+    "res/music/03cv/05GirlzhTW/36s_zh_TW.mp3": {
+      "md5": "ea386c75c091e31fc7e3c1cc8b4e5c6e"
+    }, 
+    "res/music/03cv/05GirlzhTW/3_zh_TW.mp3": {
+      "md5": "fdbd60b60d1561d2a94f9d06026b0075"
+    }, 
+    "res/music/03cv/05GirlzhTW/3s_zh_TW.mp3": {
+      "md5": "d6c211eb85be8c0af97307ebf23fff7d"
+    }, 
+    "res/music/03cv/05GirlzhTW/4_zh_TW.mp3": {
+      "md5": "0ddf51634cf2b04e155aa272e3817a0b"
+    }, 
+    "res/music/03cv/05GirlzhTW/4s_zh_TW.mp3": {
+      "md5": "b2cb49f4f17385c55de48ff89b16be03"
+    }, 
+    "res/music/03cv/05GirlzhTW/5_zh_TW.mp3": {
+      "md5": "cccfb42faff1b2bdb5d45b4431425999"
+    }, 
+    "res/music/03cv/05GirlzhTW/5s_zh_TW.mp3": {
+      "md5": "f633e58baeb83be4ed37962d35612bf2"
+    }, 
+    "res/music/03cv/05GirlzhTW/6_zh_TW.mp3": {
+      "md5": "42e1f658d941cbb611a1d0f1f3c386a8"
+    }, 
+    "res/music/03cv/05GirlzhTW/6s_zh_TW.mp3": {
+      "md5": "6f17e51665b1448aaaa0c35904201ae4"
+    }, 
+    "res/music/03cv/05GirlzhTW/7s_zh_TW.mp3": {
+      "md5": "140bee80ba07c43c492e375cc2d00515"
+    }, 
+    "res/music/03cv/05GirlzhTW/8s_zh_TW.mp3": {
+      "md5": "6d8e47be46a838698c17e78932d69d74"
+    }, 
+    "res/music/03cv/05GirlzhTW/9s_zh_TW.mp3": {
+      "md5": "3ae3afe2173cde46d291a6f866c280cb"
+    }, 
+    "res/music/03cv/05GirlzhTW/addchip10x_zh_TW.mp3": {
+      "md5": "8ce793e3bd6c6983dfe849a9ca96627a"
+    }, 
+    "res/music/03cv/05GirlzhTW/addchip1x_zh_TW.mp3": {
+      "md5": "a0b51397013e573de006ff1826e358f7"
+    }, 
+    "res/music/03cv/05GirlzhTW/addchip3x_zh_TW.mp3": {
+      "md5": "343c493fb7040a8ccf01788ea35c35f2"
+    }, 
+    "res/music/03cv/05GirlzhTW/addchip5x_zh_TW.mp3": {
+      "md5": "fa3f3a151aeb3b94032dfb77196c48f4"
+    }, 
+    "res/music/03cv/05GirlzhTW/allin_r1_zh_TW.mp3": {
+      "md5": "98d8a5050ec86b893cff1e2ccbd498b6"
+    }, 
+    "res/music/03cv/05GirlzhTW/allin_r2_zh_TW.mp3": {
+      "md5": "9f541d0098e539c2cc60bd259e96c753"
+    }, 
+    "res/music/03cv/05GirlzhTW/allin_zh_TW.mp3": {
+      "md5": "11c481f45fcc7f8e9f6c772d72611411"
+    }, 
+    "res/music/03cv/05GirlzhTW/check_r1_zh_TW.mp3": {
+      "md5": "3775cc1195ddfd344dd7f41d58568ff7"
+    }, 
+    "res/music/03cv/05GirlzhTW/check_zh_TW.mp3": {
+      "md5": "6a748e0e39c8ad6136f956f67926cc79"
+    }, 
+    "res/music/03cv/05GirlzhTW/fold_r1_zh_TW.mp3": {
+      "md5": "5dc86990ecd12502cabd6626b2b3d4fa"
+    }, 
+    "res/music/03cv/05GirlzhTW/fold_zh_TW.mp3": {
+      "md5": "a05a79e5ae98bc1caa536a7114100b4a"
+    }, 
+    "res/music/03cv/05GirlzhTW/follow_r1_zh_TW.mp3": {
+      "md5": "dbcf4fb735e018b29a624d6e3472e5ee"
+    }, 
+    "res/music/03cv/05GirlzhTW/follow_r2_zh_TW.mp3": {
+      "md5": "9dde35c332bd26a53373d78404115b44"
+    }, 
+    "res/music/03cv/05GirlzhTW/follow_zh_TW.mp3": {
+      "md5": "f211f9a6296e3665686497d3422269f9"
+    }, 
+    "res/music/03cv/05GirlzhTW/grab_zh_TW.mp3": {
+      "md5": "26bd1b010da02cd88c1bc926bf57f019"
+    }, 
+    "res/music/03cv/05GirlzhTW/open_r1_zh_TW.mp3": {
+      "md5": "119b609cc74d1237760c9e52769d6269"
+    }, 
+    "res/music/03cv/05GirlzhTW/open_zh_TW.mp3": {
+      "md5": "a9018ec329c6ff9217f9931c0dc9a485"
+    }, 
+    "res/music/03cv/05GirlzhTW/top_r1_zh_TW.mp3": {
+      "md5": "facc036a876c8865cccca03fdd44e0a4"
+    }, 
+    "res/music/03cv/05GirlzhTW/top_r2_zh_TW.mp3": {
+      "md5": "c8a2801d9347904d1bf3557dc3f0a59f"
+    }, 
+    "res/music/03cv/05GirlzhTW/top_r3_zh_TW.mp3": {
+      "md5": "61a5715597fb01060946d4b680676dc7"
+    }, 
+    "res/music/03cv/05GirlzhTW/top_zh_TW.mp3": {
+      "md5": "57a9f5575d4024a0d68295fe1b138607"
+    }, 
+    "res/music/03cv/06Girlen/10s_en.mp3": {
+      "md5": "02a7813c763cf91cbe295524da4bd080"
+    }, 
+    "res/music/03cv/06Girlen/11s_en.mp3": {
+      "md5": "7d0a6fce2f7e1f69de03b5afce22a4e6"
+    }, 
+    "res/music/03cv/06Girlen/12s_en.mp3": {
+      "md5": "165f27825b8b894fcc2a4056a6e1bfe5"
+    }, 
+    "res/music/03cv/06Girlen/13s_en.mp3": {
+      "md5": "c5407fda06814e5873490e48bf813e5b"
+    }, 
+    "res/music/03cv/06Girlen/14s_en.mp3": {
+      "md5": "9fce653f8eb76580135760eecfd58843"
+    }, 
+    "res/music/03cv/06Girlen/15s_en.mp3": {
+      "md5": "e1716c50e6c822e6aa9b984393b6e237"
+    }, 
+    "res/music/03cv/06Girlen/16s_en.mp3": {
+      "md5": "d203d06b26008549b36808f6717310cf"
+    }, 
+    "res/music/03cv/06Girlen/17s_en.mp3": {
+      "md5": "4a30dca4b756dccf75a5aefaa1a27b16"
+    }, 
+    "res/music/03cv/06Girlen/18s_en.mp3": {
+      "md5": "e07db51cd0d74bbf62e854f7fc73e326"
+    }, 
+    "res/music/03cv/06Girlen/19s_en.mp3": {
+      "md5": "0a2a52aa3a28a45cefad95f3fbd8a2a1"
+    }, 
+    "res/music/03cv/06Girlen/1_en.mp3": {
+      "md5": "ca61c3609500e535e101f8b666096b71"
+    }, 
+    "res/music/03cv/06Girlen/20s_en.mp3": {
+      "md5": "8410198033e509ddc0ab40bac42f5452"
+    }, 
+    "res/music/03cv/06Girlen/21s_en.mp3": {
+      "md5": "692814347227eef385d631ad7574269b"
+    }, 
+    "res/music/03cv/06Girlen/22s_en.mp3": {
+      "md5": "7279e38d4432181f3b4ee4fe849101b3"
+    }, 
+    "res/music/03cv/06Girlen/23s_en.mp3": {
+      "md5": "a6019391cc95b5de74ee558e1b5426f5"
+    }, 
+    "res/music/03cv/06Girlen/24s_en.mp3": {
+      "md5": "3956699b2bd38838f7f32139882fe5be"
+    }, 
+    "res/music/03cv/06Girlen/25s_en.mp3": {
+      "md5": "f0c78c51a59e0a956dc39e5e2082fc9e"
+    }, 
+    "res/music/03cv/06Girlen/26s_en.mp3": {
+      "md5": "23041b4ae50c71204df8b4f781cafb51"
+    }, 
+    "res/music/03cv/06Girlen/27s_en.mp3": {
+      "md5": "cc6cd789214bc309dc1ea25b744535d2"
+    }, 
+    "res/music/03cv/06Girlen/28s_en.mp3": {
+      "md5": "ac4767231a0b346b521179500243e430"
+    }, 
+    "res/music/03cv/06Girlen/29s_en.mp3": {
+      "md5": "5be8f1fc084da2db23c65e5f014b04ab"
+    }, 
+    "res/music/03cv/06Girlen/2_en.mp3": {
+      "md5": "fa7fa12138b0788d0741ccd3689df5e2"
+    }, 
+    "res/music/03cv/06Girlen/2s_en.mp3": {
+      "md5": "64035453a56d391136649a82feea957c"
+    }, 
+    "res/music/03cv/06Girlen/30s_en.mp3": {
+      "md5": "fb509a01ab38f688bd1b283eebd2eed3"
+    }, 
+    "res/music/03cv/06Girlen/31s_en.mp3": {
+      "md5": "841246b8ce0bea91f4185929fe700378"
+    }, 
+    "res/music/03cv/06Girlen/32s_en.mp3": {
+      "md5": "866f7a89d29c611570b9399f16fb9679"
+    }, 
+    "res/music/03cv/06Girlen/33s_en.mp3": {
+      "md5": "7b43cfb68a2a212cc2279d1044ff4dac"
+    }, 
+    "res/music/03cv/06Girlen/34s_en.mp3": {
+      "md5": "74462cdb88c891a1541376968fa1624a"
+    }, 
+    "res/music/03cv/06Girlen/35s_en.mp3": {
+      "md5": "ca594ff65dac3eac94c836ea71a7f6e6"
+    }, 
+    "res/music/03cv/06Girlen/36s_en.mp3": {
+      "md5": "a6f3e7ce11cdc4437209b606b5269319"
+    }, 
+    "res/music/03cv/06Girlen/3_en.mp3": {
+      "md5": "f7f638953e7ee1ab17db6f85584aea31"
+    }, 
+    "res/music/03cv/06Girlen/3s_en.mp3": {
+      "md5": "9f5f76d410ecaec5e23eee63275d89d2"
+    }, 
+    "res/music/03cv/06Girlen/4_en.mp3": {
+      "md5": "ace875e4fc68ab2b4a184b374c8b4f0b"
+    }, 
+    "res/music/03cv/06Girlen/4s_en.mp3": {
+      "md5": "b7623d6b10bf26027b12acc456e2c073"
+    }, 
+    "res/music/03cv/06Girlen/5_en.mp3": {
+      "md5": "8685bee08cfcc19c3349b18e607b9b7c"
+    }, 
+    "res/music/03cv/06Girlen/5s_en.mp3": {
+      "md5": "09d423c37e43948d02cf8f05205fd4f7"
+    }, 
+    "res/music/03cv/06Girlen/6_en.mp3": {
+      "md5": "1c1d93d24d731e50b394b35015518540"
+    }, 
+    "res/music/03cv/06Girlen/6s_en.mp3": {
+      "md5": "da385feff689b44948f71c4216707201"
+    }, 
+    "res/music/03cv/06Girlen/7s_en.mp3": {
+      "md5": "0856338a7b481bca51cb8424922e412c"
+    }, 
+    "res/music/03cv/06Girlen/8s_en.mp3": {
+      "md5": "0b2501dd4ebaa27718c2b40803bb60c3"
+    }, 
+    "res/music/03cv/06Girlen/9s_en.mp3": {
+      "md5": "b0aa329565afdf9429b9e49180b91868"
+    }, 
+    "res/music/03cv/06Girlen/allin_en.mp3": {
+      "md5": "22c08fe3a6536a34475a7648452a38c9"
+    }, 
+    "res/music/03cv/06Girlen/grab_en.mp3": {
+      "md5": "6d07361ac311d07ee4dd423763b0b4ef"
+    }, 
+    "res/music/03cv/06Girlen/open_en.mp3": {
+      "md5": "67b82f52ffdef98f4d59ad5d83825617"
+    }, 
+    "res/music/03cv/06Girlen/top_en.mp3": {
+      "md5": "5be29fadc6755745f3a69d1da9e18487"
+    }, 
+    "res/pb/client.pb": {
+      "md5": "a3cd3aae9407900a2f1f79df43c77e19"
+    }, 
+    "res/pb/server.pb": {
+      "md5": "9a5eabf9584f6f2653d3d65793cec7d1"
+    }, 
+    "res/spine/300101.atlas": {
+      "md5": "a05562130cf0d09fe58bbd8c0ebe65b5"
+    }, 
+    "res/spine/300101.json": {
+      "md5": "7354ae15cf28897c4d8b5efd1cfbef20"
+    }, 
+    "res/spine/300101.png": {
+      "md5": "a7f70cc17c6e7c38576af072b3dfc0b3"
+    }, 
+    "res/spine/300102.atlas": {
+      "md5": "e8aa82f3998dff1666b4601a659510a9"
+    }, 
+    "res/spine/300102.json": {
+      "md5": "136a1a60371ca06b19c1c4618eb8b7b1"
+    }, 
+    "res/spine/300102.png": {
+      "md5": "a7f70cc17c6e7c38576af072b3dfc0b3"
+    }, 
+    "res/spine/300201.atlas": {
+      "md5": "9112e792b0c83edee941ca61386bf2ed"
+    }, 
+    "res/spine/300201.json": {
+      "md5": "43663312d6a51cfb27d8c2f341a55065"
+    }, 
+    "res/spine/300201.png": {
+      "md5": "0044e164266ef4db2585704c4d621d99"
+    }, 
+    "res/spine/300301_en.atlas": {
+      "md5": "845ff26f36f474f078e3fe94efca541c"
+    }, 
+    "res/spine/300301_en.json": {
+      "md5": "431477ea593e9ff9f6bbd8b99a8546bf"
+    }, 
+    "res/spine/300301_en.png": {
+      "md5": "a3049526c37192fbd742cc112857f713"
+    }, 
+    "res/spine/300301_zh_CN.atlas": {
+      "md5": "1d103efc61dff7d4a5540182ecdb6fdf"
+    }, 
+    "res/spine/300301_zh_CN.json": {
+      "md5": "b68254010bb1bbdeb775bb587b1c208f"
+    }, 
+    "res/spine/300301_zh_CN.png": {
+      "md5": "ceda41d02ff6cd772b7b59de6fb085d6"
+    }, 
+    "res/spine/300301_zh_TW.atlas": {
+      "md5": "70a6299862ce4a3d143bd9af5518f0e3"
+    }, 
+    "res/spine/300301_zh_TW.json": {
+      "md5": "900bbac2bf90398ef07d10435011cf11"
+    }, 
+    "res/spine/300301_zh_TW.png": {
+      "md5": "3baeeae9255f1a5266bbccf37bc86c4b"
+    }, 
+    "res/spine/300401_en.atlas": {
+      "md5": "19f837e857dcf0e17f8dac5d72d7a5e6"
+    }, 
+    "res/spine/300401_en.json": {
+      "md5": "793d2ef85fe1e64ee3e76d38a0feec3f"
+    }, 
+    "res/spine/300401_en.png": {
+      "md5": "99ba6f15d6a3d295b43cdf6439558254"
+    }, 
+    "res/spine/300401_zh_CN.atlas": {
+      "md5": "c42bcef1c50f53d3d546e10083035a39"
+    }, 
+    "res/spine/300401_zh_CN.json": {
+      "md5": "d26c2000730fd3c21984a9ad0a91bef5"
+    }, 
+    "res/spine/300401_zh_CN.png": {
+      "md5": "8f4816aeed2f56fc24857f3608acf85b"
+    }, 
+    "res/spine/300401_zh_TW.atlas": {
+      "md5": "538e37b5c0b3108e7d0415331c20124a"
+    }, 
+    "res/spine/300401_zh_TW.json": {
+      "md5": "dbd33d6a7c63106eb700811da4dfd31b"
+    }, 
+    "res/spine/300401_zh_TW.png": {
+      "md5": "b0ba048349fec7ace10b801c18fe5892"
+    }, 
+    "res/spine/300501_en.atlas": {
+      "md5": "c3c58a8250ab1003b62eef76adccd7a3"
+    }, 
+    "res/spine/300501_en.json": {
+      "md5": "832aa744ad1afe47ff51a76601afbc95"
+    }, 
+    "res/spine/300501_en.png": {
+      "md5": "e011c2eb7bc98cd9d0a9600025d4ecd1"
+    }, 
+    "res/spine/300501_zh_CN.atlas": {
+      "md5": "3ba2c52a154cecf67724a6271169f773"
+    }, 
+    "res/spine/300501_zh_CN.json": {
+      "md5": "4537aaed6a4174fc8ed42f544a9125b9"
+    }, 
+    "res/spine/300501_zh_CN.png": {
+      "md5": "c567316bebf7a0f0605bd12327f531d4"
+    }, 
+    "res/spine/300501_zh_TW.atlas": {
+      "md5": "3f770d4e5d8763f801d9a288e906e2a6"
+    }, 
+    "res/spine/300501_zh_TW.json": {
+      "md5": "08a81f545c0189687530fd19f62aaf32"
+    }, 
+    "res/spine/300501_zh_TW.png": {
+      "md5": "0ea0923cb37607e0aa15301915b6f1fc"
+    }, 
+    "res/spine/300601_en.atlas": {
+      "md5": "3e0d291c29eaa770f84add5d41d79761"
+    }, 
+    "res/spine/300601_en.json": {
+      "md5": "585f97cb00030e45d5fdefbde6cfa331"
+    }, 
+    "res/spine/300601_en.png": {
+      "md5": "ec0acf87162c43be42f6c6ffed5e1136"
+    }, 
+    "res/spine/300601_zh_CN.atlas": {
+      "md5": "7c01c1a99f2abc42bda8b81f59d356f0"
+    }, 
+    "res/spine/300601_zh_CN.json": {
+      "md5": "c889c961008aea3c4ec20bb9b27f2963"
+    }, 
+    "res/spine/300601_zh_CN.png": {
+      "md5": "cfdd40770fa2cb93645f9558ead2561b"
+    }, 
+    "res/spine/300601_zh_TW.atlas": {
+      "md5": "91a26da3031687ad70cbfc030303f21f"
+    }, 
+    "res/spine/300601_zh_TW.json": {
+      "md5": "c889c961008aea3c4ec20bb9b27f2963"
+    }, 
+    "res/spine/300601_zh_TW.png": {
+      "md5": "cfdd40770fa2cb93645f9558ead2561b"
+    }, 
+    "res/spine/300602_en.atlas": {
+      "md5": "d7513fab8e1ecbcc04859f4ca1ee35a3"
+    }, 
+    "res/spine/300602_en.json": {
+      "md5": "faf0ede813690ca8e952b2bdf82cd97e"
+    }, 
+    "res/spine/300602_en.png": {
+      "md5": "ca96feefa551976333ef164c4a7e1502"
+    }, 
+    "res/spine/300602_zh_CN.atlas": {
+      "md5": "8e4c86293e18d2b8d92e62c43f8a9713"
+    }, 
+    "res/spine/300602_zh_CN.json": {
+      "md5": "10ae874e15451ab12de27a193040d597"
+    }, 
+    "res/spine/300602_zh_CN.png": {
+      "md5": "a27d3009d2fd46cb740ce7a977e22fc8"
+    }, 
+    "res/spine/300602_zh_TW.atlas": {
+      "md5": "7ac017e94e475652950056c2f24fcd7b"
+    }, 
+    "res/spine/300602_zh_TW.json": {
+      "md5": "10ae874e15451ab12de27a193040d597"
+    }, 
+    "res/spine/300602_zh_TW.png": {
+      "md5": "a27d3009d2fd46cb740ce7a977e22fc8"
+    }, 
+    "res/spine/300603_en.atlas": {
+      "md5": "556163a6a1e9d30d5f64aa75cd002af5"
+    }, 
+    "res/spine/300603_en.json": {
+      "md5": "676dfcf6896d4fe93133f406816dc71c"
+    }, 
+    "res/spine/300603_en.png": {
+      "md5": "3fe3f2609593a28b3fffb3714574c0b5"
+    }, 
+    "res/spine/300603_zh_CN.atlas": {
+      "md5": "a1d408f7627eb94393ae52dacbec305f"
+    }, 
+    "res/spine/300603_zh_CN.json": {
+      "md5": "acf713a502b35fd9bfd626f86362c8cd"
+    }, 
+    "res/spine/300603_zh_CN.png": {
+      "md5": "c0c7b9d426a3b46190f4a339c7aa5655"
+    }, 
+    "res/spine/300603_zh_TW.atlas": {
+      "md5": "d6ce7d7e58294b21673f3952302c5aa2"
+    }, 
+    "res/spine/300603_zh_TW.json": {
+      "md5": "acf713a502b35fd9bfd626f86362c8cd"
+    }, 
+    "res/spine/300603_zh_TW.png": {
+      "md5": "c0c7b9d426a3b46190f4a339c7aa5655"
+    }, 
+    "res/spine/300604_en.atlas": {
+      "md5": "504f73aff0c42f73a537c0c1c6f2ecde"
+    }, 
+    "res/spine/300604_en.json": {
+      "md5": "81cdea3d21c7ef900786c0664a65699e"
+    }, 
+    "res/spine/300604_en.png": {
+      "md5": "931518fb97547ce4ad62626c99e7ea76"
+    }, 
+    "res/spine/300604_zh_CN.atlas": {
+      "md5": "002478e1aa8772ace2a9fbcb3e0316ff"
+    }, 
+    "res/spine/300604_zh_CN.json": {
+      "md5": "ad9bfa44a54fa2239305b0bbd81ef17e"
+    }, 
+    "res/spine/300604_zh_CN.png": {
+      "md5": "278aa00efdf1c8e0ec03175e0b1df9a1"
+    }, 
+    "res/spine/300604_zh_TW.atlas": {
+      "md5": "f2191b44917e370cc8137a1e58718433"
+    }, 
+    "res/spine/300604_zh_TW.json": {
+      "md5": "ad9bfa44a54fa2239305b0bbd81ef17e"
+    }, 
+    "res/spine/300604_zh_TW.png": {
+      "md5": "278aa00efdf1c8e0ec03175e0b1df9a1"
+    }, 
+    "res/spine/300605_en.atlas": {
+      "md5": "90a03eb80ca679a76bee8ca0c3c0a9aa"
+    }, 
+    "res/spine/300605_en.json": {
+      "md5": "d9383d78db54fa76af8401bc971a2840"
+    }, 
+    "res/spine/300605_en.png": {
+      "md5": "9cf1153c4b18b7db32cbf2f310c0f5fc"
+    }, 
+    "res/spine/300605_zh_CN.atlas": {
+      "md5": "1657a566b5fb2a3345e19c1fe6839a54"
+    }, 
+    "res/spine/300605_zh_CN.json": {
+      "md5": "26c39eaa745528760074bed310b4c887"
+    }, 
+    "res/spine/300605_zh_CN.png": {
+      "md5": "7fe0b8dcf0c1dd96e1029f3f6648362d"
+    }, 
+    "res/spine/300605_zh_TW.atlas": {
+      "md5": "ebccfb4a7e7fb6dfbb55e891a173354e"
+    }, 
+    "res/spine/300605_zh_TW.json": {
+      "md5": "26c39eaa745528760074bed310b4c887"
+    }, 
+    "res/spine/300605_zh_TW.png": {
+      "md5": "7fe0b8dcf0c1dd96e1029f3f6648362d"
+    }, 
+    "res/spine/300606_en.atlas": {
+      "md5": "73b76beb2669e64ed1d23b153899faba"
+    }, 
+    "res/spine/300606_en.json": {
+      "md5": "6b52f2adf0e7558ae78d1e9ef422787f"
+    }, 
+    "res/spine/300606_en.png": {
+      "md5": "ce36fa099fcbb256d5b310e4ee709379"
+    }, 
+    "res/spine/300606_zh_CN.atlas": {
+      "md5": "df7675599bba1d12943eecdb3e7f483a"
+    }, 
+    "res/spine/300606_zh_CN.json": {
+      "md5": "243d217371239dcd96844da1b7aa076e"
+    }, 
+    "res/spine/300606_zh_CN.png": {
+      "md5": "a093d5d67ac2d69e0c53370bb99dd239"
+    }, 
+    "res/spine/300606_zh_TW.atlas": {
+      "md5": "eecf21e06df62922cbae0adcb3418ff3"
+    }, 
+    "res/spine/300606_zh_TW.json": {
+      "md5": "243d217371239dcd96844da1b7aa076e"
+    }, 
+    "res/spine/300606_zh_TW.png": {
+      "md5": "a093d5d67ac2d69e0c53370bb99dd239"
+    }, 
+    "res/spine/300701_en.atlas": {
+      "md5": "eafaad422e29939ad44080ec06538e56"
+    }, 
+    "res/spine/300701_en.json": {
+      "md5": "c72f3bd52e5bfadff5eb069887cbf1ed"
+    }, 
+    "res/spine/300701_en.png": {
+      "md5": "ef4c7ae09bb3d3a4df4a7f2d81f14dbf"
+    }, 
+    "res/spine/300701_zh_CN.atlas": {
+      "md5": "31889ebb77b6a7564f45f8a2b8033b91"
+    }, 
+    "res/spine/300701_zh_CN.json": {
+      "md5": "3d815d21229fbfca3e8fb96ee62bce9a"
+    }, 
+    "res/spine/300701_zh_CN.png": {
+      "md5": "db6c27dc90c3a08c7eeeefb76bede532"
+    }, 
+    "res/spine/300701_zh_TW.atlas": {
+      "md5": "d15bf45e81c6244e81529b5a3110a978"
+    }, 
+    "res/spine/300701_zh_TW.json": {
+      "md5": "c136ee44e531a24a1e5dda2ea9ce8a97"
+    }, 
+    "res/spine/300701_zh_TW.png": {
+      "md5": "d584371381b73c22479d531574fe0130"
+    }, 
+    "res/spine/300801.atlas": {
+      "md5": "6e411c13d62a4fed7db5b9ca04cb4410"
+    }, 
+    "res/spine/300801.json": {
+      "md5": "aac9e1015f0f9326cba35a48c5a6ed0f"
+    }, 
+    "res/spine/300801.png": {
+      "md5": "fd3078b9f44f3dda724ec18c0f5a50c9"
+    }, 
+    "res/spine/300901.atlas": {
+      "md5": "322671049c71272a32202adfe74d2636"
+    }, 
+    "res/spine/300901.json": {
+      "md5": "706f9974e22fc5b805836b13a0c9d925"
+    }, 
+    "res/spine/300901.png": {
+      "md5": "fd3078b9f44f3dda724ec18c0f5a50c9"
+    }, 
+    "res/spine/301001.atlas": {
+      "md5": "06fbf49c956f4ce7d05532124ee1c284"
+    }, 
+    "res/spine/301001.json": {
+      "md5": "e8bfc498fbece2fa8b6f6caad6243e7d"
+    }, 
+    "res/spine/301001.png": {
+      "md5": "d6c708d8561fd749a3a4cf1681a83935"
+    }, 
+    "res/spine/301002.atlas": {
+      "md5": "46d3a2da83ad56e90404c1d21dc46a2e"
+    }, 
+    "res/spine/301002.json": {
+      "md5": "32993fdb0094599389333e7af533b2ad"
+    }, 
+    "res/spine/301002.png": {
+      "md5": "b79865493e94638ed6111d50bc1eaaf2"
+    }, 
+    "res/spine/301003.atlas": {
+      "md5": "c7d7d0b1f30baf0767b0ea5cf5cf1a50"
+    }, 
+    "res/spine/301003.json": {
+      "md5": "9d4309a6b996fbf1c10615e9528c5ded"
+    }, 
+    "res/spine/301003.png": {
+      "md5": "7140da72df5c81b2aacd91e55a4405ca"
+    }, 
+    "res/spine/301004.atlas": {
+      "md5": "8f22fb85fd7cb16a594fb7adb601309f"
+    }, 
+    "res/spine/301004.json": {
+      "md5": "408cada77511259dc670efc5a6016103"
+    }, 
+    "res/spine/301004.png": {
+      "md5": "3132120440bf215c1fbf96465aed7370"
+    }, 
+    "res/spine/301005.atlas": {
+      "md5": "66fac043d0e4bc2e6814d415fd4a7ad5"
+    }, 
+    "res/spine/301005.json": {
+      "md5": "8548a3953731cbad700314d545d236a4"
+    }, 
+    "res/spine/301005.png": {
+      "md5": "6f994fe9d8fc67edd3fed345cd7d5715"
+    }, 
+    "res/spine/301101_en.atlas": {
+      "md5": "8bb99b825079729474177944dc913010"
+    }, 
+    "res/spine/301101_en.json": {
+      "md5": "b9d054ce02c60021d5d87f5709e9e159"
+    }, 
+    "res/spine/301101_en.png": {
+      "md5": "6a4ac8cb7b7638e0aeefa1856ddceb6b"
+    }, 
+    "res/spine/301101_zh_CN.atlas": {
+      "md5": "afd41bab4bda6b854d1284d8b7825d9f"
+    }, 
+    "res/spine/301101_zh_CN.json": {
+      "md5": "8857313fc6b3a438c8bb9185bd1ac349"
+    }, 
+    "res/spine/301101_zh_CN.png": {
+      "md5": "73f811b426d148e28be3e7fa233b619f"
+    }, 
+    "res/spine/301101_zh_TW.atlas": {
+      "md5": "86856eceeba81d4458a39e9fec77046f"
+    }, 
+    "res/spine/301101_zh_TW.json": {
+      "md5": "f03fe6492db12e7e21caaaa78b2d3519"
+    }, 
+    "res/spine/301101_zh_TW.png": {
+      "md5": "9dbe1f9099b49d9574e3b61172614a92"
+    }, 
+    "res/spine/301201_en.atlas": {
+      "md5": "21cc06dedb2c4dbfbbbbcb7a4adaadc0"
+    }, 
+    "res/spine/301201_en.json": {
+      "md5": "34f7df46cdfc4ed54914cdcdd61d8dd7"
+    }, 
+    "res/spine/301201_en.png": {
+      "md5": "70f0b54835e1d162eebd6e02e1cd74d7"
+    }, 
+    "res/spine/301201_zh_CN.atlas": {
+      "md5": "c398b8bcd4896689f32ee3e6c007722e"
+    }, 
+    "res/spine/301201_zh_CN.json": {
+      "md5": "b9cde5b9d8d8462b135908a4da21151e"
+    }, 
+    "res/spine/301201_zh_CN.png": {
+      "md5": "3c36719cf42a0c40fe78f4263a3d66d4"
+    }, 
+    "res/spine/301201_zh_TW.atlas": {
+      "md5": "ec0f85c1e5f54a4f712d480f2b341325"
+    }, 
+    "res/spine/301201_zh_TW.json": {
+      "md5": "651462181e11f6a3d24cf00d37828791"
+    }, 
+    "res/spine/301201_zh_TW.png": {
+      "md5": "8d7391a0f7f3c3af4acdf29cef926093"
+    }, 
+    "res/spine/301301.atlas": {
+      "md5": "571eb0ae75f4af20d5bd9212679489d8"
+    }, 
+    "res/spine/301301.json": {
+      "md5": "ce74d252ea6ed995a60b3fb563d54621"
+    }, 
+    "res/spine/301301.png": {
+      "md5": "2613926e83fa336c0f01b621733dc469"
+    }, 
+    "res/spine/301401_en.atlas": {
+      "md5": "1dfc0dfd948ae48ea90db401c3462eca"
+    }, 
+    "res/spine/301401_en.json": {
+      "md5": "c84b302e8f7d8dcdc993ad3daca49213"
+    }, 
+    "res/spine/301401_en.png": {
+      "md5": "d59512a1272476f4756dc29c85162361"
+    }, 
+    "res/spine/301401_zh_CN.atlas": {
+      "md5": "75a92217523a100367f4be2a58f44ba2"
+    }, 
+    "res/spine/301401_zh_CN.json": {
+      "md5": "aeef074dcaac4775665c3e0966124bdf"
+    }, 
+    "res/spine/301401_zh_CN.png": {
+      "md5": "55edd8a3ab6372babe03dba8cd949648"
+    }, 
+    "res/spine/301401_zh_TW.atlas": {
+      "md5": "7e125d1861fa01abb1ba6065f8f4e28b"
+    }, 
+    "res/spine/301401_zh_TW.json": {
+      "md5": "aeef074dcaac4775665c3e0966124bdf"
+    }, 
+    "res/spine/301401_zh_TW.png": {
+      "md5": "55edd8a3ab6372babe03dba8cd949648"
+    }, 
+    "res/spine/301501_en.atlas": {
+      "md5": "8bf10173876fd8f474563b6db109b586"
+    }, 
+    "res/spine/301501_en.json": {
+      "md5": "ce4d3e228256511c9df835568080db67"
+    }, 
+    "res/spine/301501_en.png": {
+      "md5": "5014dc699386dfd056e559ad5730a207"
+    }, 
+    "res/spine/301501_zh_CN.atlas": {
+      "md5": "3d528d746ebdea20b50a0081e01db357"
+    }, 
+    "res/spine/301501_zh_CN.json": {
+      "md5": "97816163d7b86dd79e35ced78b3d0a24"
+    }, 
+    "res/spine/301501_zh_CN.png": {
+      "md5": "6135c9261a0e058466368a51bb61f29a"
+    }, 
+    "res/spine/301501_zh_TW.atlas": {
+      "md5": "41c7fb823e782b8c2cad54c8e484460a"
+    }, 
+    "res/spine/301501_zh_TW.json": {
+      "md5": "bd5ddd6df7dca531eed6e4705bec0fa6"
+    }, 
+    "res/spine/301501_zh_TW.png": {
+      "md5": "d3e0ed50a999af9a79c13ceb07a86c17"
+    }, 
+    "res/spine/301601_en.atlas": {
+      "md5": "51496ea73db1eb30a5f110c56228075a"
+    }, 
+    "res/spine/301601_en.json": {
+      "md5": "d53c526eb62d327c16b1e8cb34151c65"
+    }, 
+    "res/spine/301601_en.png": {
+      "md5": "9d85a12872b11cde34262f52ed2a6099"
+    }, 
+    "res/spine/301601_zh_CN.atlas": {
+      "md5": "616c0c4ecccd94d88a7d730e893e5be9"
+    }, 
+    "res/spine/301601_zh_CN.json": {
+      "md5": "a61d5f02051437a49633649004616d36"
+    }, 
+    "res/spine/301601_zh_CN.png": {
+      "md5": "6c4137f954de3c3066136e55a8015245"
+    }, 
+    "res/spine/301601_zh_TW.atlas": {
+      "md5": "83ec9e3e25bdf4bae4f6472587b14553"
+    }, 
+    "res/spine/301601_zh_TW.json": {
+      "md5": "f435d1dcb076635136ca948646884fbe"
+    }, 
+    "res/spine/301601_zh_TW.png": {
+      "md5": "6c4137f954de3c3066136e55a8015245"
+    }, 
+    "res/spine/301701_en.atlas": {
+      "md5": "f7cdb43e8f547ea991cd58d09e12fe6c"
+    }, 
+    "res/spine/301701_en.json": {
+      "md5": "d52fd04a0c1b69c2882fa5287b46352a"
+    }, 
+    "res/spine/301701_en.png": {
+      "md5": "50879b379d3fc626c8a8b12519fcc792"
+    }, 
+    "res/spine/301701_zh_CN.atlas": {
+      "md5": "efd90b0e01224dd1329da9cd1521b024"
+    }, 
+    "res/spine/301701_zh_CN.json": {
+      "md5": "9c7700299b832655ad561aa28e82cbf7"
+    }, 
+    "res/spine/301701_zh_CN.png": {
+      "md5": "d174c25596c608f8dea42570d5ddb0fc"
+    }, 
+    "res/spine/301701_zh_TW.atlas": {
+      "md5": "807b0633bf19a53e3c34a6b6340b643c"
+    }, 
+    "res/spine/301701_zh_TW.json": {
+      "md5": "fa3bd2c0b4b0711b735b5f0ebb88767c"
+    }, 
+    "res/spine/301701_zh_TW.png": {
+      "md5": "42d94545543369ffead9379413c32813"
+    }, 
+    "res/spine/301801_en.atlas": {
+      "md5": "9042df3859911b92fa5899b252405f6d"
+    }, 
+    "res/spine/301801_en.json": {
+      "md5": "c4775768d9a35f5a0632664ca9ca1ac7"
+    }, 
+    "res/spine/301801_en.png": {
+      "md5": "5c9d5663305a30048ee11c27310d01de"
+    }, 
+    "res/spine/301801_zh_CN.atlas": {
+      "md5": "a8a862b302953d82ecf26ef898b9d094"
+    }, 
+    "res/spine/301801_zh_CN.json": {
+      "md5": "d604b3ac37516d03ecb1048c4734f4c5"
+    }, 
+    "res/spine/301801_zh_CN.png": {
+      "md5": "dabe09d01e9d48b6ad2b8b342f4dc0e5"
+    }, 
+    "res/spine/301801_zh_TW.atlas": {
+      "md5": "6aced60594d7eae511ce1a2941d4f2ca"
+    }, 
+    "res/spine/301801_zh_TW.json": {
+      "md5": "d604b3ac37516d03ecb1048c4734f4c5"
+    }, 
+    "res/spine/301801_zh_TW.png": {
+      "md5": "dabe09d01e9d48b6ad2b8b342f4dc0e5"
+    }, 
+    "res/spine/301901_en.atlas": {
+      "md5": "ffa6cf76a434b1bbd8c34d0ac502fd5f"
+    }, 
+    "res/spine/301901_en.json": {
+      "md5": "e79287d98f323968f522b500c4affd64"
+    }, 
+    "res/spine/301901_en.png": {
+      "md5": "b27e4bf715112f388638e94bef5a66b9"
+    }, 
+    "res/spine/301901_zh_CN.atlas": {
+      "md5": "02baf4d551501918772faffbbf5cb6e4"
+    }, 
+    "res/spine/301901_zh_CN.json": {
+      "md5": "6591ba5dbf362878901816deb9b2e553"
+    }, 
+    "res/spine/301901_zh_CN.png": {
+      "md5": "9603061cef0a833810d43c5a21a60ede"
+    }, 
+    "res/spine/301901_zh_TW.atlas": {
+      "md5": "2f06a667575079c3787d62dddd991dbf"
+    }, 
+    "res/spine/301901_zh_TW.json": {
+      "md5": "6591ba5dbf362878901816deb9b2e553"
+    }, 
+    "res/spine/301901_zh_TW.png": {
+      "md5": "9603061cef0a833810d43c5a21a60ede"
+    }, 
+    "res/spine/302001_en.atlas": {
+      "md5": "c2ee8687eeaa1dcc3c5f5efa5ed12aae"
+    }, 
+    "res/spine/302001_en.json": {
+      "md5": "0fece9b8bbbc17d55b78d4155fa64fac"
+    }, 
+    "res/spine/302001_en.png": {
+      "md5": "e9de7d7bee0ceff6e2062f4f674c3fe0"
+    }, 
+    "res/spine/302001_zh_CN.atlas": {
+      "md5": "db856b1e539e231e924f3da899381854"
+    }, 
+    "res/spine/302001_zh_CN.json": {
+      "md5": "2a8ef3b2e4a1d1b3e96158f99eef026a"
+    }, 
+    "res/spine/302001_zh_CN.png": {
+      "md5": "4f7da975b39e1a74087eb59e549c2b93"
+    }, 
+    "res/spine/302001_zh_TW.atlas": {
+      "md5": "8205aea53f7b40c03ae845bb6abb4c06"
+    }, 
+    "res/spine/302001_zh_TW.json": {
+      "md5": "d70c87a2bd320164632007820aebb7b5"
+    }, 
+    "res/spine/302001_zh_TW.png": {
+      "md5": "45e11abd07b4632618a351dd5a9844fe"
+    }, 
+    "res/spine/302101_en.atlas": {
+      "md5": "d3484f56848f874d723eead3262c6bda"
+    }, 
+    "res/spine/302101_en.json": {
+      "md5": "5ab577f1508a0033bf82ec90e2f05da2"
+    }, 
+    "res/spine/302101_en.png": {
+      "md5": "cc12f8a224ff5095a9d560d0eeac9941"
+    }, 
+    "res/spine/302101_zh_CN.atlas": {
+      "md5": "ed32e7bc6d3cc354e550f146e0809ffc"
+    }, 
+    "res/spine/302101_zh_CN.json": {
+      "md5": "b723d684d40006a8cd4b408a28da5889"
+    }, 
+    "res/spine/302101_zh_CN.png": {
+      "md5": "6b496e66b2a6449a6ad5cc836c813bf8"
+    }, 
+    "res/spine/302101_zh_TW.atlas": {
+      "md5": "88633445173e5c0163b030adeca9922e"
+    }, 
+    "res/spine/302101_zh_TW.json": {
+      "md5": "ec2a346603bb9ef1973017eac7d4bad5"
+    }, 
+    "res/spine/302101_zh_TW.png": {
+      "md5": "341e38184a36f311eab94499b789ff11"
+    }, 
+    "res/spine/302501_en.atlas": {
+      "md5": "0baf1007cbd5762566c053505cc892b9"
+    }, 
+    "res/spine/302501_en.json": {
+      "md5": "9daff219eba7327e8b7239bffd4be144"
+    }, 
+    "res/spine/302501_en.png": {
+      "md5": "fcd71480fcd3b1bf46b12cdb97f79c36"
+    }, 
+    "res/spine/302501_zh_CN.atlas": {
+      "md5": "8c6949595c1a6e680d62f553ee692f3c"
+    }, 
+    "res/spine/302501_zh_CN.json": {
+      "md5": "2ee82c3713b45620b9b33e91e6907444"
+    }, 
+    "res/spine/302501_zh_CN.png": {
+      "md5": "725a671e6ed77648a9b9feec4b73a70a"
+    }, 
+    "res/spine/302501_zh_TW.atlas": {
+      "md5": "c9573ba28e20e58552cdc913cafb09dd"
+    }, 
+    "res/spine/302501_zh_TW.json": {
+      "md5": "fe37a333fb6c91cee3317fc339640912"
+    }, 
+    "res/spine/302501_zh_TW.png": {
+      "md5": "be8f9a91da74411e0d266fc6fb206ead"
+    }, 
+    "res/spine/302601_en.atlas": {
+      "md5": "c9e2a7cb7b242f275cc527be7f1a6852"
+    }, 
+    "res/spine/302601_en.json": {
+      "md5": "b84ae407572186b9c3a45d24e9e79135"
+    }, 
+    "res/spine/302601_en.png": {
+      "md5": "e39a457d414b33b1ee0ba923577dd162"
+    }, 
+    "res/spine/302601_zh_CN.atlas": {
+      "md5": "7e81e9a5bbea6d3154d78012a1696523"
+    }, 
+    "res/spine/302601_zh_CN.json": {
+      "md5": "846f477d32e29dce95a31ec9595bbbe8"
+    }, 
+    "res/spine/302601_zh_CN.png": {
+      "md5": "179b5910852d72d1c21240d018e21de7"
+    }, 
+    "res/spine/302601_zh_TW.atlas": {
+      "md5": "5a0481869b9f098e19d56857e6376c92"
+    }, 
+    "res/spine/302601_zh_TW.json": {
+      "md5": "846f477d32e29dce95a31ec9595bbbe8"
+    }, 
+    "res/spine/302601_zh_TW.png": {
+      "md5": "179b5910852d72d1c21240d018e21de7"
+    }, 
+    "res/ui/00_01_Common/00_01_Common_1.plist": {
+      "md5": "a9f2cb9a73661a50ae89a708a434dcdd"
+    }, 
+    "res/ui/00_01_Common/00_01_Common_1.pvr": {
+      "md5": "2442a20ecbc08f6d5d1cb63b37987ef6"
+    }, 
+    "res/ui/00_02_Default/00_02_Default_1.plist": {
+      "md5": "489fe84aef050afe7cfd4b919111af79"
+    }, 
+    "res/ui/00_02_Default/00_02_Default_1.pvr": {
+      "md5": "7bf5fb2c27b6d8a9557ac6913b888173"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_1.plist": {
+      "md5": "1e7f24935baf50cb96127211d5142fdb"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_1.pvr": {
+      "md5": "9f367a6360631f557f484d07ca7f54f2"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_2.plist": {
+      "md5": "8d47e2696dc617e38323d8b91ea06680"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_2.pvr": {
+      "md5": "485459e6846648bfb2a6da031203dfd1"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_3.plist": {
+      "md5": "ab47c83a247fe51bf9d20fb8580e00a1"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_3.pvr": {
+      "md5": "59e314374760e21f5366fe355b5c5210"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_4.plist": {
+      "md5": "fe7d273747ab739d9fe450149fd041ce"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_4.pvr": {
+      "md5": "515b9274ade41446e2e65f5f0f636323"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_5.plist": {
+      "md5": "48ed8bcf5368cd84be1acc13586c0cd6"
+    }, 
+    "res/ui/00_03_Bg/00_03_Bg_5.pvr": {
+      "md5": "07f516602c4cf28a7bd320880caf03f2"
+    }, 
+    "res/ui/01_01_Login/01_01_Login_1.plist": {
+      "md5": "25a5e44562022e9a8b029ac9c7b83a3e"
+    }, 
+    "res/ui/01_01_Login/01_01_Login_1.pvr": {
+      "md5": "48e9c4dd3409bf9bcba016a8d7865c05"
+    }, 
+    "res/ui/01_02_Main/01_02_Main_1.plist": {
+      "md5": "d61291197d5647e85ec2423169f4ff0a"
+    }, 
+    "res/ui/01_02_Main/01_02_Main_1.pvr": {
+      "md5": "e1007cc22a8465fc737c52dbfe78f888"
+    }, 
+    "res/ui/01_03_PropKnapsack/01_03_PropKnapsack_1.plist": {
+      "md5": "78f5e54288795fe5b0251c35e1208ad8"
+    }, 
+    "res/ui/01_03_PropKnapsack/01_03_PropKnapsack_1.pvr": {
+      "md5": "eba014470e9425302f022fa2d672d944"
+    }, 
+    "res/ui/01_04_Task/01_04_Task_1.plist": {
+      "md5": "2bd4b84f964000cbf9ee6fb55e51577e"
+    }, 
+    "res/ui/01_04_Task/01_04_Task_1.pvr": {
+      "md5": "51c8bcb7f96a7bd2b2487c543a4bf885"
+    }, 
+    "res/ui/01_06_PersonalCenter/01_06_PersonalCenter_1.plist": {
+      "md5": "098274af1c007822116b37cad726df1f"
+    }, 
+    "res/ui/01_06_PersonalCenter/01_06_PersonalCenter_1.pvr": {
+      "md5": "c98769d7b0cce1ba6867ec7aa666c58c"
+    }, 
+    "res/ui/01_07_Sitting/01_07_Sitting_1.plist": {
+      "md5": "d345dc1ce6e018fdfd637a93366a64dd"
+    }, 
+    "res/ui/01_07_Sitting/01_07_Sitting_1.pvr": {
+      "md5": "cfc78733f85981e44b7f929e18809337"
+    }, 
+    "res/ui/01_10_Mail/01_10_Mail_1.plist": {
+      "md5": "df548ae90e35a68973a2323f25886da6"
+    }, 
+    "res/ui/01_10_Mail/01_10_Mail_1.pvr": {
+      "md5": "4918434a187c1bbe50b3d5d4002dc699"
+    }, 
+    "res/ui/01_11_ActivitiesBulletin/01_11_ActivitiesBulletin_1.plist": {
+      "md5": "bfb7eda5eac458e58fba4544f770fda3"
+    }, 
+    "res/ui/01_11_ActivitiesBulletin/01_11_ActivitiesBulletin_1.pvr": {
+      "md5": "3bb115d0323186276cde90b1a9d02faa"
+    }, 
+    "res/ui/01_16_NoviceGuidance/01_16_NoviceGuidance_1.plist": {
+      "md5": "fd4cbb21e74d61227abcf7e91b57b85b"
+    }, 
+    "res/ui/01_16_NoviceGuidance/01_16_NoviceGuidance_1.pvr": {
+      "md5": "5bb6495858321478c3c442c3622848ab"
+    }, 
+    "res/ui/01_17_GetRes/01_17_GetRes_1.plist": {
+      "md5": "aee5bc06508b88636234492260a00fba"
+    }, 
+    "res/ui/01_17_GetRes/01_17_GetRes_1.pvr": {
+      "md5": "a0b30644135c384d0d7b083aa185e2e5"
+    }, 
+    "res/ui/01_18_Relief/01_18_Relief_1.plist": {
+      "md5": "fd7d369faa9a593a29a03a0b28bc1f02"
+    }, 
+    "res/ui/01_18_Relief/01_18_Relief_1.pvr": {
+      "md5": "481f725f445b48f0456f8882b5506b30"
+    }, 
+    "res/ui/02_01_Boast/02_01_Boast_1.plist": {
+      "md5": "d7a18630b5d37fb9c04ed8b84059cd6b"
+    }, 
+    "res/ui/02_01_Boast/02_01_Boast_1.pvr": {
+      "md5": "9822ccfed5b05a224b92567f8eb407e4"
+    }, 
+    "res/ui/02_01_Boast/02_01_Boast_2.plist": {
+      "md5": "8ea6416f6953ec20b0a65acccac278d2"
+    }, 
+    "res/ui/02_01_Boast/02_01_Boast_2.pvr": {
+      "md5": "3c79bafe32cb06e366b9ef8b02ed6ec8"
+    }, 
+    "res/ui/02_02_GuessSize/02_02_GuessSize_1.plist": {
+      "md5": "feed3e9c64bc41ee983028ebc4ba8b77"
+    }, 
+    "res/ui/02_02_GuessSize/02_02_GuessSize_1.pvr": {
+      "md5": "72d60962099dcb4a73289abe54fda46f"
+    }, 
+    "res/ui/02_04_DiceBaby/02_04_DiceBaby_1.plist": {
+      "md5": "ff586b98a30e8bf0e193fc709af7002f"
+    }, 
+    "res/ui/02_04_DiceBaby/02_04_DiceBaby_1.pvr": {
+      "md5": "15052613074a21b2b822cc307e2f2f24"
+    }, 
+    "res/ui/03_01_Shop/03_01_Shop_1.plist": {
+      "md5": "74a3be812d241430d7f00cf7be331ad7"
+    }, 
+    "res/ui/03_01_Shop/03_01_Shop_1.pvr": {
+      "md5": "0e01afdd81f544b4408c32a4a237afd4"
+    }, 
+    "res/ui/03_04_Invitation/03_04_Invitation_1.plist": {
+      "md5": "256a80c54bb6c9ba61f85e29c7081f10"
+    }, 
+    "res/ui/03_04_Invitation/03_04_Invitation_1.pvr": {
+      "md5": "8e6dfda9392875c432f78dfedd1e5993"
+    }, 
+    "res/ui/03_08_NewWelfare/03_08_NewWelfare_1.plist": {
+      "md5": "fc780c084dbf65dd789d66c7c05e990c"
+    }, 
+    "res/ui/03_08_NewWelfare/03_08_NewWelfare_1.pvr": {
+      "md5": "bd398839f9fe944064137e5eb5be251c"
+    }, 
+    "res/ui/03_10_OperateGiftBag/03_10_OperateGiftBag_1.plist": {
+      "md5": "5d11ad6ecf00b779a5d624af57d43941"
+    }, 
+    "res/ui/03_10_OperateGiftBag/03_10_OperateGiftBag_1.pvr": {
+      "md5": "7d013890f956d0efd75cca37f4c607e2"
+    }, 
+    "res/ui/04_01_Chat/04_01_Chat_1.plist": {
+      "md5": "dea249c47a15cc383bc8596c875a2f9f"
+    }, 
+    "res/ui/04_01_Chat/04_01_Chat_1.pvr": {
+      "md5": "e39858293083ca2f07db995d17b9cb8f"
+    }, 
+    "res/ui/04_02_Friends/04_02_Friends_1.plist": {
+      "md5": "2d42a90cd4dfdb71fe641c75202de3d8"
+    }, 
+    "res/ui/04_02_Friends/04_02_Friends_1.pvr": {
+      "md5": "7c9844fb5714832dacbc46cf9c57e4eb"
+    }, 
+    "res/ui/Default/Default_1.plist": {
+      "md5": "ae829224439cc03c430987146e67451c"
+    }, 
+    "res/ui/Default/Default_1.pvr": {
+      "md5": "5d210c402f577972e145e440eb69c938"
+    }, 
+    "src/app/Entity/SievePlayer.lua": {
+      "md5": "d2997db4f63eaf2583b84e41f781ff21"
+    }, 
+    "src/app/Enum.lua": {
+      "md5": "3007b77d50a4624d661a7588adfe84f9"
+    }, 
+    "src/app/MyApp.lua": {
+      "md5": "0209ed0acb30e9c0acdd0b6da8f46a0d"
+    }, 
+    "src/app/bean/FriendInfo.lua": {
+      "md5": "6c8fd9a38b9f7cbf0cc5479e0c26984c"
+    }, 
+    "src/app/bean/GameSeat.lua": {
+      "md5": "9223ef124d7a9f016e71b8f4aedd3fe5"
+    }, 
+    "src/app/bean/HeadFrameInfo.lua": {
+      "md5": "ac86b39e0c6b3612ed856f816dd92f2b"
+    }, 
+    "src/app/bean/ItemInfo.lua": {
+      "md5": "2ae1c3c0a75892a201da8bb83d257fa6"
+    }, 
+    "src/app/bean/ShopInfo.lua": {
+      "md5": "74b2c3764723986031d3dfca190f3cfa"
+    }, 
+    "src/app/bean/TaskInfo.lua": {
+      "md5": "c05d7d728cd46e36bc82bedd585fe5d9"
+    }, 
+    "src/app/bean/UserInfo.lua": {
+      "md5": "ab76cbd839d3472f30ce2df072e3158c"
+    }, 
+    "src/app/config/Config.lua": {
+      "md5": "d440bd0e135ca164e20a82eac421e7ee"
+    }, 
+    "src/app/config/ConfigManager.lua": {
+      "md5": "afdc7c33bd0e6f6fc559577ac38b50bc"
+    }, 
+    "src/app/config/NetCodeConfig.lua": {
+      "md5": "5b7c3aef7941eb05e93bf6d717c6c838"
+    }, 
+    "src/app/config/NetDataConfig.lua": {
+      "md5": "db3069c4b912d4d65b4ebb6c63966d4b"
+    }, 
+    "src/app/config/PlistConfig.lua": {
+      "md5": "a624aef054a6295ce345fd137cfec01f"
+    }, 
+    "src/app/config/ProtobufConfig.lua": {
+      "md5": "22b6db7aad0b02cb4916208a2a517641"
+    }, 
+    "src/app/config/SystemConfig.lua": {
+      "md5": "5e93cc425bd147bce711b862793f91af"
+    }, 
+    "src/app/config/UIManagerConfig.lua": {
+      "md5": "e64999d427751a8b448f108f8e81154b"
+    }, 
+    "src/app/data/ActivityData.lua": {
+      "md5": "d019085348994a1abb39457ebafd0d2a"
+    }, 
+    "src/app/data/AvatarRomoteData.lua": {
+      "md5": "09fff23ebffb2d159c07e8f0832cddb6"
+    }, 
+    "src/app/data/ChatData.lua": {
+      "md5": "def5461f3927673b8333d533373035b5"
+    }, 
+    "src/app/data/CommonData.lua": {
+      "md5": "7932d8fc8a32655b42e587eb6378d531"
+    }, 
+    "src/app/data/DataManager.lua": {
+      "md5": "a19cea1ce53b59423efa008ee43fb3ee"
+    }, 
+    "src/app/data/EmailData.lua": {
+      "md5": "f6704c670c1fc7da7cd890469960027a"
+    }, 
+    "src/app/data/FriendData.lua": {
+      "md5": "c616f2d2aaf5074861d2a35ef7cac7df"
+    }, 
+    "src/app/data/GameData.lua": {
+      "md5": "783bafe96a2d3096b88d39c4cdd6d6b7"
+    }, 
+    "src/app/data/GameSettingData.lua": {
+      "md5": "dff01b65f1b6dba85513a9ba099d21d7"
+    }, 
+    "src/app/data/GlobleCallBack.lua": {
+      "md5": "77f733027f91152fc430d0db5f7a769a"
+    }, 
+    "src/app/data/HotData.lua": {
+      "md5": "632c192fa50d3fc3a4899943cdb84c5f"
+    }, 
+    "src/app/data/LoginData.lua": {
+      "md5": "779f872f2edc28e29b3d27996187f56f"
+    }, 
+    "src/app/data/PackageData.lua": {
+      "md5": "0cd808699fd183128f29f3001642df5c"
+    }, 
+    "src/app/data/RewardData.lua": {
+      "md5": "ee13a269f5c00edd3059c83643b9bae5"
+    }, 
+    "src/app/data/SieveData.lua": {
+      "md5": "621bd18c14cfd02b8696b33bb38e3fac"
+    }, 
+    "src/app/data/StoreData.lua": {
+      "md5": "16326e5f87d2e53597691705f7912005"
+    }, 
+    "src/app/data/TaskData.lua": {
+      "md5": "e13f50f66ad0943fda02b6106fc12e45"
+    }, 
+    "src/app/data/UserData.lua": {
+      "md5": "d2ceebd506184e912047b96fddaf9593"
+    }, 
+    "src/app/data/UserHeadIconData.lua": {
+      "md5": "9932d6c8e93b1b35f289fc489640c803"
+    }, 
+    "src/app/gui/UIUpdateLayer.lua": {
+      "md5": "042f860a37111d7da237de7e410340a0"
+    }, 
+    "src/app/gui/activity/ActivitiesCell.lua": {
+      "md5": "e3bb952dd96b77da30c3767f3a954a07"
+    }, 
+    "src/app/gui/activity/ActivitiesNoiceCell.lua": {
+      "md5": "c510bdb6a037b3d829064482943ed8a1"
+    }, 
+    "src/app/gui/activity/NewWelfareLoginCell.lua": {
+      "md5": "e47a31ce32a90f32b43fd0e7dd5f1563"
+    }, 
+    "src/app/gui/activity/NewWelfareNoviceCell.lua": {
+      "md5": "fbf053fed4797a8218f3ac9a28cb019c"
+    }, 
+    "src/app/gui/activity/OperateGiftBagNoviceCell.lua": {
+      "md5": "5e6847ad1d1e62cc377cd6f03a426f00"
+    }, 
+    "src/app/gui/activity/UIActivitiesLayer.lua": {
+      "md5": "3e4b2bc595cde35a551131bd920f9551"
+    }, 
+    "src/app/gui/activity/UIActivitiesNoticePopUp.lua": {
+      "md5": "a23ee36bfcee235d2605785295c076c9"
+    }, 
+    "src/app/gui/activity/UIBigSmallWalkingLanternNode.lua": {
+      "md5": "71296cf1d9d70ba9a74307235643ad27"
+    }, 
+    "src/app/gui/activity/UIGameAnnouncement.lua": {
+      "md5": "fb08310f16597a562cbb4dcb8e0bc9db"
+    }, 
+    "src/app/gui/activity/UINewWelfareLoginPopUp.lua": {
+      "md5": "3d1ec7a93f841cb10587fd4da9129424"
+    }, 
+    "src/app/gui/activity/UINewWelfareNovicePopUp.lua": {
+      "md5": "35286d7dd9836b0e9fcb595dfac3a5f3"
+    }, 
+    "src/app/gui/activity/UIOperateGiftBagNovicePopUp.lua": {
+      "md5": "42e4c5eef366aef8434d5d8d3528ff58"
+    }, 
+    "src/app/gui/activity/UIReliefLayer.lua": {
+      "md5": "f51eb3a1202d3eb40fa7d0766f19abb9"
+    }, 
+    "src/app/gui/activity/UIWalkingLanternNode.lua": {
+      "md5": "cc6af24e54c2541eba553d244a308e21"
+    }, 
+    "src/app/gui/bag/UIItem.lua": {
+      "md5": "fb71311feb6d310c9f2ea3a8a81c35b1"
+    }, 
+    "src/app/gui/bag/UIPackageItem.lua": {
+      "md5": "d331bb5909148e3ca0187ef83383c371"
+    }, 
+    "src/app/gui/bag/UIPackageLayer.lua": {
+      "md5": "5d12804801b7e04a70c3543305cbc5b7"
+    }, 
+    "src/app/gui/bag/UIPackageLineCell.lua": {
+      "md5": "574f6955b4e63f401017db8e0ab15927"
+    }, 
+    "src/app/gui/bag/UIPackageShowDiceUp.lua": {
+      "md5": "3133b47a36c60cbff6a829299d45ca15"
+    }, 
+    "src/app/gui/bag/UIPackageShowItemTips.lua": {
+      "md5": "1a281007bbd6200d704b40c2ff4177f5"
+    }, 
+    "src/app/gui/basegui/UIBase.lua": {
+      "md5": "20aa115c9bec9fda9fae6f834dcffdf4"
+    }, 
+    "src/app/gui/basegui/UIPanel.lua": {
+      "md5": "6b8b803a9e2222891cc94274afafd7e9"
+    }, 
+    "src/app/gui/chat/UIChannelCell.lua": {
+      "md5": "3588543f930c9adbf2ea7f6f6ebc6a7e"
+    }, 
+    "src/app/gui/chat/UIChatCell.lua": {
+      "md5": "0eda83c22e02a64d973319798ff4237a"
+    }, 
+    "src/app/gui/chat/UIChatSelfCell.lua": {
+      "md5": "9101a889ccefe16992bee1c766844a51"
+    }, 
+    "src/app/gui/chat/UIFriendChatLayer.lua": {
+      "md5": "e59af19cdcc7bde8e3ade74ae1d0dd54"
+    }, 
+    "src/app/gui/chat/UIRoomChatLayer.lua": {
+      "md5": "924efb3ace4e124a7106076d4836e5d7"
+    }, 
+    "src/app/gui/dialog/UIGetMulResLayer.lua": {
+      "md5": "5e6fd777ff64caf68fc535afd6ab45b1"
+    }, 
+    "src/app/gui/dialog/UIRewardLayer.lua": {
+      "md5": "9b42d54ab95622a8637ca4fdfa59fb79"
+    }, 
+    "src/app/gui/dialog/UISystemTipsLayer.lua": {
+      "md5": "bff19872301ee72d74f150cd2a21ab2e"
+    }, 
+    "src/app/gui/email/UIDeleteAllEmailConfirm.lua": {
+      "md5": "ea66400fce943ac35096c8a6b93b4b3a"
+    }, 
+    "src/app/gui/email/UIEmailDetail.lua": {
+      "md5": "3d26e5ee554a395af5881478c50a8ab8"
+    }, 
+    "src/app/gui/email/UIEmailItem.lua": {
+      "md5": "e3f5ec013b1d8a2fbe91608ceda6ddd9"
+    }, 
+    "src/app/gui/email/UIEmailItem2.lua": {
+      "md5": "1ac1f17e7af231ba85e551b4f9671bfa"
+    }, 
+    "src/app/gui/email/UIEmailLayer.lua": {
+      "md5": "4fd9bc8acf790a1f4035e1e41999cc5c"
+    }, 
+    "src/app/gui/friend/UIFriendItem.lua": {
+      "md5": "1b07ffad75a66aabd6adebd21eac8b93"
+    }, 
+    "src/app/gui/friend/UIFriendLayer.lua": {
+      "md5": "d55c237a72ebe38c60fae675961341f4"
+    }, 
+    "src/app/gui/game/UIBingoLayer.lua": {
+      "md5": "a7b7c51b6dad4dd1b5418c9f21ddd75a"
+    }, 
+    "src/app/gui/game/UIBoastListLayer.lua": {
+      "md5": "1b1c659860fde1e258a352f5961176a0"
+    }, 
+    "src/app/gui/game/UIBoastMagicyFlyLayer_1.lua": {
+      "md5": "2915d1ffdf8f7777f2d4220e968b2431"
+    }, 
+    "src/app/gui/game/UIBoastMagicyFlyLayer_2.lua": {
+      "md5": "52cff927665b5eaf33eb482821748761"
+    }, 
+    "src/app/gui/game/UIBoastMoneyFlyLayer.lua": {
+      "md5": "00413888f1a5998117e0ef2a03eab9ee"
+    }, 
+    "src/app/gui/game/UIBoastPlayerItem.lua": {
+      "md5": "a898243c823a69ad2f7f1e9c317f2be3"
+    }, 
+    "src/app/gui/game/UIBoastPlayerListLayer.lua": {
+      "md5": "d3a73b55fcc44e94477eceb12f072a72"
+    }, 
+    "src/app/gui/game/UIChooseCallSeatLayer.lua": {
+      "md5": "4e9180f1d8bf00502df971ea06ebdb7d"
+    }, 
+    "src/app/gui/game/UIChooseOnlookersLayer.lua": {
+      "md5": "5b8b522f47fa796d87607dd4a2306473"
+    }, 
+    "src/app/gui/game/UIChooseOpenSeatLayer.lua": {
+      "md5": "930edfa8b68e7d726c9afb5795739bd7"
+    }, 
+    "src/app/gui/game/UIDiceBoxCell.lua": {
+      "md5": "5428cc0d23556a04808751b871fd3db6"
+    }, 
+    "src/app/gui/game/UIDiceChooseLayer.lua": {
+      "md5": "393b501e8098f00decc53719e1efdd79"
+    }, 
+    "src/app/gui/game/UIDiceNumItem.lua": {
+      "md5": "1e913ec40c2359fa8fe246d593c9b2ae"
+    }, 
+    "src/app/gui/game/UIDicePointItem.lua": {
+      "md5": "3b094e450c4e7193de2af304f0201a8a"
+    }, 
+    "src/app/gui/game/UIExtraCompareChooseLayer.lua": {
+      "md5": "ec562ad476fb88d2b02e2488cd6da608"
+    }, 
+    "src/app/gui/game/UIGameGetGoldLayer.lua": {
+      "md5": "4187bf8bfe6431eb51b7a4e478ad776a"
+    }, 
+    "src/app/gui/game/UIGameLayer.lua": {
+      "md5": "864a73dbe131ad8399512f7aedd86de6"
+    }, 
+    "src/app/gui/game/UIGameLoseGoldLayer.lua": {
+      "md5": "1817a567a4fbe0ba462e7aeb38f77fcd"
+    }, 
+    "src/app/gui/game/UIGameReady.lua": {
+      "md5": "038ad7b34320bd42df35df7078b74cba"
+    }, 
+    "src/app/gui/game/UIGameSettingLayer.lua": {
+      "md5": "c3dee413f5859c9b64606f52461e032e"
+    }, 
+    "src/app/gui/game/UIGuessingCancelLayer.lua": {
+      "md5": "626d1c3b6cdb66448d865d20c529a321"
+    }, 
+    "src/app/gui/game/UIGuessingHeadCell.lua": {
+      "md5": "633dddc18d09714245d0e14a817a6811"
+    }, 
+    "src/app/gui/game/UIGuessingLayer.lua": {
+      "md5": "2f399f549b8e45091892845e5bbe91d0"
+    }, 
+    "src/app/gui/game/UIGuessingResultHeadCell.lua": {
+      "md5": "34947c055ab63769377492236b925289"
+    }, 
+    "src/app/gui/game/UIGuessingResultLayer.lua": {
+      "md5": "2da45661ee9422e6cc92af16605cfde4"
+    }, 
+    "src/app/gui/game/UILaunchUpVotaconfirm.lua": {
+      "md5": "dca2a1ead2e48a329669a9d8ec83c7f5"
+    }, 
+    "src/app/gui/game/UILossLayer.lua": {
+      "md5": "2133c159a1f42cd32c89abc8f6fe921e"
+    }, 
+    "src/app/gui/game/UIMagicEmojiCell.lua": {
+      "md5": "71d4fe0c8405799ffda907e40b4337ce"
+    }, 
+    "src/app/gui/game/UIMagicEmojiPopUp.lua": {
+      "md5": "468a408c71152247fd1149e7ebc71c46"
+    }, 
+    "src/app/gui/game/UIMineDiceBoxCell.lua": {
+      "md5": "12900bebc4ec14f66af6fb09c539f11c"
+    }, 
+    "src/app/gui/game/UINumberCell.lua": {
+      "md5": "c77ef8e0ba3b8e02062038c82d4bfed9"
+    }, 
+    "src/app/gui/game/UINumberChooseLayer.lua": {
+      "md5": "d0311e1f3d01d262fc61cae638fcbc99"
+    }, 
+    "src/app/gui/game/UIOtherDiceBoxCell.lua": {
+      "md5": "5c28f53a39cf868fe089047f21948bb0"
+    }, 
+    "src/app/gui/game/UIResultPopUp.lua": {
+      "md5": "f8c83a088b8c44eda145b72a8f1e844f"
+    }, 
+    "src/app/gui/game/UIUpBetNotice.lua": {
+      "md5": "1cb0c166963f27b82f206b38883e64b1"
+    }, 
+    "src/app/gui/game/UIUpdateBetBaseSeccess.lua": {
+      "md5": "da9a429db51350c28747e64418710a58"
+    }, 
+    "src/app/gui/game/UIUpdateBetBasefail.lua": {
+      "md5": "835fb1980dff5dbe825c9eb138163f5d"
+    }, 
+    "src/app/gui/guessSize/GuessSizeHintCell.lua": {
+      "md5": "6f14a115010245bbc931ada670353a6f"
+    }, 
+    "src/app/gui/guessSize/MainGuessSizeHintCell.lua": {
+      "md5": "ed7cd6a59a24edd675e0eeaca4e10124"
+    }, 
+    "src/app/gui/guessSize/PlayerMessageCell.lua": {
+      "md5": "5178b3b38939806577cc1db5c5e7f0b4"
+    }, 
+    "src/app/gui/guessSize/RankingPlayerCell.lua": {
+      "md5": "5c00c5be8c64fd1fb889b6d03e103f1d"
+    }, 
+    "src/app/gui/guessSize/SelectedLeopardCell.lua": {
+      "md5": "822ff15c593091ee1201fca6d940565c"
+    }, 
+    "src/app/gui/guessSize/SizeResultCell.lua": {
+      "md5": "124e01fe52c4ac38ba932efd118013e6"
+    }, 
+    "src/app/gui/guessSize/SmashEggCell.lua": {
+      "md5": "7a49972098ced43da55dc2bf8f0d3255"
+    }, 
+    "src/app/gui/guessSize/UIBankerGuessSizeLayer.lua": {
+      "md5": "72fe08ab43388c0013dd0577f077fd32"
+    }, 
+    "src/app/gui/guessSize/UIGuessSizeLayer.lua": {
+      "md5": "987b0490f64e77aa3a5bb911ad0d740a"
+    }, 
+    "src/app/gui/guessSize/UIGuessSizeMiniTipPopUp_1.lua": {
+      "md5": "0b32e58d668b05fcfd892f15eed96a11"
+    }, 
+    "src/app/gui/guessSize/UIGuessSizeMiniTipPopUp_2.lua": {
+      "md5": "627cde20a3932d78ab5f173a499238f0"
+    }, 
+    "src/app/gui/guessSize/UIGuessSizeMiniTipPopUp_3.lua": {
+      "md5": "2f25db64d1d9e6078174cc05a7e7f592"
+    }, 
+    "src/app/gui/guessSize/UIRodGoldRankingLayer.lua": {
+      "md5": "ec7d88e96519f5a829f9021b248a6dfd"
+    }, 
+    "src/app/gui/guessSize/UISizeResultSpriteCell.lua": {
+      "md5": "6ff067cfd40b9887e736bfc9be1de4da"
+    }, 
+    "src/app/gui/guessSize/UISmashEggPlaceCell.lua": {
+      "md5": "62cc7150889b74cd8f95fd427155f051"
+    }, 
+    "src/app/gui/guessSize/WalkingLanternCell.lua": {
+      "md5": "d6ab0b70305fc7e8bd377f8c5946f102"
+    }, 
+    "src/app/gui/guide/GuideBoastResultPopUp.lua": {
+      "md5": "55b5a95647e0db665a7fb70bda6ce78a"
+    }, 
+    "src/app/gui/guide/GuideDiceCupLayer.lua": {
+      "md5": "023eb29a60f9317e08837414075b45ca"
+    }, 
+    "src/app/gui/guide/GuideNumberLayer.lua": {
+      "md5": "4b6a5dcbc6022aee1b464ac4818f93e1"
+    }, 
+    "src/app/gui/guide/GuidePointLayer.lua": {
+      "md5": "3b5fc7f5dfdda0ff8647fb3e920376ad"
+    }, 
+    "src/app/gui/guide/UIGameGuideLayer.lua": {
+      "md5": "8d567d1dc349bbd4b3455ef2f6847897"
+    }, 
+    "src/app/gui/guide/UIGuideBigPrizeLayer.lua": {
+      "md5": "e68aa780f544fb479839142715dffeb8"
+    }, 
+    "src/app/gui/guide/UIGuideGuessingLayer.lua": {
+      "md5": "1789718d4e61f5414d6d82202fe12783"
+    }, 
+    "src/app/gui/guide/UIGuideMiniTipPopUp_1.lua": {
+      "md5": "f80d172cbed4c03c60701f3acd689fed"
+    }, 
+    "src/app/gui/guide/UIGuideMiniTipPopUp_2.lua": {
+      "md5": "d102e67d8b3bc84bb874495cf56ef48e"
+    }, 
+    "src/app/gui/guide/UIGuideWinAwardLayer.lua": {
+      "md5": "5249cb45ff6ca1564e578756baf38943"
+    }, 
+    "src/app/gui/guide/UINoviceGuideLayer.lua": {
+      "md5": "b8af6c75c0677ed4b158b98c76d02448"
+    }, 
+    "src/app/gui/guide/UINoviceStartGuideLayer.lua": {
+      "md5": "e51dcc808f68978239083b898eab16d5"
+    }, 
+    "src/app/gui/home/BankerDownShaiBaoTipLayer.lua": {
+      "md5": "0acbdd2cc843ed4ddefe3d870a03ecf5"
+    }, 
+    "src/app/gui/home/BankerDownTipLayer.lua": {
+      "md5": "009ca2ade8574d838e2d7164f52ecec0"
+    }, 
+    "src/app/gui/home/BankerDownTipResultLayer.lua": {
+      "md5": "e0d3df064843cc8cf897e56181bbb0b9"
+    }, 
+    "src/app/gui/home/BetHeapPanel.lua": {
+      "md5": "cb6a19b8fc699c8864147c5f10acb7cd"
+    }, 
+    "src/app/gui/home/MainAddFriendsPopUp.lua": {
+      "md5": "14d261e203fb8b4643b88a496b8973f4"
+    }, 
+    "src/app/gui/home/MainFriendListCell.lua": {
+      "md5": "6985585a55d9ae8aaff07a2c157e0754"
+    }, 
+    "src/app/gui/home/MainFriendListCell_1.lua": {
+      "md5": "aa7f1619ba7eeeacd63744043a43ad71"
+    }, 
+    "src/app/gui/home/MainFriendListCell_2.lua": {
+      "md5": "07eabd821ae523208b26ce103cb5c875"
+    }, 
+    "src/app/gui/home/RobAvillageTipPanel.lua": {
+      "md5": "1c9da97e8c71981ae385e16e2e85a4da"
+    }, 
+    "src/app/gui/home/ShaiBaoAudionPlayerPanel.lua": {
+      "md5": "5caa8af5218a3f6677016451d1dd83bf"
+    }, 
+    "src/app/gui/home/ShaiBaoPanel.lua": {
+      "md5": "c749d09cd4a16346d7254845278323f6"
+    }, 
+    "src/app/gui/home/ShaiBaoRecordOnePanel.lua": {
+      "md5": "ccb44432ff29e314d3722d9dd331b59a"
+    }, 
+    "src/app/gui/home/ShaiBaoShaiZiPanel.lua": {
+      "md5": "b91f1279d72b73681f465e50c93d0eb9"
+    }, 
+    "src/app/gui/home/UIMainFriendsList.lua": {
+      "md5": "1e445be04b64b143ac1780e62a2eabd2"
+    }, 
+    "src/app/gui/home/UIMainLayer.lua": {
+      "md5": "b9c38b79369b59a40190a94a6935f530"
+    }, 
+    "src/app/gui/invitation/InvitationCheckCell.lua": {
+      "md5": "332421929e725be2dc5eda30ec50128f"
+    }, 
+    "src/app/gui/invitation/InvitationRewardCell.lua": {
+      "md5": "10affd960aaec2ffd5270ddf8493d4ca"
+    }, 
+    "src/app/gui/invitation/InvitationTaskCell.lua": {
+      "md5": "485dc532bf43aeee4cbbe5bcd7f5ffb8"
+    }, 
+    "src/app/gui/invitation/UIInvitationCheck.lua": {
+      "md5": "1f6f8f6a5b53e2f5fcbd87f2ed15e11b"
+    }, 
+    "src/app/gui/invitation/UIInvitationPopUp.lua": {
+      "md5": "40e7c202e08774cc62e17af70369634f"
+    }, 
+    "src/app/gui/invitation/UIInvitationRulesPopUp.lua": {
+      "md5": "08c37742388f64d3c84c672b140ed970"
+    }, 
+    "src/app/gui/invitation/UIInvitationSharePopUp.lua": {
+      "md5": "01b7cc796d6cfaab4fd779fbca9ee4f6"
+    }, 
+    "src/app/gui/login/UIHodDownloadLayer.lua": {
+      "md5": "e44a10f56d814a41a943136dc738c13e"
+    }, 
+    "src/app/gui/login/UILoadingTipPopUp_1.lua": {
+      "md5": "ff4eac44c2b5673545fd89d61715205e"
+    }, 
+    "src/app/gui/login/UILoadingTipPopUp_2.lua": {
+      "md5": "476561534d776f846ceeac48d38aafb9"
+    }, 
+    "src/app/gui/login/UILoadingTipPopUp_3.lua": {
+      "md5": "7d0a3037ef0f0fb12172e82edfac4cb7"
+    }, 
+    "src/app/gui/login/UILoadingTipPopUp_4.lua": {
+      "md5": "b4a720044c75e597861c86ef33925b8d"
+    }, 
+    "src/app/gui/login/UILoginLayer.lua": {
+      "md5": "72d5409526931ea8b2902b56d9684de4"
+    }, 
+    "src/app/gui/login/UILoginLimitPopUp.lua": {
+      "md5": "b10c85507705343de0b497ffb52167be"
+    }, 
+    "src/app/gui/login/UILogoutLayer.lua": {
+      "md5": "1e1c21d5fd342d550ee2891f84a9736c"
+    }, 
+    "src/app/gui/netdebug/LoadProtocolFileLayer.lua": {
+      "md5": "35c0c7f3a315b3b91403b57c6cef811f"
+    }, 
+    "src/app/gui/netdebug/MessageDebugLayer.lua": {
+      "md5": "4564938a2a094ded241461faeccf8a84"
+    }, 
+    "src/app/gui/netdebug/ProtocolChooseCell.lua": {
+      "md5": "9860f17ef13a179adfd70e4d574def11"
+    }, 
+    "src/app/gui/popup/UIBoastHangUpPopUp.lua": {
+      "md5": "45f0caa33cb8676152e5ab8b5c85fc17"
+    }, 
+    "src/app/gui/popup/UIClientErrorTipsLayer_0.lua": {
+      "md5": "00f7d956ee2601ed9cb8d423a768e4a4"
+    }, 
+    "src/app/gui/popup/UIClientErrorTipsLayer_1.lua": {
+      "md5": "3f83575c91cd05dd7fa41d49bc8cc0d0"
+    }, 
+    "src/app/gui/popup/UIClientErrorTipsLayer_2.lua": {
+      "md5": "575563b6166a02004e40509633ada164"
+    }, 
+    "src/app/gui/popup/UICommonMediumTipPopUp.lua": {
+      "md5": "1970e15853a1e657891d6bf28bb8c084"
+    }, 
+    "src/app/gui/popup/UIKickPopup.lua": {
+      "md5": "22f61ff3a9b448d916efdb92b616f816"
+    }, 
+    "src/app/gui/popup/UINetLimitPopUp.lua": {
+      "md5": "83889997ac88996701961f603efbed18"
+    }, 
+    "src/app/gui/popup/UINetPopup.lua": {
+      "md5": "1c4c30edf09b720c88f9104b3239d4eb"
+    }, 
+    "src/app/gui/rule/UIGameRulesLayer.lua": {
+      "md5": "30d81b28f244fc21d4f8e5406daa2f27"
+    }, 
+    "src/app/gui/service/CurrentServiceCell.lua": {
+      "md5": "bed6e69766e6880bf72438d3116fc51c"
+    }, 
+    "src/app/gui/service/ServiceCell.lua": {
+      "md5": "e3e8f7e93e74eb89cc83bcfd75b19808"
+    }, 
+    "src/app/gui/service/UIMiniTipPopUp.lua": {
+      "md5": "4c2733e52e79887d9a61c92da59e991a"
+    }, 
+    "src/app/gui/service/UIServiceInletLayer.lua": {
+      "md5": "3a879d74920c835ad6e5d8668a4c1901"
+    }, 
+    "src/app/gui/service/UIServiceLayer.lua": {
+      "md5": "7fed68c589d9c76ec6c1b38d6d2bb5f1"
+    }, 
+    "src/app/gui/service/UserDetailsCell.lua": {
+      "md5": "719ba09c6580c1e18ce99a3bcfb61499"
+    }, 
+    "src/app/gui/setting/UILanguageChangeLayer.lua": {
+      "md5": "f3bff927c653024507622add849df0f9"
+    }, 
+    "src/app/gui/setting/UISettingAccountLayer.lua": {
+      "md5": "ba9351685b06493c0c1bcc878a2c926a"
+    }, 
+    "src/app/gui/setting/UISettingBindChangeLayer.lua": {
+      "md5": "9fbded59de00cafedc1bcfdb9176953b"
+    }, 
+    "src/app/gui/setting/UISettingBindLayer.lua": {
+      "md5": "ae5a7684d28f74837be6eb41272380ed"
+    }, 
+    "src/app/gui/setting/UISettingChangePopUp.lua": {
+      "md5": "346f6d215062633ddf1078aef71cfb4a"
+    }, 
+    "src/app/gui/setting/UISettingHelpLayer.lua": {
+      "md5": "a21ac75feda9e8d752b657585ddefa3e"
+    }, 
+    "src/app/gui/setting/UISettingLayer.lua": {
+      "md5": "230c789e7d7445e0c4c5e6a563eac3fd"
+    }, 
+    "src/app/gui/setting/UISettingModifyAccountLayer.lua": {
+      "md5": "b0ee6ce59f3dbf868e190d4dbbea05c6"
+    }, 
+    "src/app/gui/setting/UISettingModifyAccountPopUp.lua": {
+      "md5": "1bb0b7276d0be09e790f21503f726f4d"
+    }, 
+    "src/app/gui/setting/UISettingModifyPasswordLayer.lua": {
+      "md5": "5602c97bd7e6772022b971c0f07c7cdd"
+    }, 
+    "src/app/gui/setting/UISettingPhoneNumAreaLayer.lua": {
+      "md5": "d94c6fb8c03a57e3766cbc3486993173"
+    }, 
+    "src/app/gui/setting/UISettingUnbindPopUp.lua": {
+      "md5": "92f453b202ec1eefb4cf913cb7df7dbc"
+    }, 
+    "src/app/gui/setting/UISignOutAgreementLayer.lua": {
+      "md5": "9506f97974f7bdae4762116671d9d54f"
+    }, 
+    "src/app/gui/store/UIDiceCupItem.lua": {
+      "md5": "3ee22faac3b4adffbe2bbad58771b8e8"
+    }, 
+    "src/app/gui/store/UIDiceCupItemShowLayer.lua": {
+      "md5": "35bae17a5492acce89cb45affe2253b8"
+    }, 
+    "src/app/gui/store/UINewItemLayer.lua": {
+      "md5": "ea9b994b44f9fa668ece28db7009f631"
+    }, 
+    "src/app/gui/store/UIShopBuyConfirmLayer.lua": {
+      "md5": "d3c25553cb465bd47d2031d7377e5f8b"
+    }, 
+    "src/app/gui/store/UIShopBuySuccessLayer.lua": {
+      "md5": "9831f495d85daee653b57146ac6e6304"
+    }, 
+    "src/app/gui/store/UIStoreGodItem.lua": {
+      "md5": "31a6c7c98558fb30c9a21782a51b3da3"
+    }, 
+    "src/app/gui/store/UIStoreGodLineCell.lua": {
+      "md5": "2dc0a9b0a4e0c3f1cd50f852d68f7d89"
+    }, 
+    "src/app/gui/store/UIStoreLayer.lua": {
+      "md5": "5bd4b803c1c04a6de525849885271ed8"
+    }, 
+    "src/app/gui/store/UIVipRewardItem.lua": {
+      "md5": "d4e10e419ed36d0831ab3d2114927e18"
+    }, 
+    "src/app/gui/system/UIChangeLogLayer.lua": {
+      "md5": "62e0ae01a927082ea6fb6368fbc03262"
+    }, 
+    "src/app/gui/system/UIConnectionErrorLayer.lua": {
+      "md5": "638cde2587d28247fdc6f2c7a8c1e08c"
+    }, 
+    "src/app/gui/system/UILoadingLayer.lua": {
+      "md5": "ed6c957284203c22866c0923e9180b15"
+    }, 
+    "src/app/gui/task/UITaskCell.lua": {
+      "md5": "68797f589227025c85911d6483fcc39a"
+    }, 
+    "src/app/gui/task/UITaskLayer.lua": {
+      "md5": "630659adb77e26b74198987401771fdb"
+    }, 
+    "src/app/gui/task/UITaskResItem.lua": {
+      "md5": "4bd1f6fc2f7c433528e6d43ab0034553"
+    }, 
+    "src/app/gui/userinfo/UIBlockFriendConfirmDialog.lua": {
+      "md5": "31b36a8a72777402d8e7d014fb833746"
+    }, 
+    "src/app/gui/userinfo/UIDeleteFriendConfirmDialog.lua": {
+      "md5": "df20816b1c234c19b7836808674f55f9"
+    }, 
+    "src/app/gui/userinfo/UIHeadFrameCell.lua": {
+      "md5": "a3bc98ad8e8d4a8a6b80e2078c5e7307"
+    }, 
+    "src/app/gui/userinfo/UIHeadFrameLayer.lua": {
+      "md5": "48a1c84437949bfdd87c899994ded584"
+    }, 
+    "src/app/gui/userinfo/UIHeadFrameLineCell.lua": {
+      "md5": "d1051542cab5c635ecca2fd0f2f78786"
+    }, 
+    "src/app/gui/userinfo/UIModifyConfirmLayer.lua": {
+      "md5": "ad01d5905343399293a2e330696e817d"
+    }, 
+    "src/app/gui/userinfo/UIModifyDescLayer.lua": {
+      "md5": "f70291e95ec95f2dad41a4d96ae049bb"
+    }, 
+    "src/app/gui/userinfo/UIModifyNameLayer.lua": {
+      "md5": "d50127ae16d3845d45315c2e41dbc007"
+    }, 
+    "src/app/gui/userinfo/UIModifySexLayer.lua": {
+      "md5": "b9620cf80244d594dee64257f8afe0b5"
+    }, 
+    "src/app/gui/userinfo/UIMoreOperateLayer.lua": {
+      "md5": "7c0ba36cda2ea0a6e78634fb12fa063b"
+    }, 
+    "src/app/gui/userinfo/UIOtherPersonInfoLayer.lua": {
+      "md5": "94f97164f72ce7bbefbf94ddd66c79c4"
+    }, 
+    "src/app/gui/userinfo/UIPersonalInfoLayer.lua": {
+      "md5": "0759d47b0418520841b754d254326857"
+    }, 
+    "src/app/gui/widget/AvatarWidget.lua": {
+      "md5": "fe47dd548929d2384288a59f1c4f7cd4"
+    }, 
+    "src/app/init.lua": {
+      "md5": "afe6f08e70c721cbb17ba1880ab04b29"
+    }, 
+    "src/app/log/Log.lua": {
+      "md5": "763df0fabc18f69f8ba18829b5390b6c"
+    }, 
+    "src/app/log/LogConfig.lua": {
+      "md5": "c237b6079a2cd4bd06173a043d0a49cf"
+    }, 
+    "src/app/log/LogHelper.lua": {
+      "md5": "67acb6de8c3e7efce06468e5476e8387"
+    }, 
+    "src/app/log/serpent.lua": {
+      "md5": "5710a43e6b2d5e58f90c6e836abf42a6"
+    }, 
+    "src/app/manager/DownloaderManager.lua": {
+      "md5": "84baeacc318a4a40af1e20bdeacdfaa9"
+    }, 
+    "src/app/manager/HodUpdateManager.lua": {
+      "md5": "832853ad50cec6f7ac4e2a5e8a3a628f"
+    }, 
+    "src/app/manager/NativeBridgeManager.lua": {
+      "md5": "fa76ac10df4efe9fc228d64b485f84e8"
+    }, 
+    "src/app/manager/Preference.lua": {
+      "md5": "f32bc1de60c7280739fcb21cade0e5c9"
+    }, 
+    "src/app/manager/SceneManager.lua": {
+      "md5": "98abd5b88d790f8726e54e468370d15f"
+    }, 
+    "src/app/manager/SoundSystemManager.lua": {
+      "md5": "a16b4e0c7db27562364dd5416837f4c6"
+    }, 
+    "src/app/manager/UIManager.lua": {
+      "md5": "13135f2dadcd1aa7102d9b4a4f1121a7"
+    }, 
+    "src/app/native/AppleLoginHandle.lua": {
+      "md5": "935315bc3768707d1a5c3ec5c42f4323"
+    }, 
+    "src/app/native/ApplePayHandle.lua": {
+      "md5": "d58a6273d4402e120cd187c356a38e17"
+    }, 
+    "src/app/native/Payment.lua": {
+      "md5": "c674c54df11cb80bd1734d377d52ef20"
+    }, 
+    "src/app/net/HttpClient.lua": {
+      "md5": "a42a236dc4c5a36b87f32bac9440a40b"
+    }, 
+    "src/app/net/NetDataManager.lua": {
+      "md5": "340b697bfbcaf48697990367212061c4"
+    }, 
+    "src/app/otherNode/ClickableNode.lua": {
+      "md5": "f1f1432a4a21be2128106295afcd5058"
+    }, 
+    "src/app/otherNode/NomalEffect.lua": {
+      "md5": "23befc860b13761e26bf5ba78a94188f"
+    }, 
+    "src/app/otherNode/SpineEffect.lua": {
+      "md5": "d3c4bdc196a40004ad0d522c4fa426ff"
+    }, 
+    "src/app/otherNode/cocosEffect.lua": {
+      "md5": "fb330857221e1b56f5a0f2041a0b8f0c"
+    }, 
+    "src/app/scenes/BaseScene.lua": {
+      "md5": "dca4235ecf596dfa6e1bc61ec4fff814"
+    }, 
+    "src/app/scenes/GameScene.lua": {
+      "md5": "d94bb6c36448d7ed0a7351311e8809d4"
+    }, 
+    "src/app/scenes/LoginScene.lua": {
+      "md5": "9b93c06a1f757f54b8dc99208b1be5a9"
+    }, 
+    "src/app/scenes/MainScene.lua": {
+      "md5": "a872f574f680b3c40a613957924d20ae"
+    }, 
+    "src/app/scenes/UpdateScene.lua": {
+      "md5": "3a8bf9408ce16c57778294b9d93412d1"
+    }, 
+    "src/app/scenes/viewBaseScene.lua": {
+      "md5": "90594519ac64410bdf77b4d9150824ac"
+    }, 
+    "src/app/tbx/Activity.lua": {
+      "md5": "bed4b041383bb7d1b7f3f69aadda07ff"
+    }, 
+    "src/app/tbx/Animation.lua": {
+      "md5": "4e1e3d0ff97c8d73b98b2d9371c21dc2"
+    }, 
+    "src/app/tbx/BulletinContent_CN.lua": {
+      "md5": "d3c86f4c23070284d4e72e1b5bc29554"
+    }, 
+    "src/app/tbx/BulletinContent_EN.lua": {
+      "md5": "5c1e622f982d3b1ff1f3ccf4790e1f73"
+    }, 
+    "src/app/tbx/BulletinContent_TW.lua": {
+      "md5": "9708a70012bbdf6998d692e01d47961f"
+    }, 
+    "src/app/tbx/CV.lua": {
+      "md5": "61fc10c5e94b5b643f5f628af3c4229d"
+    }, 
+    "src/app/tbx/Enumeration_CN.lua": {
+      "md5": "d26cc1b86ebd5b4497d53bc1bba24607"
+    }, 
+    "src/app/tbx/Enumeration_EN.lua": {
+      "md5": "2552b2779829214b4bb87db5f4618caa"
+    }, 
+    "src/app/tbx/Enumeration_TW.lua": {
+      "md5": "1905c0db23ec3c9d37b41139b87b2508"
+    }, 
+    "src/app/tbx/FlyGold.lua": {
+      "md5": "ed5e3f7c5011944c0bc05b7636e4c015"
+    }, 
+    "src/app/tbx/GiftPackage_CN.lua": {
+      "md5": "0ad38d2de8791952e3036d37cfc42abf"
+    }, 
+    "src/app/tbx/GiftPackage_EN.lua": {
+      "md5": "dd74eb962c7247071365fceece5b77bc"
+    }, 
+    "src/app/tbx/GiftPackage_TW.lua": {
+      "md5": "20e84e0c82eb79428ad018c7c40143eb"
+    }, 
+    "src/app/tbx/GuessSizeBet.lua": {
+      "md5": "7123f778adeedd6e46cab3c8533e31c5"
+    }, 
+    "src/app/tbx/GuideGroup_CN.lua": {
+      "md5": "7936f86b4422218e318871bb8912f2c8"
+    }, 
+    "src/app/tbx/GuideGroup_EN.lua": {
+      "md5": "267d761fdbc65d4cce6b81e870c900f0"
+    }, 
+    "src/app/tbx/GuideGroup_TW.lua": {
+      "md5": "753beea809515f983431d439767a9f82"
+    }, 
+    "src/app/tbx/Item_CN.lua": {
+      "md5": "095cbb34f4f167d2f70498db68b7c088"
+    }, 
+    "src/app/tbx/Item_EN.lua": {
+      "md5": "5fc5bd03900c964ec267ba426d8fb797"
+    }, 
+    "src/app/tbx/Item_TW.lua": {
+      "md5": "f76b440157cf48bdf1067274f72b6c6d"
+    }, 
+    "src/app/tbx/MailContent_CN.lua": {
+      "md5": "87a83d926a71b311089d76f40f7e836f"
+    }, 
+    "src/app/tbx/MailContent_EN.lua": {
+      "md5": "afa1f5d3fb209bc38634e054c2c4b6f8"
+    }, 
+    "src/app/tbx/MailContent_TW.lua": {
+      "md5": "e1641faa10f7cf5605a4dbb37bb3583f"
+    }, 
+    "src/app/tbx/ProhibitWord.lua": {
+      "md5": "2b5e49440e7ef4e7787c5ff2ca3492c2"
+    }, 
+    "src/app/tbx/ReRollCost.lua": {
+      "md5": "06ed58ace55e4a3b8d0cfdc5525616ec"
+    }, 
+    "src/app/tbx/Recharge.lua": {
+      "md5": "8fd339d9dc9e4aa9ccf470b39d4c9d8d"
+    }, 
+    "src/app/tbx/Record_CN.lua": {
+      "md5": "f12c1fc52aef9fbfe75949bbb958e931"
+    }, 
+    "src/app/tbx/Record_EN.lua": {
+      "md5": "4e7d68bcd2c68b80242692454e1baa99"
+    }, 
+    "src/app/tbx/Record_TW.lua": {
+      "md5": "5a09ff90f17e6e07b0935c74ab5773d7"
+    }, 
+    "src/app/tbx/Room_CN.lua": {
+      "md5": "db9149686da8cba218dc3a6e6b0cc87b"
+    }, 
+    "src/app/tbx/Room_EN.lua": {
+      "md5": "f10a4a1d73a2f49e08b9bc5e83b9c5bd"
+    }, 
+    "src/app/tbx/Room_TW.lua": {
+      "md5": "dec45d0e306bf6e6c0ac549df542fd9f"
+    }, 
+    "src/app/tbx/Shop.lua": {
+      "md5": "b26b0c44c0675bda1f0835cfd9b421ce"
+    }, 
+    "src/app/tbx/ShopGoods_CN.lua": {
+      "md5": "53832bdb21c5cebcb7bc91ae390cffa8"
+    }, 
+    "src/app/tbx/ShopGoods_EN.lua": {
+      "md5": "cae42300c7976861822f4ae76119b9e1"
+    }, 
+    "src/app/tbx/ShopGoods_TW.lua": {
+      "md5": "e3962eeed7b6027aa7bc84e66feac3a8"
+    }, 
+    "src/app/tbx/System.lua": {
+      "md5": "6bbe95ededc44de724c270bb7f9a9c6c"
+    }, 
+    "src/app/tbx/SystemMessage_CN.lua": {
+      "md5": "9bfe16a182809358bfee014d5e72cc71"
+    }, 
+    "src/app/tbx/SystemMessage_EN.lua": {
+      "md5": "59588f142eda82b469a980adc4ddac8b"
+    }, 
+    "src/app/tbx/SystemMessage_TW.lua": {
+      "md5": "4c7cea803086ed5d7f1df97234346864"
+    }, 
+    "src/app/tbx/Task_CN.lua": {
+      "md5": "e470364992e88b37d2580f2c20f1d0ef"
+    }, 
+    "src/app/tbx/Task_EN.lua": {
+      "md5": "a807622036569f166b64e896309d6180"
+    }, 
+    "src/app/tbx/Task_TW.lua": {
+      "md5": "9b6aaaa40e86645a9a9e7ae4b8e3fbd8"
+    }, 
+    "src/app/tbx/TbxLanguage.lua": {
+      "md5": "c3cdcca59e6880335d1603f422cbd77d"
+    }, 
+    "src/app/tbx/Text_CN.lua": {
+      "md5": "80ad66d72fe52e35eb9a985e7e5a8fe6"
+    }, 
+    "src/app/tbx/Text_EN.lua": {
+      "md5": "8017a68b6f6f26cc7b17bf83d30c7571"
+    }, 
+    "src/app/tbx/Text_TW.lua": {
+      "md5": "1f4aa4e108626091bb18cc76bff2a291"
+    }, 
+    "src/app/tbx/UIMultiLanguage_CN.lua": {
+      "md5": "2b05f371e5b2e42be47aba3cad019929"
+    }, 
+    "src/app/tbx/UIMultiLanguage_EN.lua": {
+      "md5": "28359746abdaa6bd1cb20a64ab153057"
+    }, 
+    "src/app/tbx/UIMultiLanguage_TW.lua": {
+      "md5": "6d24c582c7d1a9e4c61b738a9af04cc8"
+    }, 
+    "src/app/tbx/Vip.lua": {
+      "md5": "bdb8353d683ad23123578c66852e8a49"
+    }, 
+    "src/app/tbx/Vision_CN.lua": {
+      "md5": "fa0546a1fb5c5c8079205aefc53592f0"
+    }, 
+    "src/app/tbx/Vision_EN.lua": {
+      "md5": "865d361efba8d9c38976cf313a2894ef"
+    }, 
+    "src/app/tbx/Vision_TW.lua": {
+      "md5": "16f52a49ff5b786b803303bbdef9ece9"
+    }, 
+    "src/app/util/Constant.lua": {
+      "md5": "756c248fe267eb45d30dbbf1f7c05255"
+    }, 
+    "src/app/util/DeviceUtils.lua": {
+      "md5": "a3ddc2cd8f6d27e8055024d34c3206fe"
+    }, 
+    "src/app/util/ProtobufUtils.lua": {
+      "md5": "8bb30856411e43d12a07d4cd8e359b54"
+    }, 
+    "src/app/util/UIUtils.lua": {
+      "md5": "f8ec6deb2ae7771a97c165f816c4eabc"
+    }, 
+    "src/app/util/Utils.lua": {
+      "md5": "fb81b57909ef85f123df68773e7eaf0d"
+    }, 
+    "src/app/util/openinstall.lua": {
+      "md5": "42a46bc23256ab8bf4c72e989dcb0939"
+    }, 
+    "src/app/util/protoc.lua": {
+      "md5": "ca8a27016cd4df5bcc6753b4c146ca72"
+    }, 
+    "src/app/views/MainScene.lua": {
+      "md5": "d2d7277e30787a1c32951fdae8658b95"
+    }, 
+    "src/config.lua": {
+      "md5": "211e004e5ebb546c48aa0219113a86c8"
+    }, 
+    "src/main.lua": {
+      "md5": "d5494af9599131ad517ecdc378bcebdb"
+    }, 
+    "src/packages/mvc/AppBase.lua": {
+      "md5": "f680bb1f47a3fa982d6115bd40400b4b"
+    }, 
+    "src/packages/mvc/ViewBase.lua": {
+      "md5": "2675826ee4d922347d38796e7de9fd54"
+    }, 
+    "src/packages/mvc/init.lua": {
+      "md5": "02295c0d73c25b53c51dd08a02ce49cb"
+    }
+  }, 
+  "beforeVersion": "1.9.9.40", 
+  "engineVersion": "cocos2dx-3.17.2", 
+  "packageUrl": "http://127.0.0.1:5000/update/Letsroll/assets/", 
+  "remoteManifestUrl": "http://127.0.0.1:5000/update/Letsroll/version/project.manifest", 
+  "remoteVersionUrl": "http://127.0.0.1:5000/update/Letsroll/version/version.manifest", 
+  "smallVersion": "40", 
+  "targetVersion": "56", 
+  "version": "1.9.9.40"
+}

@@ -1,0 +1,20 @@
+
+303601.png
+size: 750,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light
+  rotate: false
+  xy: 622, 58
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+zhuangshi
+  rotate: false
+  xy: 2, 2
+  size: 618, 184
+  orig: 618, 184
+  offset: 0, 0
+  index: -1

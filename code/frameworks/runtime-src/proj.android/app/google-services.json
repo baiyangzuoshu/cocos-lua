@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "926884058720",
+    "project_id": "let-s-roll-345707",
+    "storage_bucket": "let-s-roll-345707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926884058720:android:2764c8a9852816cf0d1505",
+        "android_client_info": {
+          "package_name": "com.yippeekiyay.letsroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926884058720-l2tmidgflbrg3lnq15nqud2gm2gcjsb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yippeekiyay.letsroll",
+            "certificate_hash": "9f712a435cb97af771a05cda1825fdd216fd74af"
+          }
+        },
+        {
+          "client_id": "926884058720-705atrqkqls9j8ctnl38c96k6t6c7u60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6xcrCXtiR5NDxnCmAIrP4-m7OiJQcX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926884058720-705atrqkqls9j8ctnl38c96k6t6c7u60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+
+302701_zh_TW.png
+size: 536,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 2
+  size: 344, 124
+  orig: 344, 124
+  offset: 0, 0
+  index: -1
+CN
+  rotate: false
+  xy: 348, 53
+  size: 186, 73
+  orig: 186, 73
+  offset: 0, 0
+  index: -1
+箭头
+  rotate: false
+  xy: 348, 9
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1

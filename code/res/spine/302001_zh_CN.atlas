@@ -1,0 +1,20 @@
+
+302001_zh_CN.png
+size: 366,190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+单
+  rotate: false
+  xy: 2, 2
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1
+投影
+  rotate: false
+  xy: 190, 14
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1

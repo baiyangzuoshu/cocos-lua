@@ -1,0 +1,90 @@
+
+303301_zh_CN.png
+size: 544,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_009
+  rotate: false
+  xy: 2, 8
+  size: 484, 338
+  orig: 484, 338
+  offset: 0, 0
+  index: -1
+icon_017
+  rotate: false
+  xy: 488, 296
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_018
+  rotate: false
+  xy: 488, 244
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_019
+  rotate: false
+  xy: 488, 192
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+icon_020
+  rotate: false
+  xy: 488, 140
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+中
+  rotate: false
+  xy: 518, 110
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+匹
+  rotate: true
+  xy: 518, 83
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+戏
+  rotate: false
+  xy: 488, 80
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+戲
+  rotate: false
+  xy: 488, 110
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+游
+  rotate: false
+  xy: 488, 50
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+点
+  rotate: false
+  xy: 2, 2
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+配
+  rotate: false
+  xy: 488, 23
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1

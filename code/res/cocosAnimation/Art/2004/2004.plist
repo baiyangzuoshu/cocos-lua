@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Art/2004/0101.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{542,1},{178,203}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0102.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{414,364},{125,201}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0103.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{208,364},{158,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0104.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{208,203},{159,207}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0105.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{747,1},{176,202}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0106.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,203},{162,205}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0107.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{542,181},{164,207}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0108.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{541,390},{156,203}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0109.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{747,179},{166,211}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0110.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{708,347},{163,206}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,212}</string>
+			</dict>
+			<key>Art/2004/0201.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{331,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{339,207}</string>
+			</dict>
+			<key>Art/2004/0301.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{334,1},{206,200}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{213,207}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>2004.png</string>
+			<key>realTextureFileName</key>
+			<string>2004.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

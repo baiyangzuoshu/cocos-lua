@@ -1,0 +1,13 @@
+
+300401_en.png
+size: 70,70
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 2, 2
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1

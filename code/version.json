@@ -1,0 +1,6 @@
+{
+	"packageUrl": "http://127.0.0.1:5000/update/Letsroll/assets/",
+	"remoteVersionUrl": "http://127.0.0.1:5000/update/Letsroll/version/version.manifest", 
+	"remoteManifestUrl": "http://127.0.0.1:5000/update/Letsroll/version/project.manifest",
+	
+}
