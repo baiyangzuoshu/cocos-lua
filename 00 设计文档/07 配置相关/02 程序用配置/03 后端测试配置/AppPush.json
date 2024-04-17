@@ -1,0 +1,9 @@
+[
+{ "PushId" : 1,"Title_zh_CN" : "邀请结果通知","Title_zh_TW" : "邀請結果通知","Title_en" : "Invitation result notification","Body_zh_CN" : "有人查看了您的分享，快去领取奖励吧","Body_zh_TW" : "有人查看了您的分享，快去領取獎勵吧","Body_en" : "Someone has checked your share. Go and get the reward" },
+{ "PushId" : 2,"Title_zh_CN" : "邀请结果通知","Title_zh_TW" : "邀請結果通知","Title_en" : "Invitation result notification","Body_zh_CN" : "有人查看了你的分享，快去看看吧","Body_zh_TW" : "有人查看了你的分享，快去看看吧","Body_en" : "Someone has checked your share. Go and have a look" },
+{ "PushId" : 3,"Title_zh_CN" : "邀请结果通知","Title_zh_TW" : "邀請結果通知","Title_en" : "Invitation result notification","Body_zh_CN" : "有人通过您的分享加入了游戏，快去领取奖励吧","Body_zh_TW" : "有人通過您的分享加入了遊戲，快去領取獎勵吧","Body_en" : "Someone has joined the game through your sharing. Go and get the reward" },
+{ "PushId" : 4,"Title_zh_CN" : "邀请结果通知","Title_zh_TW" : "邀請結果通知","Title_en" : "Invitation result notification","Body_zh_CN" : "有人通过您的分享加入了游戏，快去看看吧","Body_zh_TW" : "有人通過您的分享加入了遊戲，快去看看吧","Body_en" : "Someone has joined the game through your sharing. Go and have a look" },
+{ "PushId" : 5,"Title_zh_CN" : "邀请结果通知","Title_zh_TW" : "邀請結果通知","Title_en" : "Invitation result notification","Body_zh_CN" : "有人通过您的分享进行了充值，快去领取奖励吧","Body_zh_TW" : "有人通過您的分享進行了充值，快去領取獎勵吧","Body_en" : "Someone has recharged through your sharing. Go and get the reward" },
+{ "PushId" : 6,"Title_zh_CN" : "猜大小奖池通知","Title_zh_TW" : "猜大小獎池通知","Title_en" : "","Body_zh_CN" : "奖池快要开了啦，快来抢！","Body_zh_TW" : "獎池快要開了啦，快來搶！","Body_en" : "" },
+{ "PushId" : 7,"Title_zh_CN" : "下庄通知","Title_zh_TW" : "下莊通知","Title_en" : "","Body_zh_CN" : "您的庄家被{0}抢走啦!","Body_zh_TW" : "您的莊家被{0}搶走啦!","Body_en" : "" }
+]

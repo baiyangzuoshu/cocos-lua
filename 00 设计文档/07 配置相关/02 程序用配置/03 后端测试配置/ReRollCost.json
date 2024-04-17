@@ -1,0 +1,12 @@
+[
+{ "ReRollTimes" : 1,"BoastModeCostGoldRatio" : 10 },
+{ "ReRollTimes" : 2,"BoastModeCostGoldRatio" : 20 },
+{ "ReRollTimes" : 3,"BoastModeCostGoldRatio" : 30 },
+{ "ReRollTimes" : 4,"BoastModeCostGoldRatio" : 40 },
+{ "ReRollTimes" : 5,"BoastModeCostGoldRatio" : 50 },
+{ "ReRollTimes" : 6,"BoastModeCostGoldRatio" : 60 },
+{ "ReRollTimes" : 7,"BoastModeCostGoldRatio" : 70 },
+{ "ReRollTimes" : 8,"BoastModeCostGoldRatio" : 80 },
+{ "ReRollTimes" : 9,"BoastModeCostGoldRatio" : 90 },
+{ "ReRollTimes" : 10,"BoastModeCostGoldRatio" : 100 }
+]

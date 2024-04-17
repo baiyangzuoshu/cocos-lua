@@ -1,0 +1,5 @@
+[
+{ "ActivityId" : 1,"StartDate" : "2021-01-01","EndDate" : "2099-01-01","StartServerConditionArray" : [],"EndServerConditionArray" : [[14, [7007, 1]]],"IsShowCountdown" : false },
+{ "ActivityId" : 2,"StartDate" : "2021-01-01","EndDate" : "2099-01-01","StartServerConditionArray" : [],"EndServerConditionArray" : [[1, [8]]],"IsShowCountdown" : false },
+{ "ActivityId" : 3,"StartDate" : "2021-01-01","EndDate" : "2099-01-01","StartServerConditionArray" : [],"EndServerConditionArray" : [[1, [8]]],"IsShowCountdown" : false }
+]

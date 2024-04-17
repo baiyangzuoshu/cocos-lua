@@ -1,0 +1,8 @@
+[
+{ "RechargeId" : 1,"RechargeType" : 1,"CentPrice" : 199,"RechargeBaseDiamond" : 120,"FirstRechargeGiftDiamond" : 120,"RechargeGiftDiamond" : 0,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_2","VipExp" : 120 },
+{ "RechargeId" : 2,"RechargeType" : 1,"CentPrice" : 499,"RechargeBaseDiamond" : 300,"FirstRechargeGiftDiamond" : 300,"RechargeGiftDiamond" : 20,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_5","VipExp" : 300 },
+{ "RechargeId" : 3,"RechargeType" : 1,"CentPrice" : 999,"RechargeBaseDiamond" : 600,"FirstRechargeGiftDiamond" : 600,"RechargeGiftDiamond" : 60,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_10","VipExp" : 600 },
+{ "RechargeId" : 4,"RechargeType" : 1,"CentPrice" : 1999,"RechargeBaseDiamond" : 1200,"FirstRechargeGiftDiamond" : 1200,"RechargeGiftDiamond" : 160,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_20","VipExp" : 1200 },
+{ "RechargeId" : 5,"RechargeType" : 1,"CentPrice" : 4999,"RechargeBaseDiamond" : 3000,"FirstRechargeGiftDiamond" : 3000,"RechargeGiftDiamond" : 450,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_50","VipExp" : 3000 },
+{ "RechargeId" : 6,"RechargeType" : 1,"CentPrice" : 9999,"RechargeBaseDiamond" : 6000,"FirstRechargeGiftDiamond" : 6000,"RechargeGiftDiamond" : 980,"RewardInfo" : [],"ProductId" : "com.yippeekiyay.letsroll.tier_60","VipExp" : 6000 }
+]

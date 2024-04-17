@@ -1,0 +1,15 @@
+[
+{ "MailId" : 1,"MailTimeLimit" : 86400 },
+{ "MailId" : 2,"MailTimeLimit" : 86400 },
+{ "MailId" : 3,"MailTimeLimit" : 86400 },
+{ "MailId" : 4,"MailTimeLimit" : 86400 },
+{ "MailId" : 5,"MailTimeLimit" : 86400 },
+{ "MailId" : 6,"MailTimeLimit" : 86400 },
+{ "MailId" : 7,"MailTimeLimit" : 86400 },
+{ "MailId" : 8,"MailTimeLimit" : 86400 },
+{ "MailId" : 9,"MailTimeLimit" : 86400 },
+{ "MailId" : 10,"MailTimeLimit" : 86400 },
+{ "MailId" : 11,"MailTimeLimit" : 86400 },
+{ "MailId" : 12,"MailTimeLimit" : 86400 },
+{ "MailId" : 13,"MailTimeLimit" : 86400 }
+]

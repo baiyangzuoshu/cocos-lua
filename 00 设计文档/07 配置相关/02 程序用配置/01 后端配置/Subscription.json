@@ -1,0 +1,6 @@
+[
+{ "SubscriptionLV" : 0,"ProductId" : "","CentPrice" : 0,"IsGiftAvatarBox" : false,"GiftRes" : [],"BoastKickPower" : false,"DiceBabyAllInPower" : false,"DiceBabyDoubleNum" : 1,"SpecialFocusNum" : 1,"EverydayGiftRes" : [],"SkipADVPower" : false },
+{ "SubscriptionLV" : 1,"ProductId" : "","CentPrice" : 499,"IsGiftAvatarBox" : true,"GiftRes" : [],"BoastKickPower" : false,"DiceBabyAllInPower" : false,"DiceBabyDoubleNum" : 2,"SpecialFocusNum" : 3,"EverydayGiftRes" : [[2, [50000]]],"SkipADVPower" : false },
+{ "SubscriptionLV" : 2,"ProductId" : "","CentPrice" : 1999,"IsGiftAvatarBox" : true,"GiftRes" : [],"BoastKickPower" : false,"DiceBabyAllInPower" : true,"DiceBabyDoubleNum" : 3,"SpecialFocusNum" : 5,"EverydayGiftRes" : [[2, [100000]], [1, [100]]],"SkipADVPower" : true },
+{ "SubscriptionLV" : 3,"ProductId" : "","CentPrice" : 19999,"IsGiftAvatarBox" : true,"GiftRes" : [[201, [0, 2]]],"BoastKickPower" : true,"DiceBabyAllInPower" : true,"DiceBabyDoubleNum" : 5,"SpecialFocusNum" : 10,"EverydayGiftRes" : [[2, [1000000]], [1, [1000]]],"SkipADVPower" : true }
+]

@@ -1,0 +1,8 @@
+[
+{ "RecordId" : "101","GameType" : 1,"ShowName" : "局数" },
+{ "RecordId" : "102","GameType" : 1,"ShowName" : "胜率" },
+{ "RecordId" : "103","GameType" : 1,"ShowName" : "连胜" },
+{ "RecordId" : "104","GameType" : 1,"ShowName" : "单局最高" },
+{ "RecordId" : "105","GameType" : 1,"ShowName" : "本周盈利" },
+{ "RecordId" : "106","GameType" : 1,"ShowName" : "今日盈利" }
+]

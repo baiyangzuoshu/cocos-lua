@@ -1,0 +1,4 @@
+[
+{ "GuideGroupId" : 1,"IsSkipable" : false,"IsRepeatable" : false,"RewardInfo" : [] },
+{ "GuideGroupId" : 2,"IsSkipable" : true,"IsRepeatable" : true,"RewardInfo" : [[2, [1000]]] }
+]

@@ -1,0 +1,19 @@
+[
+{ "ServerConditionType" : 0,"CountType" : 1 },
+{ "ServerConditionType" : 1,"CountType" : 1 },
+{ "ServerConditionType" : 2,"CountType" : 1 },
+{ "ServerConditionType" : 3,"CountType" : 1 },
+{ "ServerConditionType" : 4,"CountType" : 1 },
+{ "ServerConditionType" : 5,"CountType" : 1 },
+{ "ServerConditionType" : 6,"CountType" : 1 },
+{ "ServerConditionType" : 7,"CountType" : 1 },
+{ "ServerConditionType" : 8,"CountType" : 1 },
+{ "ServerConditionType" : 9,"CountType" : 1 },
+{ "ServerConditionType" : 10,"CountType" : 1 },
+{ "ServerConditionType" : 11,"CountType" : 1 },
+{ "ServerConditionType" : 12,"CountType" : 1 },
+{ "ServerConditionType" : 13,"CountType" : 1 },
+{ "ServerConditionType" : 14,"CountType" : 1 },
+{ "ServerConditionType" : 15,"CountType" : 1 },
+{ "ServerConditionType" : 16,"CountType" : 1 }
+]

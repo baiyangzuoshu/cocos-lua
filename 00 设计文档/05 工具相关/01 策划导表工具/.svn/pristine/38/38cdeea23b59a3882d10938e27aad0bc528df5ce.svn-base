@@ -1,0 +1,11 @@
+
+*.pyc
+
+lua/
+excel/
+csv/
+json/
+i18n/
+
+.vscode/
+config.ini

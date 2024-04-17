@@ -1,0 +1,1 @@
+=IFNA(VLOOKUP(A2,'[【2022-05-19】翻译文本.xlsx]Sheet1'!$A:$B,2,FALSE),"")

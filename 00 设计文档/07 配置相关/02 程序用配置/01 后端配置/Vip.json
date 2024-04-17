@@ -1,0 +1,13 @@
+[
+{ "VipLv" : 0,"VipExp" : 0,"GiftRes" : [] },
+{ "VipLv" : 1,"VipExp" : 120,"GiftRes" : [] },
+{ "VipLv" : 2,"VipExp" : 1000,"GiftRes" : [] },
+{ "VipLv" : 3,"VipExp" : 3500,"GiftRes" : [] },
+{ "VipLv" : 4,"VipExp" : 10000,"GiftRes" : [] },
+{ "VipLv" : 5,"VipExp" : 30000,"GiftRes" : [] },
+{ "VipLv" : 6,"VipExp" : 80000,"GiftRes" : [] },
+{ "VipLv" : 7,"VipExp" : 200000,"GiftRes" : [] },
+{ "VipLv" : 8,"VipExp" : 500000,"GiftRes" : [] },
+{ "VipLv" : 9,"VipExp" : 1000000,"GiftRes" : [] },
+{ "VipLv" : 10,"VipExp" : 2000000,"GiftRes" : [] }
+]

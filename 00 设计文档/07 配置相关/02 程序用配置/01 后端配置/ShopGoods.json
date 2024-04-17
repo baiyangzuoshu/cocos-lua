@@ -1,0 +1,18 @@
+[
+{ "ShopGoodsId" : 1,"CostResData" : [[1, [20]]],"Discount" : 100,"GetResData" : [[2, [20000]]],"GiftResData" : [],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 2,"CostResData" : [[1, [100]]],"Discount" : 100,"GetResData" : [[2, [100000]]],"GiftResData" : [],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 3,"CostResData" : [[1, [500]]],"Discount" : 100,"GetResData" : [[2, [500000]]],"GiftResData" : [[2, [10000]]],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 4,"CostResData" : [[1, [1000]]],"Discount" : 100,"GetResData" : [[2, [1000000]]],"GiftResData" : [[2, [40000]]],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 5,"CostResData" : [[1, [5000]]],"Discount" : 100,"GetResData" : [[2, [5000000]]],"GiftResData" : [[2, [300000]]],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 6,"CostResData" : [[1, [10000]]],"Discount" : 100,"GetResData" : [[2, [10000000]]],"GiftResData" : [[2, [800000]]],"ShopGoodsCount" : -1 },
+{ "ShopGoodsId" : 7,"CostResData" : [[1, [100]]],"Discount" : 100,"GetResData" : [[103, [103002]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 8,"CostResData" : [[1, [200]]],"Discount" : 100,"GetResData" : [[103, [103003]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 9,"CostResData" : [[1, [1000]]],"Discount" : 100,"GetResData" : [[103, [103004]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 10,"CostResData" : [[1, [2000]]],"Discount" : 100,"GetResData" : [[103, [103005]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 11,"CostResData" : [[1, [2000]]],"Discount" : 100,"GetResData" : [[103, [103006]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 12,"CostResData" : [[1, [500]]],"Discount" : 100,"GetResData" : [[103, [103007]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 13,"CostResData" : [[1, [500]]],"Discount" : 100,"GetResData" : [[103, [103008]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 14,"CostResData" : [[1, [300]]],"Discount" : 100,"GetResData" : [[103, [103009]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 15,"CostResData" : [[1, [300]]],"Discount" : 100,"GetResData" : [[103, [103010]]],"GiftResData" : [],"ShopGoodsCount" : 1 },
+{ "ShopGoodsId" : 16,"CostResData" : [[1, [1000]]],"Discount" : 100,"GetResData" : [[103, [103011]]],"GiftResData" : [],"ShopGoodsCount" : 1 }
+]

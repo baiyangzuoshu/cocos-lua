@@ -1,0 +1,6 @@
+[
+{ "MinGoldNum" : 0,"GuessSizeBet" : 10 },
+{ "MinGoldNum" : 10000,"GuessSizeBet" : 100 },
+{ "MinGoldNum" : 100000,"GuessSizeBet" : 1000 },
+{ "MinGoldNum" : 1000000,"GuessSizeBet" : 10000 }
+]
