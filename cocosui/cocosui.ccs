@@ -1,0 +1,1315 @@
+<Solution>
+  <PropertyGroup Name="cocosui" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csd">
+          <Folder Name="01_01_Login">
+            <Project Name="01_01_GeneralLodingLayer.csd" Type="Layer" />
+            <Project Name="01_01_LoadingLayer.csd" Type="Layer" />
+            <Project Name="01_01_LoadingLayer_0.csd" Type="Layer" />
+            <Project Name="01_01_LoadingTipPopUp_2.csd" Type="Layer" />
+            <Project Name="01_01_LoadingTipPopUp_3.csd" Type="Layer" />
+            <Project Name="01_01_LoadingTipPopUp_4.csd" Type="Layer" />
+            <Project Name="01_01_LoginLayer.csd" Type="Layer" />
+            <Project Name="01_01_LoginLimitPopUp.csd" Type="Layer" />
+            <Project Name="01_01_NoticeLayer.csd" Type="Layer" />
+            <Project Name="Node.csd" Type="Node" />
+          </Folder>
+          <Folder Name="01_02_Main">
+            <Project Name="01_02_AccountReplacePopUp.csd" Type="Layer" />
+            <Project Name="01_02_CommonMediumTipPopUp_2.csd" Type="Layer" />
+            <Project Name="01_02_CommonMiniTipPopUp_0.csd" Type="Layer" />
+            <Project Name="01_02_CommonMiniTipPopUp_1.csd" Type="Layer" />
+            <Project Name="01_02_CommonMiniTipPopUp_2.csd" Type="Layer" />
+            <Project Name="01_02_MainAddFriendsPopUp.csd" Type="Layer" />
+            <Project Name="01_02_MainFriendListCell.csd" Type="Layer" />
+            <Project Name="01_02_MainFriendListCell_1.csd" Type="Layer" />
+            <Project Name="01_02_MainFriendListCell_2.csd" Type="Layer" />
+            <Project Name="01_02_MainFriendsList.csd" Type="Layer" />
+            <Project Name="01_02_MainLayer.csd" Type="Layer" />
+            <Project Name="01_02_WarnCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_03_PropKnapsack">
+            <Project Name="01_03_PropKnapsackCell.csd" Type="Layer" />
+            <Project Name="01_03_PropKnapsackDiceCupPopUp.csd" Type="Layer" />
+            <Project Name="01_03_PropKnapsackNodeCell.csd" Type="Layer" />
+            <Project Name="01_03_PropKnapsackPopUp.csd" Type="Layer" />
+            <Project Name="01_03_PropKnapsackTipPopUp.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_04_Task">
+            <Project Name="01_04_TaskCell.csd" Type="Layer" />
+            <Project Name="01_04_TaskPopUp.csd" Type="Layer" />
+            <Project Name="01_04_TaskResCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_06_PersonalCenter">
+            <Project Name="01_06_HeadSittingCell.csd" Type="Layer" />
+            <Project Name="01_06_HeadSittingLayer.csd" Type="Layer" />
+            <Project Name="01_06_HeadSittingNodeCell.csd" Type="Layer" />
+            <Project Name="01_06_ModifyNameConfirmLayer.csd" Type="Layer" />
+            <Project Name="01_06_ModifyNameLayer.csd" Type="Layer" />
+            <Project Name="01_06_ModifySexLayer.csd" Type="Layer" />
+            <Project Name="01_06_ModifySignatureLayer.csd" Type="Layer" />
+            <Project Name="01_06_PersonalCenterBlackTipPopUp.csd" Type="Layer" />
+            <Project Name="01_06_PersonalCenterDeleteTipPopUp.csd" Type="Layer" />
+            <Project Name="01_06_PersonalCenterMorePopUp.csd" Type="Layer" />
+            <Project Name="01_06_PersonalInformationLayer.csd" Type="Layer" />
+            <Project Name="01_06_PersonalLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_07_Sitting">
+            <Project Name="01_07_SittingAccountLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingBindChangeLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingBindLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingChangePopUp.csd" Type="Layer" />
+            <Project Name="01_07_SittingHelpLayer.csd" Type="Layer" />
+            <Project Name="01_07_SIttingLanguagePopUp.csd" Type="Layer" />
+            <Project Name="01_07_SittingLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingModifyAccountLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingModifyAccountPopUp.csd" Type="Layer" />
+            <Project Name="01_07_SittingModifyPasswordLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingPhoneNumAreaLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingSignOutAgreementLayer.csd" Type="Layer" />
+            <Project Name="01_07_SittingUnbindPopUp.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_10_Mail">
+            <Project Name="01_10_DeleteConfirmLayer.csd" Type="Layer" />
+            <Project Name="01_10_MailBoxLayer.csd" Type="Layer" />
+            <Project Name="01_10_MailCell.csd" Type="Layer" />
+            <Project Name="01_10_MailCheckLayer.csd" Type="Layer" />
+            <Project Name="01_10_MailLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_11_ActivitiesBulletin">
+            <Project Name="01_11_ActivitiesCell.csd" Type="Layer" />
+            <Project Name="01_11_ActivitiesLayer.csd" Type="Layer" />
+            <Project Name="01_11_ActivitiesNoiceCell.csd" Type="Layer" />
+            <Project Name="01_11_ActivitiesNoticePopUp.csd" Type="Layer" />
+            <Project Name="01_11_WalkingLanternLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_16_NoviceGuide">
+            <Project Name="01_16_GuideBigPrizeLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuideBoastLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuideBoastResultPopUp.csd" Type="Layer" />
+            <Project Name="01_16_GuideDiceCupLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuideGuessingLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuideMiniTipPopUp_1.csd" Type="Layer" />
+            <Project Name="01_16_GuideMiniTipPopUp_2.csd" Type="Layer" />
+            <Project Name="01_16_GuideMiniTipPopUp_3.csd" Type="Layer" />
+            <Project Name="01_16_GuideNumberLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuidePointLayer.csd" Type="Layer" />
+            <Project Name="01_16_GuideWinAwardLayer.csd" Type="Layer" />
+            <Project Name="01_16_NoviceGuideLayer.csd" Type="Layer" />
+            <Project Name="01_16_NoviceStartGuideLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_17_GetRes">
+            <Project Name="01_17_EnclosureLayer.csd" Type="Layer" />
+            <Project Name="01_17_GetResourcesLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="01_18_Relief">
+            <Project Name="01_18_ReliefLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="02_01_Boast">
+            <Project Name="02_01_BingoLayer.csd" Type="Layer" />
+            <Project Name="02_01_BoasPlayerListCell.csd" Type="Layer" />
+            <Project Name="02_01_BoasPlayertListPopUp.csd" Type="Layer" />
+            <Project Name="02_01_BoastChatPopUp.csd" Type="Layer" />
+            <Project Name="02_01_BoastEntranceLayer.csd" Type="Layer" />
+            <Project Name="02_01_BoastGuessingHeadCell.csd" Type="Layer" />
+            <Project Name="02_01_BoastHangUpPopUp.csd" Type="Layer" />
+            <Project Name="02_01_BoastLayer.csd" Type="Layer" />
+            <Project Name="02_01_BoastListCell.csd" Type="Layer" />
+            <Project Name="02_01_BoastMagicEmojiCell.csd" Type="Layer" />
+            <Project Name="02_01_BoastMagicEmojiPopUp.csd" Type="Layer" />
+            <Project Name="02_01_BoastMiniTipPopUp_1.csd" Type="Layer" />
+            <Project Name="02_01_BoastMiniTipPopUp_2.csd" Type="Layer" />
+            <Project Name="02_01_BoastMiniTipPopUp_3.csd" Type="Layer" />
+            <Project Name="02_01_BoastMoneyFlyLayer.csd" Type="Layer" />
+            <Project Name="02_01_BoastResultPopUp.csd" Type="Layer" />
+            <Project Name="02_01_CancelLayer.csd" Type="Layer" />
+            <Project Name="02_01_DiceCupLayer.csd" Type="Layer" />
+            <Project Name="02_01_GuessingHeadLayer.csd" Type="Layer" />
+            <Project Name="02_01_GuessingLayer.csd" Type="Layer" />
+            <Project Name="02_01_GuessingResultLayer.csd" Type="Layer" />
+            <Project Name="02_01_LossLayer.csd" Type="Layer" />
+            <Project Name="02_01_MatchingLayer.csd" Type="Layer" />
+            <Project Name="02_01_NumberLayer.csd" Type="Layer" />
+            <Project Name="02_01_PointLayer.csd" Type="Layer" />
+            <Project Name="02_01_PrivateRoomSetPopUp.csd" Type="Layer" />
+            <Project Name="02_01_ReapProfitLayer.csd" Type="Layer" />
+            <Project Name="02_01_ReplaceBottomInjection.csd" Type="Layer" />
+            <Project Name="02_01_ReplaceBottomInjectionFail.csd" Type="Layer" />
+            <Project Name="02_01_ReplaceBottomInjectionSuccess.csd" Type="Layer" />
+            <Project Name="02_01_ReplaceBottomLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="02_02_GuessSize">
+            <Project Name="02_02_BankerGuessSizeLayer.csd" Type="Layer" />
+            <Project Name="02_02_GuessSizeHintCell.csd" Type="Layer" />
+            <Project Name="02_02_GuessSizeLayer.csd" Type="Layer" />
+            <Project Name="02_02_GuessSizeMiniTipPopUp_1.csd" Type="Layer" />
+            <Project Name="02_02_GuessSizeMiniTipPopUp_2.csd" Type="Layer" />
+            <Project Name="02_02_GuessSizeMiniTipPopUp_3.csd" Type="Layer" />
+            <Project Name="02_02_MainGuessSizeHintCell.csd" Type="Layer" />
+            <Project Name="02_02_PlayerMessageCell.csd" Type="Layer" />
+            <Project Name="02_02_RankingPlayerCell.csd" Type="Layer" />
+            <Project Name="02_02_RodGoldRankingLayer.csd" Type="Layer" />
+            <Project Name="02_02_SelectedLeopardCell.csd" Type="Layer" />
+            <Project Name="02_02_SizeResultCell.csd" Type="Layer" />
+            <Project Name="02_02_SizeResultSpriteCell.csd" Type="Layer" />
+            <Project Name="02_02_SmashEggCell.csd" Type="Layer" />
+            <Project Name="02_02_SmashEggPlaceCell.csd" Type="Layer" />
+            <Project Name="02_02_WalkingLanternCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="02_04_DiceBaby">
+            <Project Name="02_04_AudioHeadCell.csd" Type="Layer" />
+            <Project Name="02_04_BetChipAndHeadCell.csd" Type="Layer" />
+            <Project Name="02_04_DiceBabyMiniTipPopUp_1.csd" Type="Layer" />
+            <Project Name="02_04_DiceBabyMiniTipPopUp_2.csd" Type="Layer" />
+            <Project Name="02_04_DiceBabyMiniTipPopUp_3.csd" Type="Layer" />
+            <Project Name="02_04_DiceBabyShutupPopUp.csd" Type="Layer" />
+            <Project Name="02_04_MainDiceBabyHintCell.csd" Type="Layer" />
+            <Project Name="02_04_ModelRecordCell.csd" Type="Layer" />
+            <Project Name="02_04_OpenAnimationCell.csd" Type="Layer" />
+            <Project Name="02_04_ReleaseShutupCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_01_Shop">
+            <Project Name="03_01_DiceBoxLayer.csd" Type="Layer" />
+            <Project Name="03_01_DiceBoxShowLayer.csd" Type="Layer" />
+            <Project Name="03_01_GoldConfirmLayer.csd" Type="Layer" />
+            <Project Name="03_01_NodeLayer.csd" Type="Layer" />
+            <Project Name="03_01_RechargeLayer.csd" Type="Layer" />
+            <Project Name="03_01_ShopVipRewardCell.csd" Type="Layer" />
+            <Project Name="03_01_StoreLayer.csd" Type="Layer" />
+            <Project Name="03_01_SuccessLayer.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_03_Subscription">
+            <Project Name="03_03_BlackBuyCell.csd" Type="Layer" />
+            <Project Name="03_03_BlackSubscriptionCell.csd" Type="Layer" />
+            <Project Name="03_03_DailyBonusCell.csd" Type="Layer" />
+            <Project Name="03_03_GoldBuyCell.csd" Type="Layer" />
+            <Project Name="03_03_GoldSubscriptionCell.csd" Type="Layer" />
+            <Project Name="03_03_SilverBuyCell.csd" Type="Layer" />
+            <Project Name="03_03_SilverSubscriptionCell.csd" Type="Layer" />
+            <Project Name="03_03_SubscriptionLayer.csd" Type="Layer" />
+            <Project Name="03_03_SubscriptionTipPopUp_1.csd" Type="Layer" />
+            <Project Name="03_03_SubscriptionTipPopUp_2.csd" Type="Layer" />
+            <Project Name="03_03_SubscriptionTipPopUp_3.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_04_Invitation">
+            <Project Name="03_04_InvitationCheck.csd" Type="Layer" />
+            <Project Name="03_04_InvitationCheckCell.csd" Type="Layer" />
+            <Project Name="03_04_InvitationPopUp.csd" Type="Layer" />
+            <Project Name="03_04_InvitationRewardCell.csd" Type="Layer" />
+            <Project Name="03_04_InvitationRulesPopUp.csd" Type="Layer" />
+            <Project Name="03_04_InvitationSharePopUp.csd" Type="Layer" />
+            <Project Name="03_04_InvitationTaskCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_08_NewWelfare">
+            <Project Name="03_08_NewWelfareLoginCell.csd" Type="Layer" />
+            <Project Name="03_08_NewWelfareLoginPopUp.csd" Type="Layer" />
+            <Project Name="03_08_NewWelfareNoviceCell.csd" Type="Layer" />
+            <Project Name="03_08_NewWelfareNovicePopUp.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_10_OperateGiftBag">
+            <Project Name="03_10_OperateGiftBagNoviceCell.csd" Type="Layer" />
+            <Project Name="03_10_OperateGiftBagNovicePopUp.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="03_12_Service">
+            <Project Name="03_12_CurrentServiceCell.csd" Type="Layer" />
+            <Project Name="03_12_MiniTipPopUp.csd" Type="Layer" />
+            <Project Name="03_12_ServiceCell.csd" Type="Layer" />
+            <Project Name="03_12_ServiceInletLayer.csd" Type="Layer" />
+            <Project Name="03_12_ServiceLayer.csd" Type="Layer" />
+            <Project Name="03_12_UserDetailsCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="04_01_Chat">
+            <Project Name="04_01_ChatCell.csd" Type="Layer" />
+            <Project Name="04_01_ChatChannelCell.csd" Type="Layer" />
+            <Project Name="04_01_ChatLayer.csd" Type="Layer" />
+            <Project Name="04_01_ChatPlayerCell.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="04_02_Friends">
+            <Project Name="04_02_FriendsCell.csd" Type="Layer" />
+            <Project Name="04_02_FriendsHintCell.csd" Type="Layer" />
+            <Project Name="04_02_FriendsPopUp.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="en">
+          <Folder Name="font">
+            <TTF Name="Default.ttf" />
+            <TTF Name="Font001.ttf" />
+            <TTF Name="Font002.ttf" />
+            <TTF Name="Font003.ttf" />
+            <TTF Name="Font004.ttf" />
+            <TTF Name="Font005.ttf" />
+            <Image Name="WordArt001.png" />
+            <Fnt Name="WordArt002.fnt" />
+          </Folder>
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="Default.ttf" />
+          <TTF Name="Font001.ttf" />
+          <TTF Name="Font002.ttf" />
+          <TTF Name="Font003.ttf" />
+          <TTF Name="Font004.ttf" />
+          <TTF Name="Font005.ttf" />
+          <Image Name="WordArt001.png" />
+          <Fnt Name="WordArt002.fnt" />
+        </Folder>
+        <Folder Name="ui">
+          <Folder Name="00_01_Common">
+            <Image Name="2D_Dice_1.png" />
+            <Image Name="2D_Dice_1B.png" />
+            <Image Name="2D_Dice_2.png" />
+            <Image Name="2D_Dice_2B.png" />
+            <Image Name="2D_Dice_3.png" />
+            <Image Name="2D_Dice_3B.png" />
+            <Image Name="2D_Dice_4.png" />
+            <Image Name="2D_Dice_4B.png" />
+            <Image Name="2D_Dice_5.png" />
+            <Image Name="2D_Dice_5B.png" />
+            <Image Name="2D_Dice_6.png" />
+            <Image Name="2D_Dice_6B.png" />
+            <Image Name="2D_Small_1.png" />
+            <Image Name="2D_Small_2.png" />
+            <Image Name="2D_Small_3.png" />
+            <Image Name="2D_Small_4.png" />
+            <Image Name="2D_Small_5.png" />
+            <Image Name="2D_Small_6.png" />
+            <Image Name="3D_Dice_1.png" />
+            <Image Name="3D_Dice_1B.png" />
+            <Image Name="3D_Dice_1C.png" />
+            <Image Name="3D_Dice_2.png" />
+            <Image Name="3D_Dice_2B.png" />
+            <Image Name="3D_Dice_2C.png" />
+            <Image Name="3D_Dice_3.png" />
+            <Image Name="3D_Dice_3B.png" />
+            <Image Name="3D_Dice_3C.png" />
+            <Image Name="3D_Dice_4.png" />
+            <Image Name="3D_Dice_4B.png" />
+            <Image Name="3D_Dice_4C.png" />
+            <Image Name="3D_Dice_5.png" />
+            <Image Name="3D_Dice_5B.png" />
+            <Image Name="3D_Dice_5C.png" />
+            <Image Name="3D_Dice_6.png" />
+            <Image Name="3D_Dice_6B.png" />
+            <Image Name="3D_Dice_6C.png" />
+            <Image Name="button_006.png" />
+            <Image Name="button_092.png" />
+            <Image Name="frame_142.png" />
+            <Image Name="frame_144.png" />
+            <Image Name="icon_009.png" />
+            <Image Name="icon_021.png" />
+            <Image Name="icon_045.png" />
+            <Image Name="icon_054.png" />
+            <Image Name="icon_062.png" />
+            <Image Name="icon_063.png" />
+            <Image Name="icon_089.png" />
+            <Image Name="icon_090.png" />
+            <Image Name="icon_091.png" />
+            <Image Name="icon_092.png" />
+            <Image Name="icon_093.png" />
+            <Image Name="icon_094.png" />
+            <Image Name="icon_095.png" />
+            <Image Name="icon_096.png" />
+            <Image Name="icon_127.png" />
+            <Image Name="icon_128.png" />
+            <Image Name="icon_129.png" />
+            <Image Name="icon_130.png" />
+            <Image Name="icon_131.png" />
+            <Image Name="icon_132.png" />
+            <Image Name="icon_133.png" />
+            <Image Name="icon_134.png" />
+            <Image Name="icon_135.png" />
+            <Image Name="icon_136.png" />
+            <Image Name="icon_140.png" />
+            <Image Name="icon_154.png" />
+            <Image Name="picture_056.png" />
+            <Image Name="picture_057.png" />
+            <Image Name="picture_064.png" />
+            <Image Name="picture_073.png" />
+          </Folder>
+          <Folder Name="00_02_Default">
+            <Image Name="1.png" />
+            <Image Name="101.png" />
+            <Image Name="101002.png" />
+            <Image Name="102.png" />
+            <Image Name="102001.png" />
+            <Image Name="103.png" />
+            <Image Name="103001.png" />
+            <Image Name="103002.png" />
+            <Image Name="104.png" />
+            <Image Name="105.png" />
+            <Image Name="106.png" />
+            <Image Name="107.png" />
+            <Image Name="2.png" />
+            <Image Name="201.png" />
+            <Image Name="202.png" />
+            <Image Name="203.png" />
+            <Image Name="204.png" />
+            <Image Name="205.png" />
+            <Image Name="206.png" />
+            <Image Name="207.png" />
+            <Image Name="209.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="Temp001.png" />
+            <Image Name="Temp002.png" />
+            <Image Name="Temporary101.png" />
+            <Image Name="Vip1.png" />
+          </Folder>
+          <Folder Name="00_03_Bg">
+            <Image Name="bg_001.png" />
+            <Image Name="bg_002.png" />
+            <Image Name="bg_003.png" />
+            <Image Name="bg_004.png" />
+            <Image Name="bg_008.png" />
+            <Image Name="bg_010.png" />
+            <Image Name="bg_012.png" />
+            <Image Name="bg_013.png" />
+            <Image Name="bg_014.png" />
+          </Folder>
+          <Folder Name="01_01_Login">
+            <Image Name="button_001.png" />
+            <Image Name="button_002.png" />
+            <Image Name="button_079.png" />
+            <Image Name="frame_001.png" />
+            <Image Name="frame_002.png" />
+            <Image Name="frame_003.png" />
+            <Image Name="frame_103.png" />
+            <Image Name="icon_001.png" />
+            <Image Name="icon_002.png" />
+            <Image Name="icon_003.png" />
+            <Image Name="icon_004.png" />
+            <Image Name="icon_005.png" />
+            <Image Name="icon_006.png" />
+            <Image Name="icon_007.png" />
+            <Image Name="icon_066.png" />
+            <Image Name="icon_076.png" />
+            <Image Name="icon_088.png" />
+            <Image Name="picture_059.png" />
+            <Image Name="picture_105_en.png" />
+            <Image Name="picture_105_zh_CN.png" />
+            <Image Name="picture_105_zh_TW.png" />
+            <Image Name="strip_001.png" />
+            <Image Name="strip_002.png" />
+            <Image Name="strip_003.png" />
+          </Folder>
+          <Folder Name="01_02_Main">
+            <Image Name="button_003_en.png" />
+            <Image Name="button_003_zh_CN.png" />
+            <Image Name="button_003_zh_TW.png" />
+            <Image Name="button_004.png" />
+            <Image Name="button_005.png" />
+            <Image Name="button_046_en.png" />
+            <Image Name="button_046_zh_CN.png" />
+            <Image Name="button_046_zh_TW.png" />
+            <Image Name="button_047_en.png" />
+            <Image Name="button_047_zh_CN.png" />
+            <Image Name="button_047_zh_TW.png" />
+            <Image Name="button_048_en.png" />
+            <Image Name="button_048_zh_CN.png" />
+            <Image Name="button_048_zh_TW.png" />
+            <Image Name="button_049_en.png" />
+            <Image Name="button_049_zh_CN.png" />
+            <Image Name="button_049_zh_TW.png" />
+            <Image Name="button_050_en.png" />
+            <Image Name="button_050_zh_CN.png" />
+            <Image Name="button_050_zh_TW.png" />
+            <Image Name="button_069_en.png" />
+            <Image Name="button_069_zh_CN.png" />
+            <Image Name="button_069_zh_TW.png" />
+            <Image Name="button_070_en.png" />
+            <Image Name="button_070_zh_CN.png" />
+            <Image Name="button_070_zh_TW.png" />
+            <Image Name="button_071_en.png" />
+            <Image Name="button_071_zh_CN.png" />
+            <Image Name="button_071_zh_TW.png" />
+            <Image Name="frame_004.png" />
+            <Image Name="frame_063.png" />
+            <Image Name="frame_091.png" />
+            <Image Name="frame_092.png" />
+            <Image Name="frame_128.png" />
+            <Image Name="frame_133.png" />
+            <Image Name="icon_008.png" />
+            <Image Name="icon_010.png" />
+            <Image Name="icon_011.png" />
+            <Image Name="icon_055_en.png" />
+            <Image Name="icon_055_zh_CN.png" />
+            <Image Name="icon_055_zh_TW.png" />
+            <Image Name="icon_077.png" />
+            <Image Name="icon_078.png" />
+            <Image Name="icon_084.png" />
+            <Image Name="icon_085.png" />
+            <Image Name="icon_086.png" />
+          </Folder>
+          <Folder Name="01_03_PropKnapsack">
+            <Image Name="button_036.png" />
+            <Image Name="button_037.png" />
+            <Image Name="frame_051.png" />
+            <Image Name="frame_052.png" />
+            <Image Name="frame_053.png" />
+            <Image Name="frame_131.png" />
+            <Image Name="frame_138.png" />
+            <Image Name="icon_079.png" />
+            <Image Name="picture_013_en.png" />
+            <Image Name="picture_013_zh_CN.png" />
+            <Image Name="picture_013_zh_TW.png" />
+          </Folder>
+          <Folder Name="01_04_Task">
+            <Image Name="button_044.png" />
+            <Image Name="button_045.png" />
+            <Image Name="button_085.png" />
+            <Image Name="frame_056.png" />
+            <Image Name="frame_057.png" />
+            <Image Name="frame_058.png" />
+            <Image Name="frame_059.png" />
+            <Image Name="icon_043.png" />
+            <Image Name="picture_021_en.png" />
+            <Image Name="picture_021_zh_CN.png" />
+            <Image Name="picture_021_zh_TW.png" />
+            <Image Name="strip_012.png" />
+            <Image Name="strip_013.png" />
+            <Image Name="strip_014.png" />
+            <Image Name="strip_015.png" />
+          </Folder>
+          <Folder Name="01_06_PersonalCenter">
+            <Image Name="button_024.png" />
+            <Image Name="button_025.png" />
+            <Image Name="button_026.png" />
+            <Image Name="button_027.png" />
+            <Image Name="button_029.png" />
+            <Image Name="button_029_1.png" />
+            <Image Name="button_030.png" />
+            <Image Name="button_031.png" />
+            <Image Name="button_032.png" />
+            <Image Name="button_083.png" />
+            <Image Name="button_083_1.png" />
+            <Image Name="frame_001.png" />
+            <Image Name="frame_002.png" />
+            <Image Name="frame_034.png" />
+            <Image Name="frame_035.png" />
+            <Image Name="frame_036.png" />
+            <Image Name="frame_037.png" />
+            <Image Name="frame_038.png" />
+            <Image Name="frame_039.png" />
+            <Image Name="frame_041.png" />
+            <Image Name="frame_042.png" />
+            <Image Name="frame_043.png" />
+            <Image Name="frame_044.png" />
+            <Image Name="frame_136.png" />
+            <Image Name="frame_140.png" />
+            <Image Name="frame_143.png" />
+            <Image Name="icon_030.png" />
+            <Image Name="icon_031.png" />
+            <Image Name="icon_032.png" />
+            <Image Name="icon_033.png" />
+            <Image Name="strip_008.png" />
+            <Image Name="strip_010.png" />
+          </Folder>
+          <Folder Name="01_07_Sitting">
+            <Image Name="bg_004.png" />
+            <Image Name="bg_005.png" />
+            <Image Name="bg_006.png" />
+            <Image Name="bg_007.png" />
+            <Image Name="button_018.png" />
+            <Image Name="button_019.png" />
+            <Image Name="button_020.png" />
+            <Image Name="button_021.png" />
+            <Image Name="button_022.png" />
+            <Image Name="button_023.png" />
+            <Image Name="button_080.png" />
+            <Image Name="button_084.png" />
+            <Image Name="button_084_1.png" />
+            <Image Name="frame_027.png" />
+            <Image Name="frame_028.png" />
+            <Image Name="frame_029.png" />
+            <Image Name="frame_030.png" />
+            <Image Name="frame_031.png" />
+            <Image Name="frame_125.png" />
+            <Image Name="icon_022.png" />
+            <Image Name="icon_023.png" />
+            <Image Name="icon_024.png" />
+            <Image Name="icon_025.png" />
+            <Image Name="icon_026.png" />
+            <Image Name="icon_053.png" />
+            <Image Name="strip_005.png" />
+            <Image Name="strip_006.png" />
+            <Image Name="strip_007.png" />
+          </Folder>
+          <Folder Name="01_10_Mail">
+            <Image Name="button_033.png" />
+            <Image Name="button_034.png" />
+            <Image Name="button_034_1.png" />
+            <Image Name="button_035.png" />
+            <Image Name="button_039.png" />
+            <Image Name="frame_046.png" />
+            <Image Name="frame_047.png" />
+            <Image Name="frame_048.png" />
+            <Image Name="frame_049.png" />
+            <Image Name="frame_050.png" />
+            <Image Name="frame_137.png" />
+            <Image Name="frame_139.png" />
+            <Image Name="icon_040.png" />
+            <Image Name="icon_041.png" />
+            <Image Name="icon_042.png" />
+            <Image Name="picture_006_en.png" />
+            <Image Name="picture_006_zh_CN.png" />
+            <Image Name="picture_006_zh_TW.png" />
+          </Folder>
+          <Folder Name="01_11_ActivitiesBulletin">
+            <Image Name="button_038.png" />
+            <Image Name="frame_045.png" />
+            <Image Name="frame_104.png" />
+            <Image Name="frame_109.png" />
+            <Image Name="frame_117.png" />
+            <Image Name="frame_120.png" />
+            <Image Name="icon_039.png" />
+            <Image Name="picture_004_en.png" />
+            <Image Name="picture_004_zh_CN.png" />
+            <Image Name="picture_004_zh_TW.png" />
+            <Image Name="picture_005.png" />
+            <Image Name="picture_039.png" />
+            <Image Name="picture_040_en.png" />
+            <Image Name="picture_040_zh_CN.png" />
+            <Image Name="picture_040_zh_TW.png" />
+            <Image Name="picture_041_en.png" />
+            <Image Name="picture_041_zh_CN.png" />
+            <Image Name="picture_041_zh_TW.png" />
+            <Image Name="picture_042_en.png" />
+            <Image Name="picture_042_zh_CN.png" />
+            <Image Name="picture_042_zh_TW.png" />
+            <Image Name="picture_055_en.png" />
+            <Image Name="picture_055_zh_CN.png" />
+            <Image Name="picture_055_zh_TW.png" />
+            <Image Name="strip_011.png" />
+            <Image Name="strip_020.png" />
+            <Image Name="strip_021.png" />
+          </Folder>
+          <Folder Name="01_16_NoviceGuidance">
+            <Image Name="button_102.png" />
+            <Image Name="button_103.png" />
+            <Image Name="button_104.png" />
+            <Image Name="button_105_en.png" />
+            <Image Name="button_105_zh_CN.png" />
+            <Image Name="button_105_zh_TW.png" />
+            <Image Name="frame_118.png" />
+            <Image Name="frame_209.png" />
+            <Image Name="frame_210.png" />
+            <Image Name="frame_211.png" />
+            <Image Name="frame_214.png" />
+            <Image Name="frame_215.png" />
+            <Image Name="frame_216.png" />
+            <Image Name="icon_067.png" />
+            <Image Name="picture_052.png" />
+            <Image Name="picture_059.png" />
+            <Image Name="picture_103.png" />
+            <Image Name="picture_106.png" />
+            <Image Name="picture_107_en.png" />
+            <Image Name="picture_107_zh_CN.png" />
+            <Image Name="picture_107_zh_TW.png" />
+            <Image Name="picture_108.png" />
+            <Image Name="picture_109_en.png" />
+            <Image Name="picture_109_zh_CN.png" />
+            <Image Name="picture_109_zh_TW.png" />
+            <Image Name="picture_110.png" />
+            <Image Name="picture_111_en.png" />
+            <Image Name="picture_111_zh_CN.png" />
+            <Image Name="picture_111_zh_TW.png" />
+            <Image Name="picture_112_en.png" />
+            <Image Name="picture_112_zh_CN.png" />
+            <Image Name="picture_112_zh_TW.png" />
+            <Image Name="picture_113.png" />
+            <Image Name="picture_114.png" />
+          </Folder>
+          <Folder Name="01_17_GetRes">
+            <Image Name="button_028.png" />
+            <Image Name="frame_040.png" />
+            <Image Name="icon_034.png" />
+            <Image Name="icon_035.png" />
+            <Image Name="icon_036.png" />
+            <Image Name="icon_037.png" />
+            <Image Name="icon_038.png" />
+            <Image Name="picture_009_en.png" />
+            <Image Name="picture_009_zh_CN.png" />
+            <Image Name="picture_009_zh_TW.png" />
+          </Folder>
+          <Folder Name="01_18_Relief">
+            <Image Name="button_078.png" />
+            <Image Name="frame_119.png" />
+            <Image Name="icon_068.png" />
+            <Image Name="icon_069.png" />
+            <Image Name="icon_070.png" />
+            <Image Name="picture_053.png" />
+            <Image Name="picture_054.png" />
+            <Image Name="picture_104.png" />
+          </Folder>
+          <Folder Name="02_01_Boast">
+            <Image Name="button_008.png" />
+            <Image Name="button_009.png" />
+            <Image Name="button_010.png" />
+            <Image Name="button_011.png" />
+            <Image Name="button_012.png" />
+            <Image Name="button_013.png" />
+            <Image Name="button_013_1.png" />
+            <Image Name="button_013_2.png" />
+            <Image Name="button_014.png" />
+            <Image Name="button_015.png" />
+            <Image Name="button_015_1.png" />
+            <Image Name="button_016.png" />
+            <Image Name="button_017.png" />
+            <Image Name="button_062.png" />
+            <Image Name="button_063.png" />
+            <Image Name="button_064.png" />
+            <Image Name="button_065_en.png" />
+            <Image Name="button_065_zh_CN.png" />
+            <Image Name="button_065_zh_TW.png" />
+            <Image Name="button_066_en.png" />
+            <Image Name="button_066_zh_CN.png" />
+            <Image Name="button_066_zh_TW.png" />
+            <Image Name="button_067_en.png" />
+            <Image Name="button_067_zh_CN.png" />
+            <Image Name="button_067_zh_TW.png" />
+            <Image Name="button_068_en.png" />
+            <Image Name="button_068_zh_CN.png" />
+            <Image Name="button_068_zh_TW.png" />
+            <Image Name="button_073.png" />
+            <Image Name="button_097.png" />
+            <Image Name="button_098.png" />
+            <Image Name="button_099.png" />
+            <Image Name="button_110.png" />
+            <Image Name="button_111_en.png" />
+            <Image Name="button_111_zh_CN.png" />
+            <Image Name="button_111_zh_TW.png" />
+            <Image Name="button_112_en.png" />
+            <Image Name="button_112_zh_CN.png" />
+            <Image Name="button_112_zh_TW.png" />
+            <Image Name="button_113.png" />
+            <Image Name="button_114.png" />
+            <Image Name="button_115_en.png" />
+            <Image Name="button_115_zh_CN.png" />
+            <Image Name="button_115_zh_TW.png" />
+            <Image Name="frame_008.png" />
+            <Image Name="frame_009.png" />
+            <Image Name="frame_010.png" />
+            <Image Name="frame_011.png" />
+            <Image Name="frame_012.png" />
+            <Image Name="frame_013.png" />
+            <Image Name="frame_014.png" />
+            <Image Name="frame_015.png" />
+            <Image Name="frame_016.png" />
+            <Image Name="frame_017.png" />
+            <Image Name="frame_018.png" />
+            <Image Name="frame_019.png" />
+            <Image Name="frame_020.png" />
+            <Image Name="frame_021.png" />
+            <Image Name="frame_022_en.png" />
+            <Image Name="frame_022_zh_CN.png" />
+            <Image Name="frame_022_zh_TW.png" />
+            <Image Name="frame_023.png" />
+            <Image Name="frame_024.png" />
+            <Image Name="frame_025.png" />
+            <Image Name="frame_026.png" />
+            <Image Name="frame_027.png" />
+            <Image Name="frame_087.png" />
+            <Image Name="frame_088.png" />
+            <Image Name="frame_089.png" />
+            <Image Name="frame_090.png" />
+            <Image Name="frame_123.png" />
+            <Image Name="frame_124.png" />
+            <Image Name="frame_126.png" />
+            <Image Name="frame_129.png" />
+            <Image Name="frame_130.png" />
+            <Image Name="frame_132.png" />
+            <Image Name="frame_135.png" />
+            <Image Name="frame_141.png" />
+            <Image Name="frame_145.png" />
+            <Image Name="frame_146.png" />
+            <Image Name="frame_147.png" />
+            <Image Name="frame_148.png" />
+            <Image Name="frame_149.png" />
+            <Image Name="frame_150.png" />
+            <Image Name="frame_224.png" />
+            <Image Name="frame_225.png" />
+            <Image Name="frame_226.png" />
+            <Image Name="frame_227.png" />
+            <Image Name="icon_017.png" />
+            <Image Name="icon_018.png" />
+            <Image Name="icon_019.png" />
+            <Image Name="icon_020.png" />
+            <Image Name="icon_073.png" />
+            <Image Name="icon_080.png" />
+            <Image Name="icon_081.png" />
+            <Image Name="icon_082.png" />
+            <Image Name="icon_083.png" />
+            <Image Name="icon_087.png" />
+            <Image Name="icon_155.png" />
+            <Image Name="icon_156_en.png" />
+            <Image Name="icon_156_zh_CN.png" />
+            <Image Name="icon_156_zh_TW.png" />
+            <Image Name="icon_157_en.png" />
+            <Image Name="icon_157_zh_CN.png" />
+            <Image Name="icon_157_zh_TW.png" />
+            <Image Name="picture_002.png" />
+            <Image Name="picture_003_en.png" />
+            <Image Name="picture_003_zh_CN.png" />
+            <Image Name="picture_003_zh_TW.png" />
+            <Image Name="picture_007_en.png" />
+            <Image Name="picture_007_zh_CN.png" />
+            <Image Name="picture_007_zh_TW.png" />
+            <Image Name="picture_008_en.png" />
+            <Image Name="picture_008_zh_CN.png" />
+            <Image Name="picture_008_zh_TW.png" />
+            <Image Name="picture_010_en.png" />
+            <Image Name="picture_010_zh_CN.png" />
+            <Image Name="picture_010_zh_TW.png" />
+            <Image Name="picture_011_en.png" />
+            <Image Name="picture_011_zh_CN.png" />
+            <Image Name="picture_011_zh_TW.png" />
+            <Image Name="picture_012_en.png" />
+            <Image Name="picture_012_zh_CN.png" />
+            <Image Name="picture_012_zh_TW.png" />
+            <Image Name="picture_060_en.png" />
+            <Image Name="picture_060_zh_CN.png" />
+            <Image Name="picture_060_zh_TW.png" />
+            <Image Name="picture_061_en.png" />
+            <Image Name="picture_061_zh_CN.png" />
+            <Image Name="picture_061_zh_TW.png" />
+            <Image Name="picture_062_en.png" />
+            <Image Name="picture_062_zh_CN.png" />
+            <Image Name="picture_062_zh_TW.png" />
+            <Image Name="picture_065.png" />
+            <Image Name="picture_066_en.png" />
+            <Image Name="picture_066_zh_CN.png" />
+            <Image Name="picture_066_zh_TW.png" />
+            <Image Name="picture_067_en.png" />
+            <Image Name="picture_067_zh_CN.png" />
+            <Image Name="picture_067_zh_TW.png" />
+            <Image Name="picture_068_en.png" />
+            <Image Name="picture_068_zh_CN.png" />
+            <Image Name="picture_068_zh_TW.png" />
+            <Image Name="picture_069_en.png" />
+            <Image Name="picture_069_zh_CN.png" />
+            <Image Name="picture_069_zh_TW.png" />
+            <Image Name="picture_070_en.png" />
+            <Image Name="picture_070_zh_CN.png" />
+            <Image Name="picture_070_zh_TW.png" />
+            <Image Name="picture_071_en.png" />
+            <Image Name="picture_071_zh_CN.png" />
+            <Image Name="picture_071_zh_TW.png" />
+            <Image Name="picture_072_en.png" />
+            <Image Name="picture_072_zh_CN.png" />
+            <Image Name="picture_072_zh_TW.png" />
+            <Image Name="picture_074_en.png" />
+            <Image Name="picture_074_zh_CN.png" />
+            <Image Name="picture_074_zh_TW.png" />
+            <Image Name="picture_081_en.png" />
+            <Image Name="picture_081_zh_CN.png" />
+            <Image Name="picture_081_zh_TW.png" />
+            <Image Name="picture_130_en.png" />
+            <Image Name="picture_130_zh_CN.png" />
+            <Image Name="picture_130_zh_TW.png" />
+            <Image Name="picture_131_en.png" />
+            <Image Name="picture_131_zh_CN.png" />
+            <Image Name="picture_131_zh_TW.png" />
+            <Image Name="picture_132_en.png" />
+            <Image Name="picture_132_zh_CN.png" />
+            <Image Name="picture_132_zh_TW.png" />
+            <Image Name="picture_133_en.png" />
+            <Image Name="picture_133_zh_CN.png" />
+            <Image Name="picture_133_zh_TW.png" />
+            <Image Name="picture_134_en.png" />
+            <Image Name="picture_134_zh_CN.png" />
+            <Image Name="picture_134_zh_TW.png" />
+            <Image Name="picture_135_en.png" />
+            <Image Name="picture_135_zh_CN.png" />
+            <Image Name="picture_135_zh_TW.png" />
+            <Image Name="picture_136.png" />
+            <Image Name="picture_137.png" />
+            <Image Name="picture_138.png" />
+            <Image Name="picture_139.png" />
+            <Image Name="picture_140.png" />
+            <Image Name="strip_004.png" />
+            <Image Name="strip_026.png" />
+            <Image Name="strip_027.png" />
+          </Folder>
+          <Folder Name="02_02_GuessSize">
+            <Image Name="button_087.png" />
+            <Image Name="button_088.png" />
+            <Image Name="button_089.png" />
+            <Image Name="button_090.png" />
+            <Image Name="button_091.png" />
+            <Image Name="button_093.png" />
+            <Image Name="button_094.png" />
+            <Image Name="button_095.png" />
+            <Image Name="button_096_en.png" />
+            <Image Name="button_096_zh_CN.png" />
+            <Image Name="button_096_zh_TW.png" />
+            <Image Name="frame_151.png" />
+            <Image Name="frame_152.png" />
+            <Image Name="frame_153.png" />
+            <Image Name="frame_154.png" />
+            <Image Name="frame_155.png" />
+            <Image Name="frame_156.png" />
+            <Image Name="frame_157.png" />
+            <Image Name="frame_158.png" />
+            <Image Name="frame_159.png" />
+            <Image Name="frame_160.png" />
+            <Image Name="frame_161.png" />
+            <Image Name="frame_162.png" />
+            <Image Name="frame_163.png" />
+            <Image Name="icon_097.png" />
+            <Image Name="icon_098.png" />
+            <Image Name="icon_099.png" />
+            <Image Name="icon_100.png" />
+            <Image Name="icon_101_en.png" />
+            <Image Name="icon_101_zh_CN.png" />
+            <Image Name="icon_101_zh_TW.png" />
+            <Image Name="icon_102_en.png" />
+            <Image Name="icon_102_zh_CN.png" />
+            <Image Name="icon_102_zh_TW.png" />
+            <Image Name="icon_103_en.png" />
+            <Image Name="icon_103_zh_CN.png" />
+            <Image Name="icon_103_zh_TW.png" />
+            <Image Name="icon_104_en.png" />
+            <Image Name="icon_104_zh_CN.png" />
+            <Image Name="icon_104_zh_TW.png" />
+            <Image Name="icon_105_en.png" />
+            <Image Name="icon_105_zh_CN.png" />
+            <Image Name="icon_105_zh_TW.png" />
+            <Image Name="icon_106_en.png" />
+            <Image Name="icon_106_zh_CN.png" />
+            <Image Name="icon_106_zh_TW.png" />
+            <Image Name="icon_107.png" />
+            <Image Name="icon_108.png" />
+            <Image Name="icon_109.png" />
+            <Image Name="icon_110.png" />
+            <Image Name="icon_111.png" />
+            <Image Name="picture_075_en.png" />
+            <Image Name="picture_075_zh_CN.png" />
+            <Image Name="picture_075_zh_TW.png" />
+            <Image Name="picture_076_en.png" />
+            <Image Name="picture_076_zh_CN.png" />
+            <Image Name="picture_076_zh_TW.png" />
+            <Image Name="picture_077_en.png" />
+            <Image Name="picture_077_zh_CN.png" />
+            <Image Name="picture_077_zh_TW.png" />
+            <Image Name="picture_078_en.png" />
+            <Image Name="picture_078_zh_CN.png" />
+            <Image Name="picture_078_zh_TW.png" />
+            <Image Name="picture_079_en.png" />
+            <Image Name="picture_079_zh_CN.png" />
+            <Image Name="picture_079_zh_TW.png" />
+            <Image Name="picture_080_en.png" />
+            <Image Name="picture_080_zh_CN.png" />
+            <Image Name="picture_080_zh_TW.png" />
+            <Image Name="strip_022.png" />
+            <Image Name="strip_023.png" />
+            <Image Name="strip_024.png" />
+            <Image Name="strip_025.png" />
+          </Folder>
+          <Folder Name="02_04_DiceBaby">
+            <Image Name="button_100_en.png" />
+            <Image Name="button_100_zh_CN.png" />
+            <Image Name="button_100_zh_TW.png" />
+            <Image Name="button_101_en.png" />
+            <Image Name="button_101_zh_CN.png" />
+            <Image Name="button_101_zh_TW.png" />
+            <Image Name="button_106_en.png" />
+            <Image Name="button_106_zh_CN.png" />
+            <Image Name="button_106_zh_TW.png" />
+            <Image Name="frame_164.png" />
+            <Image Name="frame_165.png" />
+            <Image Name="frame_166.png" />
+            <Image Name="frame_167.png" />
+            <Image Name="frame_168.png" />
+            <Image Name="frame_169.png" />
+            <Image Name="frame_170.png" />
+            <Image Name="frame_171.png" />
+            <Image Name="frame_172.png" />
+            <Image Name="frame_173.png" />
+            <Image Name="frame_174.png" />
+            <Image Name="frame_175.png" />
+            <Image Name="frame_176.png" />
+            <Image Name="frame_177.png" />
+            <Image Name="frame_178.png" />
+            <Image Name="frame_179.png" />
+            <Image Name="frame_180.png" />
+            <Image Name="frame_181.png" />
+            <Image Name="frame_182.png" />
+            <Image Name="frame_183.png" />
+            <Image Name="frame_184.png" />
+            <Image Name="frame_185.png" />
+            <Image Name="frame_186.png" />
+            <Image Name="frame_187.png" />
+            <Image Name="frame_188.png" />
+            <Image Name="frame_189.png" />
+            <Image Name="frame_190.png" />
+            <Image Name="frame_191.png" />
+            <Image Name="frame_192.png" />
+            <Image Name="frame_193.png" />
+            <Image Name="frame_194.png" />
+            <Image Name="frame_195.png" />
+            <Image Name="frame_196.png" />
+            <Image Name="frame_197.png" />
+            <Image Name="frame_198.png" />
+            <Image Name="frame_199.png" />
+            <Image Name="frame_200.png" />
+            <Image Name="frame_201.png" />
+            <Image Name="frame_202.png" />
+            <Image Name="frame_203.png" />
+            <Image Name="frame_204.png" />
+            <Image Name="frame_205.png" />
+            <Image Name="frame_206.png" />
+            <Image Name="frame_207.png" />
+            <Image Name="icon_112_en.png" />
+            <Image Name="icon_112_zh_CN.png" />
+            <Image Name="icon_112_zh_TW.png" />
+            <Image Name="icon_113_en.png" />
+            <Image Name="icon_113_zh_CN.png" />
+            <Image Name="icon_113_zh_TW.png" />
+            <Image Name="icon_114_en.png" />
+            <Image Name="icon_114_zh_CN.png" />
+            <Image Name="icon_114_zh_TW.png" />
+            <Image Name="icon_115_en.png" />
+            <Image Name="icon_115_zh_CN.png" />
+            <Image Name="icon_115_zh_TW.png" />
+            <Image Name="icon_116_en.png" />
+            <Image Name="icon_116_zh_CN.png" />
+            <Image Name="icon_116_zh_TW.png" />
+            <Image Name="icon_117_en.png" />
+            <Image Name="icon_117_zh_CN.png" />
+            <Image Name="icon_117_zh_TW.png" />
+            <Image Name="icon_118.png" />
+            <Image Name="icon_119.png" />
+            <Image Name="icon_120.png" />
+            <Image Name="icon_121.png" />
+            <Image Name="icon_122.png" />
+            <Image Name="icon_123.png" />
+            <Image Name="icon_124_en.png" />
+            <Image Name="icon_124_zh_CN.png" />
+            <Image Name="icon_124_zh_TW.png" />
+            <Image Name="icon_125_en.png" />
+            <Image Name="icon_125_zh_CN.png" />
+            <Image Name="icon_125_zh_TW.png" />
+            <Image Name="icon_126_en.png" />
+            <Image Name="icon_126_zh_CN.png" />
+            <Image Name="icon_126_zh_TW.png" />
+            <Image Name="icon_136_en.png" />
+            <Image Name="icon_136_zh_CN.png" />
+            <Image Name="icon_136_zh_TW.png" />
+            <Image Name="icon_137_en.png" />
+            <Image Name="icon_137_zh_CN.png" />
+            <Image Name="icon_137_zh_TW.png" />
+            <Image Name="picture_082_en.png" />
+            <Image Name="picture_082_zh_CN.png" />
+            <Image Name="picture_082_zh_TW.png" />
+            <Image Name="picture_083_en.png" />
+            <Image Name="picture_083_zh_CN.png" />
+            <Image Name="picture_083_zh_TW.png" />
+            <Image Name="picture_084_en.png" />
+            <Image Name="picture_084_zh_CN.png" />
+            <Image Name="picture_084_zh_TW.png" />
+            <Image Name="picture_085_en.png" />
+            <Image Name="picture_085_zh_CN.png" />
+            <Image Name="picture_085_zh_TW.png" />
+            <Image Name="picture_086_en.png" />
+            <Image Name="picture_086_zh_CN.png" />
+            <Image Name="picture_086_zh_TW.png" />
+            <Image Name="picture_087_en.png" />
+            <Image Name="picture_087_zh_CN.png" />
+            <Image Name="picture_087_zh_TW.png" />
+            <Image Name="picture_088_en.png" />
+            <Image Name="picture_088_zh_CN.png" />
+            <Image Name="picture_088_zh_TW.png" />
+            <Image Name="picture_089_en.png" />
+            <Image Name="picture_089_zh_CN.png" />
+            <Image Name="picture_089_zh_TW.png" />
+            <Image Name="picture_090_en.png" />
+            <Image Name="picture_090_zh_CN.png" />
+            <Image Name="picture_090_zh_TW.png" />
+            <Image Name="picture_091_en.png" />
+            <Image Name="picture_091_zh_CN.png" />
+            <Image Name="picture_091_zh_TW.png" />
+            <Image Name="picture_092_en.png" />
+            <Image Name="picture_092_zh_CN.png" />
+            <Image Name="picture_092_zh_TW.png" />
+            <Image Name="picture_093.png" />
+            <Image Name="picture_094.png" />
+            <Image Name="picture_095.png" />
+            <Image Name="picture_096.png" />
+            <Image Name="picture_097.png" />
+            <Image Name="picture_098.png" />
+            <Image Name="picture_099_en.png" />
+            <Image Name="picture_099_zh_CN.png" />
+            <Image Name="picture_099_zh_TW.png" />
+            <Image Name="picture_100_en.png" />
+            <Image Name="picture_100_zh_CN.png" />
+            <Image Name="picture_100_zh_TW.png" />
+            <Image Name="picture_101.png" />
+            <Image Name="picture_102_en.png" />
+            <Image Name="picture_102_zh_CN.png" />
+            <Image Name="picture_102_zh_TW.png" />
+            <Image Name="picture_123_en.png" />
+            <Image Name="picture_123_zh_CN.png" />
+            <Image Name="picture_123_zh_TW.png" />
+            <Image Name="picture_124.png" />
+            <Image Name="picture_141.png" />
+            <Image Name="picture_142.png" />
+            <Image Name="picture_143.png" />
+            <Image Name="picture_144.png" />
+            <Image Name="picture_145.png" />
+          </Folder>
+          <Folder Name="03_01_Shop">
+            <Image Name="button_006.png" />
+            <Image Name="button_007.png" />
+            <Image Name="button_007_1.png" />
+            <Image Name="frame_005.png" />
+            <Image Name="frame_006.png" />
+            <Image Name="frame_007.png" />
+            <Image Name="frame_032.png" />
+            <Image Name="frame_033.png" />
+            <Image Name="frame_060.png" />
+            <Image Name="frame_061.png" />
+            <Image Name="frame_062.png" />
+            <Image Name="frame_116.png" />
+            <Image Name="frame_121.png" />
+            <Image Name="frame_122.png" />
+            <Image Name="frame_212.png" />
+            <Image Name="frame_213.png" />
+            <Image Name="icon_013.png" />
+            <Image Name="icon_014.png" />
+            <Image Name="icon_015.png" />
+            <Image Name="icon_016.png" />
+            <Image Name="icon_027.png" />
+            <Image Name="icon_028.png" />
+            <Image Name="icon_029.png" />
+            <Image Name="icon_064.png" />
+            <Image Name="icon_065.png" />
+            <Image Name="icon_071.png" />
+            <Image Name="icon_072.png" />
+            <Image Name="picture_001_en.png" />
+            <Image Name="picture_001_zh_CN.png" />
+            <Image Name="picture_001_zh_TW.png" />
+            <Image Name="picture_049.png" />
+            <Image Name="picture_050.png" />
+            <Image Name="picture_051_en.png" />
+            <Image Name="picture_051_zh_CN.png" />
+            <Image Name="picture_051_zh_TW.png" />
+            <Image Name="picture_058.png" />
+            <Image Name="strip_016.png" />
+            <Image Name="strip_017.png" />
+          </Folder>
+          <Folder Name="03_03_Subscription">
+            <Image Name="button_107.png" />
+            <Image Name="frame_218.png" />
+            <Image Name="frame_219.png" />
+            <Image Name="frame_220.png" />
+            <Image Name="frame_221.png" />
+            <Image Name="frame_222.png" />
+            <Image Name="frame_223.png" />
+            <Image Name="icon_141_en.png" />
+            <Image Name="icon_141_zh_CH.png" />
+            <Image Name="icon_141_zh_TW.png" />
+            <Image Name="icon_142.png" />
+            <Image Name="icon_143.png" />
+            <Image Name="icon_144.png" />
+            <Image Name="icon_145.png" />
+            <Image Name="icon_146.png" />
+            <Image Name="icon_147.png" />
+            <Image Name="icon_148.png" />
+            <Image Name="icon_149.png" />
+            <Image Name="icon_150.png" />
+            <Image Name="icon_151.png" />
+            <Image Name="icon_152.png" />
+            <Image Name="picture_115_en.png" />
+            <Image Name="picture_115_zh_CN.png" />
+            <Image Name="picture_115_zh_TW.png" />
+            <Image Name="picture_116_en.png" />
+            <Image Name="picture_116_zh_CN.png" />
+            <Image Name="picture_116_zh_TW.png" />
+            <Image Name="picture_117_en.png" />
+            <Image Name="picture_117_zh_CN.png" />
+            <Image Name="picture_117_zh_TW.png" />
+            <Image Name="picture_118_en.png" />
+            <Image Name="picture_118_zh_CN.png" />
+            <Image Name="picture_118_zh_TW.png" />
+            <Image Name="picture_119_en.png" />
+            <Image Name="picture_119_zh_CN.png" />
+            <Image Name="picture_119_zh_TW.png" />
+            <Image Name="picture_120_en.png" />
+            <Image Name="picture_120_zh_CN.png" />
+            <Image Name="picture_120_zh_TW.png" />
+            <Image Name="picture_121_en.png" />
+            <Image Name="picture_122_en.png" />
+            <Image Name="picture_122_zh_CN.png" />
+            <Image Name="picture_122_zh_TW.png" />
+          </Folder>
+          <Folder Name="03_04_Invitation">
+            <Image Name="button_051.png" />
+            <Image Name="button_052.png" />
+            <Image Name="button_053.png" />
+            <Image Name="button_082.png" />
+            <Image Name="button_082_1.png" />
+            <Image Name="frame_064.png" />
+            <Image Name="frame_065.png" />
+            <Image Name="frame_066.png" />
+            <Image Name="frame_067.png" />
+            <Image Name="frame_068.png" />
+            <Image Name="frame_069.png" />
+            <Image Name="frame_070.png" />
+            <Image Name="frame_134.png" />
+            <Image Name="icon_047.png" />
+            <Image Name="icon_048.png" />
+            <Image Name="icon_049.png" />
+            <Image Name="icon_058.png" />
+            <Image Name="icon_059.png" />
+            <Image Name="picture_022_en.png" />
+            <Image Name="picture_022_zh_CN.png" />
+            <Image Name="picture_022_zh_TW.png" />
+            <Image Name="strip_018.png" />
+            <Image Name="strip_019.png" />
+          </Folder>
+          <Folder Name="03_08_NewWelfare">
+            <Image Name="button_072.png" />
+            <Image Name="button_074.png" />
+            <Image Name="button_075.png" />
+            <Image Name="button_076.png" />
+            <Image Name="button_077.png" />
+            <Image Name="frame_093.png" />
+            <Image Name="frame_094.png" />
+            <Image Name="frame_095.png" />
+            <Image Name="frame_096.png" />
+            <Image Name="frame_098.png" />
+            <Image Name="frame_099.png" />
+            <Image Name="frame_100.png" />
+            <Image Name="frame_101.png" />
+            <Image Name="frame_102.png" />
+            <Image Name="frame_108.png" />
+            <Image Name="frame_110.png" />
+            <Image Name="frame_111.png" />
+            <Image Name="frame_112.png" />
+            <Image Name="frame_113.png" />
+            <Image Name="frame_114.png" />
+            <Image Name="frame_115.png" />
+            <Image Name="frame_208.png" />
+            <Image Name="icon_057.png" />
+            <Image Name="picture_023_en.png" />
+            <Image Name="picture_023_zh_CN.png" />
+            <Image Name="picture_023_zh_TW.png" />
+            <Image Name="picture_024_en.png" />
+            <Image Name="picture_024_zh_CN.png" />
+            <Image Name="picture_024_zh_TW.png" />
+            <Image Name="picture_025_en.png" />
+            <Image Name="picture_025_zh_CN.png" />
+            <Image Name="picture_025_zh_TW.png" />
+            <Image Name="picture_026_en.png" />
+            <Image Name="picture_026_zh_CN.png" />
+            <Image Name="picture_026_zh_TW.png" />
+            <Image Name="picture_027_en.png" />
+            <Image Name="picture_027_zh_CN.png" />
+            <Image Name="picture_027_zh_TW.png" />
+            <Image Name="picture_028_en.png" />
+            <Image Name="picture_028_zh_CN.png" />
+            <Image Name="picture_028_zh_TW.png" />
+            <Image Name="picture_029_en.png" />
+            <Image Name="picture_029_zh_CN.png" />
+            <Image Name="picture_029_zh_TW.png" />
+            <Image Name="picture_030_en.png" />
+            <Image Name="picture_030_zh_CN.png" />
+            <Image Name="picture_030_zh_TW.png" />
+            <Image Name="picture_031_en.png" />
+            <Image Name="picture_031_zh_CN.png" />
+            <Image Name="picture_031_zh_TW.png" />
+            <Image Name="picture_032_en.png" />
+            <Image Name="picture_032_zh_CN.png" />
+            <Image Name="picture_032_zh_TW.png" />
+            <Image Name="picture_033.png" />
+            <Image Name="picture_034_en.png" />
+            <Image Name="picture_034_zh_CN.png" />
+            <Image Name="picture_034_zh_TW.png" />
+            <Image Name="picture_035_en.png" />
+            <Image Name="picture_035_zh_CN.png" />
+            <Image Name="picture_035_zh_TW.png" />
+            <Image Name="picture_036.png" />
+            <Image Name="picture_037_en.png" />
+            <Image Name="picture_037_zh_CN.png" />
+            <Image Name="picture_037_zh_TW.png" />
+            <Image Name="picture_048_en.png" />
+            <Image Name="picture_048_zh_CN.png" />
+            <Image Name="picture_048_zh_TW.png" />
+          </Folder>
+          <Folder Name="03_10_OperateGiftBag">
+            <Image Name="frame_105.png" />
+            <Image Name="frame_106.png" />
+            <Image Name="frame_107.png" />
+            <Image Name="icon_060.png" />
+            <Image Name="icon_061.png" />
+            <Image Name="picture_043_en.png" />
+            <Image Name="picture_043_zh_CN.png" />
+            <Image Name="picture_043_zh_TW.png" />
+            <Image Name="picture_044_en.png" />
+            <Image Name="picture_044_zh_CN.png" />
+            <Image Name="picture_044_zh_TW.png" />
+            <Image Name="picture_045.png" />
+            <Image Name="picture_046_en.png" />
+            <Image Name="picture_046_zh_CN.png" />
+            <Image Name="picture_046_zh_TW.png" />
+            <Image Name="picture_047.png" />
+          </Folder>
+          <Folder Name="04_01_Chat">
+            <Image Name="button_054.png" />
+            <Image Name="button_055.png" />
+            <Image Name="button_056.png" />
+            <Image Name="button_057.png" />
+            <Image Name="button_058.png" />
+            <Image Name="button_059.png" />
+            <Image Name="button_060.png" />
+            <Image Name="button_061.png" />
+            <Image Name="button_081.png" />
+            <Image Name="frame_071.png" />
+            <Image Name="frame_072.png" />
+            <Image Name="frame_073.png" />
+            <Image Name="frame_074.png" />
+            <Image Name="frame_075.png" />
+            <Image Name="frame_076.png" />
+            <Image Name="frame_077.png" />
+            <Image Name="frame_078.png" />
+            <Image Name="frame_079.png" />
+            <Image Name="frame_080.png" />
+            <Image Name="frame_081.png" />
+            <Image Name="frame_082.png" />
+            <Image Name="frame_083.png" />
+            <Image Name="frame_084.png" />
+            <Image Name="frame_085.png" />
+            <Image Name="frame_086.png" />
+            <Image Name="frame_127.png" />
+            <Image Name="frame_140.png" />
+            <Image Name="icon_044.png" />
+            <Image Name="icon_050.png" />
+            <Image Name="icon_051.png" />
+            <Image Name="icon_056.png" />
+            <Image Name="picture_063.png" />
+          </Folder>
+          <Folder Name="04_02_Friends">
+            <Image Name="button_040.png" />
+            <Image Name="button_041.png" />
+            <Image Name="button_042.png" />
+            <Image Name="button_043.png" />
+            <Image Name="button_086.png" />
+            <Image Name="frame_054.png" />
+            <Image Name="frame_055.png" />
+            <Image Name="frame_217.png" />
+            <Image Name="icon_052.png" />
+            <Image Name="icon_074.png" />
+            <Image Name="icon_075.png" />
+            <Image Name="icon_138.png" />
+            <Image Name="icon_139.png" />
+            <Image Name="picture_015_en.png" />
+            <Image Name="picture_015_zh_CN.png" />
+            <Image Name="picture_015_zh_TW.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

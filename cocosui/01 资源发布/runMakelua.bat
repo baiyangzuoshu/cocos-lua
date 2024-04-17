@@ -1,0 +1,3 @@
+python .\MakeNewLua.py
+
+pause
